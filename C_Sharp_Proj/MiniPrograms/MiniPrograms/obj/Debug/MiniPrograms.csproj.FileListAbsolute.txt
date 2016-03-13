@@ -1,0 +1,9 @@
+G:\Git_Repo\C_Sharp_Proj\MiniPrograms\MiniPrograms\bin\Debug\MiniPrograms.exe.config
+G:\Git_Repo\C_Sharp_Proj\MiniPrograms\MiniPrograms\bin\Debug\MiniPrograms.exe
+G:\Git_Repo\C_Sharp_Proj\MiniPrograms\MiniPrograms\bin\Debug\MiniPrograms.pdb
+G:\Git_Repo\C_Sharp_Proj\MiniPrograms\MiniPrograms\obj\Debug\MiniPrograms.csprojResolveAssemblyReference.cache
+G:\Git_Repo\C_Sharp_Proj\MiniPrograms\MiniPrograms\obj\Debug\MiniPrograms.Properties.Resources.resources
+G:\Git_Repo\C_Sharp_Proj\MiniPrograms\MiniPrograms\obj\Debug\MiniPrograms.csproj.GenerateResource.Cache
+G:\Git_Repo\C_Sharp_Proj\MiniPrograms\MiniPrograms\obj\Debug\MiniPrograms.exe
+G:\Git_Repo\C_Sharp_Proj\MiniPrograms\MiniPrograms\obj\Debug\MiniPrograms.pdb
+G:\Git_Repo\C_Sharp_Proj\MiniPrograms\MiniPrograms\obj\Debug\MiniPrograms.MainForm.resources
