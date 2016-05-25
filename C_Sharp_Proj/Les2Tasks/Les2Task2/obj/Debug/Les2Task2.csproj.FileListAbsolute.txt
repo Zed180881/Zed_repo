@@ -1,0 +1,6 @@
+G:\Git_Repo\C_Sharp_Proj\Les2Tasks\Les2Task2\bin\Debug\Les2Task2.exe.config
+G:\Git_Repo\C_Sharp_Proj\Les2Tasks\Les2Task2\bin\Debug\Les2Task2.exe
+G:\Git_Repo\C_Sharp_Proj\Les2Tasks\Les2Task2\bin\Debug\Les2Task2.pdb
+G:\Git_Repo\C_Sharp_Proj\Les2Tasks\Les2Task2\obj\Debug\Les2Task2.csprojResolveAssemblyReference.cache
+G:\Git_Repo\C_Sharp_Proj\Les2Tasks\Les2Task2\obj\Debug\Les2Task2.exe
+G:\Git_Repo\C_Sharp_Proj\Les2Tasks\Les2Task2\obj\Debug\Les2Task2.pdb

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<entries>
+  <entry type="debit">
+    <amount>100</amount>
+    <date>11.11.2010</date>
+    <description><![CDATA[Описание записи]]></description>
+    <category>Продукты</category>
+  </entry>
+  <entry type="credit">
+    <amount>50</amount>
+    <date>11.11.2010</date>
+    <description><![CDATA[Описание записи]]></description>
+    <category>Продукты</category>
+  </entry>
+  <entry type="debit">
+    <amount>100</amount>
+    <date>11.11.2010</date>
+    <description><![CDATA[Описание записи]]></description>
+    <category>Продукты</category>
+  </entry>
+</entries>

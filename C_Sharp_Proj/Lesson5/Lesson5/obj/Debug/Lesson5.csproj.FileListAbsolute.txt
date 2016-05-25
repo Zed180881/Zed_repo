@@ -1,0 +1,9 @@
+G:\Git_Repo\C_Sharp_Proj\Lesson5\Lesson5\bin\Debug\Lesson5.exe.config
+G:\Git_Repo\C_Sharp_Proj\Lesson5\Lesson5\bin\Debug\Entries.txt
+G:\Git_Repo\C_Sharp_Proj\Lesson5\Lesson5\bin\Debug\Lesson5.exe
+G:\Git_Repo\C_Sharp_Proj\Lesson5\Lesson5\bin\Debug\Lesson5.pdb
+G:\Git_Repo\C_Sharp_Proj\Lesson5\Lesson5\obj\Debug\Lesson5.csprojResolveAssemblyReference.cache
+G:\Git_Repo\C_Sharp_Proj\Lesson5\Lesson5\obj\Debug\Lesson5.exe
+G:\Git_Repo\C_Sharp_Proj\Lesson5\Lesson5\obj\Debug\Lesson5.pdb
+G:\Git_Repo\C_Sharp_Proj\Lesson5\Lesson5\bin\Debug\Lesson5.exe.CodeAnalysisLog.xml
+G:\Git_Repo\C_Sharp_Proj\Lesson5\Lesson5\bin\Debug\Lesson5.exe.lastcodeanalysissucceeded
