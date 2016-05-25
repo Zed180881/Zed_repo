@@ -1,2 +1,0 @@
-Fish myLittleFish = new Fish();
-myLittleFish.sleep();
