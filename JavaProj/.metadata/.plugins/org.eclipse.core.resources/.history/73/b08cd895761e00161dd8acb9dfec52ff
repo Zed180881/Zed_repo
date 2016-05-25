@@ -1,0 +1,28 @@
+package lesson2;
+
+import java.util.Scanner;
+
+public class Task10 {
+
+	public static void main(String[] args) {
+
+		Scanner in = new Scanner(System.in);
+		System.out
+				.println("Введіть натуральне число для обчислення факторіала: ");
+		int n = in.nextInt();
+		in.close();
+		if (n < 0)
+			System.out
+					.println("Ви ввели від'ємне число - воно не належить до натуральних");
+		else
+			System.out.println("Факторіал числа " + n + " дорівнює "
+					+ factorial(n));
+
+	}
+
+	private static int factorial(int n) {
+
+		return null;
+	}
+
+}

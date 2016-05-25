@@ -1,0 +1,16 @@
+package cars;
+
+public class CarOwner {
+
+	public static void main(String[] args) {
+		Car myCar = new Car();
+		myCar.start();
+		System.out.println("Протащились " + myCar.drive(10) + " миль");
+		myCar.stop();
+		JamesBondCar ferrari = new JamesBondCar();
+		ferrari.start();
+		System.out.println("Пронеслись " + ferrari.drive(15) + " миль");
+		ferrari.stop();
+	}
+
+}
