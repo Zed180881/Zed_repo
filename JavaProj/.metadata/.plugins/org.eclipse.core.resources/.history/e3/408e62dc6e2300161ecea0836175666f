@@ -1,0 +1,27 @@
+package lesson4;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		int[][] battle = new int[3][3];
+		battle[0][0] = 1;
+		battle[2][2] = 3;
+		print(battle);
+	}
+
+	static void print(int[][] battle) {
+		for (int i = 0; i < battle.length; i++) {
+			for (int j = 0; j < battle[i].length; j++) {
+				if (battle[i][j] == 0)
+					System.out.print(" ");
+				else if (battle[i][j] == 1)
+					System.out.print("x");
+				else
+					System.out.print("O");
+			}
+		}
+		System.out.println();
+	}
+
+}

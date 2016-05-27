@@ -1,0 +1,16 @@
+package lesson2;
+
+public class Task14 {
+
+	public static void main(String[] args) {
+		int n = 111;
+		int sum = 0;
+		do {
+			sum = sum + (n % 10);
+			n = (int) (n / 10);
+		} while (n < 10);
+		System.out.println(sum);
+
+	}
+
+}

@@ -1,0 +1,42 @@
+package lesson3;
+
+//Створіть 2 масиви з 5 випадкових цілих чисел з відрізка [0; 5] кожен, 
+//виведіть масиви на екран у двох окремих рядках. Порахуйте середнє арифметичне 
+//елементів кожного масиву і повідомте, для якого з масивів це значення виявилося 
+//більше (або повідомте, що їх середні арифметичні рівні).
+
+public class Task5 {
+
+	public static void main(String[] args) {
+
+		int[] arr1 = createRndArray(5, 0, 5);
+		int[] arr2 = createRndArray(5, 0, 5);
+		arrayPrintRow(arr1);
+		arrayPrintRow(arr2);
+		System.out.println(arrayMiddle(arr1));
+		System.out.println(arrayMiddle(arr2));
+		if (arrayMiddle(arr1)>arrayMiddle(arr2))
+			System.out.println("Середнє арифметичне першого масиву більше");
+		else if (arrayMiddle(arr1)<arrayMiddle(arr2))
+			System.out.println("Середнє арифметичне другого масиву більше");
+		else
+			System.out.println("Середні арифметичні обох масивів рівні");
+		
+		
+		arrayPrintRow(arr);
+	}	
+
+	private static int[] createRndArray(int size, int from, int to) {
+
+		int[] array = new int[size];
+		for (int i = 0; i < array.length; i++)
+			array[i] = (int) Math.round(Math.random() * (to - from) + from);
+		return array;
+	}
+
+	private static void arrayPrintRow(int[] array) {
+		for (int i : array)
+			System.out.print(i + " ");
+		System.out.println("");
+	}
+}

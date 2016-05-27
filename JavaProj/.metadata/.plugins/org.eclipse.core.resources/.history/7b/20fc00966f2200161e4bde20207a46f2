@@ -1,0 +1,8 @@
+package lesson3;
+
+public class Xxx {
+	public static void main(String[] args) {
+		double a = 1000 * (double)(100 + 20 / 100);
+		System.out.println(a);
+	}
+}
