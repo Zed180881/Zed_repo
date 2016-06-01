@@ -1,0 +1,20 @@
+package lesson1;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String s = "Hello";
+		System.out.println(s);
+		String s1 = "Hello";
+		String s2 = new String("Hello");
+		System.out.println(s == s1);
+		System.out.println(s == s2);
+		System.out.println(s.equalsIgnoreCase(s2));
+		System.out.println(s.charAt(0));
+		System.out.println(s.codePointAt(0));
+		System.out.println(s.compareTo(s1));
+		System.out.println(s.compareToIgnoreCase(s));
+		System.out.println(s.concat(s1));
+	}
+
+}

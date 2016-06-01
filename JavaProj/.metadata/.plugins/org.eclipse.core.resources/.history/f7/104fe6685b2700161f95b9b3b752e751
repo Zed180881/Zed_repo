@@ -1,0 +1,18 @@
+package lesson1;
+
+public class CarManadger {
+
+	public static void main(String[] args) {
+
+		Car car = new Car();
+		car.brand = "BMW";
+		car.fuel = 100;
+		car.maxSpeed = 220;
+
+		System.out.println(car.brand);
+		System.out.println(car.fuel);
+		System.out.println(car.maxSpeed);
+
+	}
+
+}

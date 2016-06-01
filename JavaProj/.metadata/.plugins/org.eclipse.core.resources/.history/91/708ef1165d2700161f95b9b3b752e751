@@ -1,0 +1,21 @@
+package lesson1;
+
+public class Car {
+
+	String brand;
+	double fuel;
+	int maxSpeed;
+
+	public Car() {
+	}
+
+	public Car(String brand, double fuel, int maxSpeed) {
+		this.brand = brand;
+		this.fuel = fuel;
+		this.maxSpeed = maxSpeed;
+	}
+
+	public void drive() {
+		System.out.println("brum-brum");
+	}
+}

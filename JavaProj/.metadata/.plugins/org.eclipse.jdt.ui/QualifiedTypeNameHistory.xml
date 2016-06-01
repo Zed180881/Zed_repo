@@ -22,4 +22,6 @@
 <fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="java.io.BufferedReader"/>
 <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="lesson1.Car"/>
+<fullyQualifiedTypeName name="lesson1Dz.Rectangle"/>
 </qualifiedTypeNameHistroy>
