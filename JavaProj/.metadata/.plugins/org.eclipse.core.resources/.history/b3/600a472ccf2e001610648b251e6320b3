@@ -1,0 +1,33 @@
+package lesson5Dz;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		while (true) {
+			System.out.println("Enter 1 to something");
+			System.out.println("Enter 2 to something");
+			System.out.println("Enter 3 to something");
+			System.out.println("Enter 4 to something");
+			System.out.println("Enter 5 to something");
+			Scanner sc = new Scanner(System.in);
+			int choise = sc.nextInt();
+			switch (choise) {
+			case 1: {
+				System.out.println("Enter diametr");
+				int diametr = sc.nextInt();
+				// call method
+				break;
+			}
+			case 5: {
+				System.exit(0);
+				break;
+			}
+			default:
+				break;
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,26 @@
+package lesson5Dz;
+
+public class Wheels {
+	
+	private int wheelsDiameter = 19; // inches
+	private TyreType tyreType = TyreType.DEMISEASONS;
+	
+	private Wheel wheelFrontLeft;
+	private Wheel wheelFrontRight;
+	private Wheel wheelBackLeft;
+	private Wheel wheelBackRight;
+	private Wheel spareWheel;
+	
+	
+	public Wheels() {
+		
+		wheelFrontLeft = new Wheel(WheelPosition.FRONT_LEFT, wheelsDiameter, tyreType);
+		wheelFrontRight = new Wheel(WheelPosition.FRONT_RIGHT, wheelsDiameter, tyreType);
+		wheelBackLeft = new Wheel(WheelPosition.BACK_LEFT, wheelsDiameter, tyreType);
+		wheelBackRight = new Wheel(WheelPosition.BACK_RIGHT, wheelsDiameter, tyreType);
+		spareWheel = new Wheel(WheelPosition.SPARE_WHEEL, wheelsDiameter, tyreType);
+	}
+	
+	
+
+}

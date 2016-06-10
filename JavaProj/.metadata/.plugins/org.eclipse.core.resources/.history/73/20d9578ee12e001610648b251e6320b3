@@ -1,0 +1,38 @@
+package lesson5Dz;
+
+public class Body {
+	
+	private String bodyColor = "black";	
+	private BodyType bodyType = BodyType.SEDAN;
+	
+	public Body() {		
+	}
+	
+	public Body(String bodyColor, BodyType bodyType) {		
+		this.bodyColor = bodyColor;
+		this.bodyType = bodyType;
+	}
+
+	public String getBodyColor() {
+		return bodyColor;
+	}
+
+	public void setBodyColor(String bodyColor) {
+		this.bodyColor = bodyColor;
+	}
+
+	public BodyType getBodyType() {
+		return bodyType;
+	}
+
+	public void setBodyType(BodyType bodyType) {
+		this.bodyType = bodyType;
+	}
+
+	@Override
+	public String toString() {
+		return "Body [bodyColor=" + bodyColor + ", bodyType=" + bodyType + "]";
+	}
+	
+	
+}

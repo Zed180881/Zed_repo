@@ -1,0 +1,6 @@
+package lesson3DzTask2;
+
+public interface Salary {
+	
+	public void salary();
+}

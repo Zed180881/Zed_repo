@@ -1,0 +1,7 @@
+package lesson5Dz;
+
+public enum TyreType {
+	SUMMER,
+	WINTER,
+	DEMISEASONS
+}

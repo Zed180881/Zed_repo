@@ -1,0 +1,5 @@
+package lesson2DzTask1;
+
+public class RobotCoocker extends Robot {
+
+}

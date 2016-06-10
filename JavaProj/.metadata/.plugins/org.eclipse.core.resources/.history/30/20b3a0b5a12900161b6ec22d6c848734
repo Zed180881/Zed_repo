@@ -1,0 +1,10 @@
+package lesson3DzTask2;
+
+public abstract class Worker implements Salary {
+
+	private String name;
+	private int workHours;	
+	
+	public abstract void salary(int workHours, int totalHours);
+
+}

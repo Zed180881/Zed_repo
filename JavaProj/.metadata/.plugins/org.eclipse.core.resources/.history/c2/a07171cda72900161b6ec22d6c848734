@@ -1,0 +1,26 @@
+package lesson3DzTask2;
+
+public class FixedWorker extends Worker {
+
+	private int wageRate; // оклад
+
+	public FixedWorker(String name, int workHours, int wageRate) {
+		super(name, workHours);
+	}
+
+	@Override
+	public int getSalary() {
+		return this.wageRate * this.getWorkHours() / TOTAL_WORK_HOURS_IN_MONTH;
+	}
+
+	@Override
+	public void printDetails() {
+		System.out.println("Працівник: " + this.getName());
+		System.out.println("Форма оплати: фіксована. Ставка: " + PAID_PER_HOUR
+				+ " $ в місяць.");
+		System.out.println("Пропрацював в цьому місяці: " + this.getWorkHours()
+				+ " годин");
+		System.out.println("Заробив за місяць: " + this.getSalary() + " $");
+	}
+
+}

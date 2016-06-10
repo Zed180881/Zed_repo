@@ -1,0 +1,32 @@
+package lesson5Dz;
+
+public class SteeringWheel {
+
+	private int diameter = 15; //inches
+	private boolean hasButtons = false;
+	private boolean isOk = true;
+
+	public SteeringWheel() {		
+	}
+	
+	public SteeringWheel(int diameter, boolean hasButtons) {		
+		this.diameter = diameter;
+		this.hasButtons = hasButtons;
+	}	
+	
+	public void damage() {
+		this.isOK = false;
+	}
+	
+	public void run() {		
+		if (isOK)
+			System.out.println("Руль рулює:)");
+		else
+			System.out.println("Руль відламався. Поїздка не можлива. Треба ремонтувати.");
+	}
+
+
+
+	
+
+}

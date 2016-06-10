@@ -1,0 +1,11 @@
+package lesson3DzTask2;
+
+public class PerHourWorker implements Salary {
+
+	@Override
+	public void salary(int workHours, int totalHours) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

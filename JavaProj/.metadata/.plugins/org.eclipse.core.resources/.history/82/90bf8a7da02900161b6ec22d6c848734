@@ -1,0 +1,5 @@
+package lesson3DzTask2;
+
+public interface Salary {
+
+}

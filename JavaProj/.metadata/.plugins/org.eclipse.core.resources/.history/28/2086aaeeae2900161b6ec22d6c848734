@@ -1,0 +1,11 @@
+package lesson3DzTask3;
+
+public class SteeringWheel {
+
+	private boolean isOK;
+
+	public SteeringWheel() {
+		this.isOK = true;
+	}
+
+}

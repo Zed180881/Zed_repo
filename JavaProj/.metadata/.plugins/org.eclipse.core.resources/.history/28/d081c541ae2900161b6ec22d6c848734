@@ -1,0 +1,8 @@
+package lesson3DzTask3;
+
+public class Body {
+	private boolean isOK;	
+	private String color;
+	
+	
+}

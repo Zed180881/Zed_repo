@@ -1,0 +1,10 @@
+package lesson2DzTask2;
+
+public class MyMath {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

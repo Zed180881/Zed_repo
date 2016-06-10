@@ -1,0 +1,11 @@
+package lesson3DzTask2;
+
+public class FixedWorker extends Worker implements Salary {
+
+	@Override
+	public int getSalary() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

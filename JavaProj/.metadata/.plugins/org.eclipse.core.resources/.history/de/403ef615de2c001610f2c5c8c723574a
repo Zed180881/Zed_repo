@@ -1,0 +1,10 @@
+package lesson4;
+
+public class PersonalComputer {
+	
+	Cpu cpu = new Cpu();
+	Ram ram = new Ram();
+	SSD ssd = new SSD();
+	
+
+}

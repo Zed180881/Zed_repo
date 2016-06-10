@@ -1,0 +1,19 @@
+package lesson5Dz;
+
+public class Wheel {
+
+	private WheelPosition wheelPosition = WheelPosition.SPARE_WHEEL;
+	private int wheelDiameter = 19; // inches
+	private TyreType tyreType = TyreType.DEMISEASONS;
+
+	public Wheel() {
+	}
+
+	public Wheel(WheelPosition wheelPosition, int wheelDiameter,
+			TyreType tyreType) {
+		this.wheelPosition = wheelPosition;
+		this.wheelDiameter = wheelDiameter;
+		this.tyreType = tyreType;
+	}
+
+}
