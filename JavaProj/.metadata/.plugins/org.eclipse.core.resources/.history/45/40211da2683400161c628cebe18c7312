@@ -1,0 +1,287 @@
+package lesson5Dz;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+
+//Створити List Машин (тих самих, що були в домашньому по композиції). Додати 5-10 елементів в ліст. Виконати наступні завдання використовуючи введення з клавіатури:
+//1) Знайти машини, які мають введений діаметр коліс.
+//2) Знайти машини, які мають введений діаметр коліс та колір кузова.
+//3) Замінити в усіх машинах, які мають червоний колір кузова, кермо на інше.
+//4) Збільшити діаметр коліс вдвічі, якщо кермо має кнопочки.
+//5) Замінити усі машини, які мають колеса діаметром менші за введене значення, на інші машини.
+//Кожне окреме завдання повинне бути реалізоване в ОКРЕМОМУ методі.
+//Класи Кермо, Колесо та Кузов повинні мати відповідні поля, щоб задовільняти описані вище завдання
+//
+//
+//Продовження попереднього домашнього (використати ті самі класи). Виконати наступні завдання використовуючи введення з клавіатури та при потребі ітератор чи лістітератор:
+//1) Знайти машини, які використовують введений тип кузова.
+//2) Видалити з ліста усі машини, які мають введений колір кузова.
+//3) Замінити усім машинам, діаметр коліс яких лежить у введеному діапазоні шини на зимові.
+//4) Видалити усі машини, які мають введений тип кузова та введений діапазон діаметра керма.
+//5) Запам'ятати індекси машин, які мають введений тип кузова.
+
+public class CarProcessor {
+
+	public List<Car> cars;
+
+	public CarProcessor() {
+		cars = createCars();
+	}
+
+//	public static void main(String[] args) throws IOException {
+//
+//		CarProcessor carProcessor = new CarProcessor();
+//		carProcessor.processCars();
+//
+//	}
+
+	public void processCars() throws IOException {
+		BufferedReader reader = new BufferedReader(new InputStreamReader(
+				System.in));
+		boolean isRun = true;
+		while (isRun) {
+			System.out.println("Виберіть потрібну опцію:");
+			System.out.println("1. Знайти машини по діаметру коліс.");
+			System.out
+					.println("2. Знайти машини по діаметру коліс та кольору кузова.");
+			System.out
+					.println("3. Замінити в усіх машинах, які мають червоний колір кузова, кермо на інше.");
+			System.out
+					.println("4. Збільшити діаметр коліс вдвічі, якщо кермо має кнопочки.");
+			System.out
+					.println("5. Замінити усі машини, які мають колеса діаметром менші за введене значення, на інші машини.");
+			System.out
+					.println("6. Знайти машини, які використовують введений тип кузова.");
+			System.out
+					.println("7. Видалити з ліста усі машини, які мають введений колір кузова.");
+			System.out
+					.println("8. Замінити усім машинам, діаметр коліс яких лежить у введеному діапазоні шини на зимові.");
+			System.out
+					.println("9. Видалити усі машини, які мають введений тип кузова та введений діапазон діаметра керма.");
+			System.out
+					.println("10. Запам'ятати індекси машин, які мають введений тип кузова.");
+			System.out.println("11. Вихід з програми.");
+			int choice = Integer.parseInt(reader.readLine());
+			printCars(cars);
+			switch (choice) {
+			case 1: {
+				System.out.println("Введіть діаметер коліс для пошуку:");
+				int diameter = Integer.parseInt(reader.readLine());
+				List<Car> searchResult = carSearchByWheelDiameter(cars,
+						diameter);
+				System.out.println("Результати пошуку машин з діаметром коліс "
+						+ diameter + " дюйми:");
+				printCars(searchResult);
+				break;
+			}
+			case 2: {
+				System.out.println("Введіть діаметер коліс для пошуку:");
+				int diameter = Integer.parseInt(reader.readLine());
+				System.out.println("Введіть колір кузова для пошуку:");
+				String bodyColor = reader.readLine();
+				List<Car> searchResult = carSearchByWheelDiameterAndBodyColor(
+						cars, diameter, bodyColor);
+				System.out.println("Результати пошуку машин з діаметром коліс "
+						+ diameter + " дюйми та кольором " + bodyColor + ":");
+				printCars(searchResult);
+				break;
+			}
+			case 3: {
+				System.out
+						.println("Яке кермо встановити в червоних машинах (1 - з кнопками, 2 - без кнопок:");
+				int steeringWheelChoice = Integer.parseInt(reader.readLine());
+				carReplaceRedCarSteeringWheel(cars, steeringWheelChoice);
+				printCars(cars);
+				break;
+			}
+			case 4: {
+				carIncreaseWheelsDiameter(cars);
+				printCars(cars);
+				break;
+			}
+			case 5: {
+				System.out.println("Введіть діаметер коліс для заміни:");
+				int diameter = Integer.parseInt(reader.readLine());
+				carReplaceCarsByWheelDiameter(cars, diameter);
+				printCars(cars);
+				break;
+			}
+			case 6: {
+				System.out.println("Введіть тип кузова для пошуку:");
+				String bodyType = reader.readLine();
+				List<Car> searchResult = carSearchByBodyType(cars, bodyType);
+				System.out.println("Результати пошуку машин з типом кузова "
+						+ bodyType + ":");
+				printCars(searchResult);
+				break;
+			}
+			case 7: {
+				System.out.println("Введіть колір кузова для видалення:");
+				String bodyColor = reader.readLine();
+				cars = carDeleteByBodyColor(cars, bodyColor);
+				printCars(cars);
+				break;
+			}
+			case 8: {
+				System.out
+						.println("Введіть мінімальний діаметер коліс для заміни на зимові:");
+				int minWheelDiameter = Integer.parseInt(reader.readLine());
+				System.out
+						.println("Введіть максимальний діаметер коліс для заміни на зимові:");
+				int maxWheelDiameter = Integer.parseInt(reader.readLine());
+				carReplaceTyres(cars, minWheelDiameter, maxWheelDiameter);
+				printCars(cars);
+				break;
+			}
+			case 9: {
+				System.out.println("Введіть тип кузова для видалення:");
+				String bodyType = reader.readLine();
+				System.out
+						.println("Введіть мінімальний діаметер керма для видалення:");
+				int minStWheelDiameter = Integer.parseInt(reader.readLine());
+				System.out
+						.println("Введіть максимальний діаметер керма для видалення:");
+				int maxStWheelDiameter = Integer.parseInt(reader.readLine());
+				cars = carDeleteByBodyTypeAndSteeringWheelDiameter(cars,
+						bodyType, minStWheelDiameter, maxStWheelDiameter);
+				printCars(cars);
+				break;
+			}
+			case 10: {
+				System.out.println("Введіть тип кузова для пошуку:");
+				String bodyType = reader.readLine();
+				List<Integer> indexList = carIndexSearchByBodyType(cars,
+						bodyType);
+				System.out.println(indexList);
+				break;
+			}
+			case 11: {
+				isRun = false;
+			}
+			default:
+				break;
+			}
+		}
+	}
+
+	public List<Integer> carIndexSearchByBodyType(List<Car> cars,
+			String bodyType) {
+		List<Integer> indexList = new ArrayList<>();
+		for (Car car : cars) {
+			if (car.getBodyType().equals(bodyType))
+				indexList.add(cars.indexOf(car));
+		}
+		return indexList;
+	}
+
+	public List<Car> carDeleteByBodyTypeAndSteeringWheelDiameter(
+			List<Car> cars, String bodyType, int minStWheelDiameter,
+			int maxStWheelDiameter) {
+		List<Car> newCars = new ArrayList<>();
+		for (Car car : cars) {
+			if (!(car.getBodyType().equals(bodyType)
+					&& car.getSteeringWheelDiameter() >= minStWheelDiameter && car
+					.getSteeringWheelDiameter() <= maxStWheelDiameter))
+				newCars.add(car);
+		}
+		return newCars;
+	}
+
+	public void carReplaceTyres(List<Car> cars, int minWheelDiameter,
+			int maxWheelDiameter) {
+		for (Car car : cars) {
+			if (car.getWheelsDiameter() >= minWheelDiameter
+					&& car.getWheelsDiameter() <= maxWheelDiameter)
+				car.setTyreType("winter");
+		}
+	}
+
+	public List<Car> carDeleteByBodyColor(List<Car> cars, String bodyColor) {
+		List<Car> newCars = new ArrayList<>();
+		for (Car car : cars) {
+			if (!car.getColor().equals(bodyColor))
+				newCars.add(car);
+		}
+		return newCars;
+	}
+
+	public List<Car> carSearchByBodyType(List<Car> cars, String bodyType) {
+		List<Car> searchResult = new ArrayList<Car>();
+		for (Car car : cars) {
+			if (car.getBodyType().equals(bodyType))
+				searchResult.add(car);
+		}
+		return searchResult;
+	}
+
+	public void carReplaceCarsByWheelDiameter(List<Car> cars, int diameter) {
+		for (Car car : cars) {
+			if (car.getWheelsDiameter() < diameter)
+				cars.set(cars.indexOf(car), new Car());
+		}
+	}
+
+	public void carIncreaseWheelsDiameter(List<Car> cars) {
+		for (Car car : cars) {
+			if (car.isSteeringWheelHasButtons())
+				car.setWheelsDiameter(car.getWheelsDiameter() * 2);
+		}
+	}
+
+	public void carReplaceRedCarSteeringWheel(List<Car> cars,
+			int steeringWheelChoice) {
+		boolean hasButtons = (steeringWheelChoice == 1) ? true : false;
+		for (Car car : cars) {
+			if (car.getColor().equals("red"))
+				car.setSteeringWheelHasButtons(hasButtons);
+		}
+	}
+
+	public List<Car> carSearchByWheelDiameterAndBodyColor(List<Car> cars,
+			int diameter, String bodyColor) {
+		List<Car> searchResult = new ArrayList<Car>();
+		for (Car car : cars) {
+			if (car.getWheelsDiameter() == diameter
+					&& car.getColor().equals(bodyColor))
+				searchResult.add(car);
+		}
+		return searchResult;
+	}
+
+	public List<Car> carSearchByWheelDiameter(List<Car> cars, int diameter) {
+		List<Car> searchResult = new ArrayList<Car>();
+		for (Car car : cars) {
+			if (car.getWheelsDiameter() == diameter)
+				searchResult.add(car);
+		}
+		return searchResult;
+	}
+
+	public List<Car> createCars() {
+		List<Car> cars = new ArrayList<Car>();
+		cars.add(new Car("Mazda", "black", "sedan", 21, "winter", 15, true));
+		cars.add(new Car("Mazda", "red", "cupe", 19, "summer", 16, false));
+		cars.add(new Car("BMW", "metallic", "cabrio", 21, "demiseason", 17,
+				true));
+		cars.add(new Car("BMW", "white", "sedan", 19, "winter", 18, true));
+		cars.add(new Car("Toyota", "red", "cupe", 17, "summer", 15, true));
+		cars.add(new Car("Toyota", "silver", "universal", 22, "winter", 18,
+				true));
+		cars.add(new Car("Lada", "purple", "hatchback", 16, "winter", 20, false));
+		cars.add(new Car("Lada", "red", "sedan", 16, "summer", 16, false));
+		cars.add(new Car("Ford", "red", "cupe", 19, "demiseason", 16, true));
+		cars.add(new Car("Ford", "grey", "sedan", 21, "winter", 15, true));
+		return cars;
+	}
+
+	public void printCars(List<Car> cars) {
+		for (Car car : cars) {
+			System.out.println(car);
+		}
+		System.out.println("-----------------------------------------------");
+	}
+
+}

@@ -1,0 +1,10 @@
+package lesson7;
+
+public class ArithmeticTest {
+
+	public void addTest() {
+		int expected = 4;
+		int actual = Arithmetic.add(2, 2);
+	}
+
+}
