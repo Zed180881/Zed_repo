@@ -1,8 +1,0 @@
-package lesson3DzTask2;
-
-public interface Salary {
-	
-	public final static int PAID_PER_HOUR = 30; //$
-	
-	public int getSalary();
-}

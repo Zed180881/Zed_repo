@@ -1,8 +1,0 @@
-package lesson4;
-
-public class Main {
-	public static void main(String[] args) {
-		PersonalComputer comp = new PersonalComputer();
-		System.out.println(comp);
-	}
-}

@@ -1,9 +1,0 @@
-package lesson3;
-
-public interface Geometric {
-
-	public int square();
-
-	public int perimeter();
-
-}

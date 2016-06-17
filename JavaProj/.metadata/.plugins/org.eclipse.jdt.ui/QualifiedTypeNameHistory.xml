@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="Fish"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="JamesBondCar"/>
-<fullyQualifiedTypeName name="ReportCard"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="TemperatureConverter"/>
 <fullyQualifiedTypeName name="java.awt.FlowLayout"/>
 <fullyQualifiedTypeName name="javax.swing.JLabel"/>
@@ -39,15 +34,30 @@
 <fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="java.util.ListIterator"/>
 <fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
 <fullyQualifiedTypeName name="java.io.BufferedReader"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="lesson5Dz.WheelPosition"/>
-<fullyQualifiedTypeName name="lesson5Dz.Wheel"/>
 <fullyQualifiedTypeName name="lesson5Dz.BodyType"/>
-<fullyQualifiedTypeName name="lesson5Dz.Body"/>
-<fullyQualifiedTypeName name="lesson5Dz.Wheels"/>
-<fullyQualifiedTypeName name="lesson5Dz.SteeringWheel"/>
 <fullyQualifiedTypeName name="sun.font.CreatedFontTracker"/>
+<fullyQualifiedTypeName name="lesson6.Person"/>
+<fullyQualifiedTypeName name="lesson6.Seasons"/>
+<fullyQualifiedTypeName name="lesson6.Month"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="lesson7.Arithmetic"/>
+<fullyQualifiedTypeName name="org.junit.After"/>
+<fullyQualifiedTypeName name="org.junit.Before"/>
+<fullyQualifiedTypeName name="lesson5Dz.Wheels"/>
+<fullyQualifiedTypeName name="lesson5Dz.Wheel"/>
+<fullyQualifiedTypeName name="lesson5Dz.CarProcessor"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="lesson5Dz.Body"/>
+<fullyQualifiedTypeName name="lesson5Dz.Wheel.Position"/>
+<fullyQualifiedTypeName name="lesson5Dz.SteeringWheel"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
 </qualifiedTypeNameHistroy>

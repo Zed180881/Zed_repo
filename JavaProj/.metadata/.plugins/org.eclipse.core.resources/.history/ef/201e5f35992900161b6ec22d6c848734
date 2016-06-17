@@ -1,5 +1,0 @@
-package lesson2DzTask1;
-
-public class CoffeRobot extends Robot {
-
-}
