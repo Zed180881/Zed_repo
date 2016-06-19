@@ -31,6 +31,14 @@
 		<item value="708" key="DIALOG_X_ORIGIN"/>
 		<item value="111" key="DIALOG_Y_ORIGIN"/>
 	</section>
+	<section name="nls_accessor_history">
+		<section name="0">
+			<item value="Messages" key="accessorName"/>
+			<item value="=JavaCore/src&lt;lesson7Dz" key="bundlePackage"/>
+			<item value="messages.properties" key="bundleName"/>
+			<item value="=JavaCore/src&lt;lesson7Dz" key="accessorPackage"/>
+		</section>
+	</section>
 	<section name="completion_proposal_size">
 	</section>
 	<section name="AddGetterSetterDialog">
@@ -129,7 +137,7 @@
 		<item value="0" key="StringStyle"/>
 		<item value="0" key="ToStringTemplateSelected"/>
 		<item value="false" key="LimitElements"/>
-		<item value="false" key="SkipNull"/>
+		<item value="true" key="SkipNull"/>
 		<item value="false" key="FinalModifier"/>
 		<item value="10" key="LimitValue"/>
 	</section>

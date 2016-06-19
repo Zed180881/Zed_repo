@@ -1,0 +1,10 @@
+package lesson9Dz;
+
+public class Pet {
+	
+	private String name;	
+	private Person petOwner;
+	
+	
+
+}

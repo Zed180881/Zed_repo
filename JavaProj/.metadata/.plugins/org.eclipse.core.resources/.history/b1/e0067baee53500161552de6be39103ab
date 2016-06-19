@@ -1,0 +1,9 @@
+package lesson9Dz;
+
+public class Pet {
+
+	private String name;
+	private String petType;
+
+	
+}

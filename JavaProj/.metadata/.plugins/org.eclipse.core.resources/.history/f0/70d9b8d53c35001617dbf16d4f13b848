@@ -1,0 +1,14 @@
+package lesson8Dz;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class MethodsTest {
+
+	@Test
+	public void addTest() throws Exception {
+		assertEquals(Methods.add(25, -2), 23, 1e-15);
+	}
+
+}

@@ -1,0 +1,15 @@
+package lesson9Dz;
+
+public class Pet {
+
+	private String name;
+	private String petType;
+	
+	public Pet(String name, String petType) {
+		super();
+		this.name = name;
+		this.petType = petType;
+	}
+
+	
+}

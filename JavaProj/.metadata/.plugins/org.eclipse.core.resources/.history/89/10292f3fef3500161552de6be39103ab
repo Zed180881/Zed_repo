@@ -1,0 +1,175 @@
+package lesson9Dz;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import lesson7Dz.Commodity;
+
+/*Створити клас Зооклуб описати поле класу:
+ Map<Person, List<Pet>> map;
+
+ Персон і пет мають довільні поля які як мінімум підходять для
+ реалізації програми.
+
+ Реалізувати консольне меню, таким чином щоб можна було:
+ Додати учасника клубу
+ Додати тваринку до учасника клубу
+ Видалити тваринку з учасника клубу
+ Видалити учасника клубу
+ Видалити конкретну тваринку зі всіх власників
+ Вивести на екран зооклуб
+ Вийти з програми
+
+ Використати для побудови меню Switch.
+ Покрити тестами на 60%*/
+
+public class ZooClub {
+
+    private Map<Person, ArrayList<Pet>> map;
+
+    public ZooClub() {
+	map = new HashMap<Person, ArrayList<Pet>>();
+    }
+
+    public Map<Person, ArrayList<Pet>> getMap() {
+	return map;
+    }
+
+    public void run(InputStream inputStream) throws IOException {
+	BufferedReader reader = new BufferedReader(new InputStreamReader(
+		inputStream));
+	fillZooClub();
+	boolean isRun = true;
+	while (isRun) {
+	    System.out.println("Виберіть потрібну опцію:");
+	    System.out.println("1. Додати учасника клубу.");
+	    System.out.println("2. Додати тваринку до учасника клубу.");
+	    System.out.println("3. Видалити тваринку з учасника клубу.");
+	    System.out.println("4. Видалити учасника клубу.");
+	    System.out.println("5. Видалити вид тварин зі всіх власників.");
+	    System.out.println("6. Вивести на екран зооклуб.");
+	    System.out.println("0. Вихід");
+	    int choice = Integer.parseInt(reader.readLine());
+	    switch (choice) {
+	    case 1: {
+		addNewMember(inputStream);
+		break;
+	    }
+	    case 2: {
+		addNewPet(inputStream);
+		break;
+	    }
+	    case 3: {
+		deletePet(inputStream);
+		break;
+	    }
+	    case 4: {
+		deleteMember(inputStream);
+		break;
+	    }
+	    case 5: {
+		deleteAllPetsByType(inputStream);
+		break;
+	    }
+	    case 6: {
+		printZooClub();
+		;
+		break;
+	    }
+	    case 0: {
+		isRun = false;
+		break;
+	    }
+	    default:
+		System.out.println("Некоректні дані! Спробуйте ще раз!");
+		break;
+	    }
+	}
+    }
+
+    private void deleteAllPetsByType(InputStream inputStream) {
+	// TODO Auto-generated method stub
+
+    }
+
+    private void deleteMember(InputStream inputStream) {
+	// TODO Auto-generated method stub
+
+    }
+
+    private void deletePet(InputStream inputStream) {
+	// TODO Auto-generated method stub
+
+    }
+
+    public void addNewPet(InputStream inputStream) throws IOException {
+	BufferedReader reader = new BufferedReader(new InputStreamReader(
+		inputStream));
+	printZooClub();
+	System.out
+		.println("Введіть імя та прізвище учасника для додавання тваринки:");
+	String member = reader.readLine();
+	System.out.println("Введіть імя тваринки:");
+	String petName = reader.readLine();
+	System.out.println("Введіть тип тваринки:");
+	String petType = reader.readLine();
+	map.get(member).add(new Pet(petName, petType));
+	reader.close();
+    }
+
+    public void printZooClub() {
+	// TODO Auto-generated method stub
+
+    }
+
+    public void addNewMember(InputStream inputStream) throws IOException {
+	BufferedReader reader = new BufferedReader(new InputStreamReader(
+		inputStream));
+	System.out.println("Додавання учасника клубу:");
+	System.out.println("Введіть імя та прізвище учасника:");
+	String name = reader.readLine();
+	Person newMember = new Person(name);
+	ArrayList<Pet> newMemberPets = new ArrayList<>();
+	while (true) {
+	    System.out
+		    .println("Введіть імя та тип тваринки через пробіл (X для виходу):");
+	    String s = reader.readLine();
+	    if ("X".equals(s))
+		break;
+	    String[] petData = s.split(" ");
+	    if (petData.length < 2) {
+		System.out.println("Некоректны дані. Повторіть ще раз!");
+		continue;
+	    }
+	    newMemberPets.add(new Pet(petData[0], petData[1]));
+	}
+	map.put(newMember, newMemberPets);
+	reader.close();
+    }
+
+    public void fillZooClub() {
+	map.put(new Person("John Smith"),
+		new ArrayList<>(Arrays.asList(new Pet("Tuzik", "dog"), new Pet(
+			"Barsik", "cat"), new Pet("Nemo", "fish"))));
+	map.put(new Person("Jack Daniels"),
+		new ArrayList<>(Arrays.asList(new Pet("Tarzan", "monkey"),
+			new Pet("Bagira", "cat"), new Pet("Snake", "snake"))));
+	map.put(new Person("Lara Croft"),
+		new ArrayList<>(Arrays.asList(new Pet("Fat", "hampster"),
+			new Pet("Sharic", "dog"), new Pet("Barbos", "dog"))));
+	map.put(new Person("Jack Ripper"),
+		new ArrayList<>(Arrays.asList(new Pet("Killer", "dog"),
+			new Pet("Anakonda", "snake"), new Pet("Ripper", "cat"))));
+	map.put(new Person("John Flint"),
+		new ArrayList<>(Arrays.asList(new Pet("Captain", "bird"),
+			new Pet("BigRat", "rat"), new Pet("Layzi", "cat"))));
+    }
+
+}

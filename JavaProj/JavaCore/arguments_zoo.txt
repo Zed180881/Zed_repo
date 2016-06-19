@@ -1,0 +1,39 @@
+1
+John Smith
+1
+Pjotr Zeljonka
+Pushok cat
+bobco
+Bobic dog
+X
+2
+Pjotr Zeljonka
+Pushok
+cat
+2
+Pjotr Zeljonka
+Srun
+bird
+2
+Billy Bons
+Ratty
+rat
+3
+Anonim
+3
+Pjotr Zeljonka
+Ratty
+3
+Pjotr Zeljonka
+Srun
+4
+Anonim
+4
+Billy Bons
+5
+cobra
+5
+cat
+6
+66
+0

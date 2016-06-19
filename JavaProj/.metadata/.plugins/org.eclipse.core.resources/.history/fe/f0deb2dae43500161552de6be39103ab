@@ -1,0 +1,36 @@
+package lesson9Dz;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/*Створити клас Зооклуб описати поле класу:
+ Map<Person, List<Pet>> map;
+
+ Персон і пет мають довільні поля які як мінімум підходять для
+ реалізації програми.
+
+ Реалізувати консольне меню, таким чином щоб можна було:
+ Додати учасника клубу
+ Додати тваринку до учасника клубу
+ Видалити тваринку з учасника клубу
+ Видалити учасника клубу
+ Видалити конкретну тваринку зі всіх власників
+ Вивести на екран зооклуб
+ Вийти з програми
+
+ Використати для побудови меню Switch.
+ Покрити тестами на 60%*/
+
+public class ZooClub {
+
+	private Map<Person, List<Pet>> map;
+
+	public ZooClub() {
+		map = new HashMap<Person, List<Pet>>();
+	}
+
+	public Map<Person, List<Pet>> getMap() {
+		return map;
+	}
+}

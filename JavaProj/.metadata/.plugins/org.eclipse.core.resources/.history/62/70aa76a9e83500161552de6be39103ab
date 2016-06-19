@@ -1,0 +1,48 @@
+package lesson9Dz;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/*Створити клас Зооклуб описати поле класу:
+ Map<Person, List<Pet>> map;
+
+ Персон і пет мають довільні поля які як мінімум підходять для
+ реалізації програми.
+
+ Реалізувати консольне меню, таким чином щоб можна було:
+ Додати учасника клубу
+ Додати тваринку до учасника клубу
+ Видалити тваринку з учасника клубу
+ Видалити учасника клубу
+ Видалити конкретну тваринку зі всіх власників
+ Вивести на екран зооклуб
+ Вийти з програми
+
+ Використати для побудови меню Switch.
+ Покрити тестами на 60%*/
+
+public class ZooClub {
+
+	private Map<Person, ArrayList<Pet>> map;
+
+	public ZooClub() {
+		map = new HashMap<Person, ArrayList<Pet>>();
+	}
+
+	public Map<Person, ArrayList<Pet>> getMap() {
+		return map;
+	}
+
+	public void fillZooClub() {
+		map.put(new Person("John Smith"), new ArrayList<>(Arrays.asList(new Pet("Tuzik","dog"), new Pet("Barsik","cat"), new Pet("Nemo","fish"))));
+		
+		List<String> list = new ArrayList<>(Arrays.asList("D", "R", "Q", "A", "U"));
+		
+		
+		
+	}
+
+}

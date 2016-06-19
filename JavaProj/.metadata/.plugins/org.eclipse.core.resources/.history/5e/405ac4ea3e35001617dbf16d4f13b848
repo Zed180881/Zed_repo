@@ -1,0 +1,52 @@
+package lesson8Dz;
+
+/*—творити клас Methods, ќписати в ньому методи , €к≥ б
+ розраховували додаванн€, в≥дн≥манн€, множенн€, д≥ленн€ двох зм≥нних .
+ ѕри цьому врахувати :
+
+ якщо a<0, b<0 викидаЇмо IllegalArgumentException
+
+ якщо a=0 b!=0 викидаЇмо ArithmeticException
+
+ якщо a!=0 b=0 викидаЇмо ArithmeticException
+
+ якщо a=0 b=0 викидаЇмо IllegalAccessException
+
+ якщо a>0 b>0 викидаЇмо MyException
+
+ ѕротестувати вс≥ можлив≥ вар≥анти.*/
+
+public class Methods {
+
+	public static double add(double a, double b) throws Exception {
+		check(a, b);
+		return a + b;
+	}
+
+	public static double div(double a, double b) throws Exception {
+		check(a, b);
+		return a / b;
+	}
+
+	public static double substr(double a, double b) throws Exception {
+		check(a, b);
+		return a - b;
+	}
+
+	public static double multipl(double a, double b) throws Exception {
+		check(a, b);
+		return a * b;
+	}
+
+	private static void check(double a, double b) throws Exception {
+
+		if (a < 0 && b < 0)
+			throw new IllegalArgumentException();
+		if ((a == 0 && b != 0) || (a != 0 && b == 0))
+			throw new ArithmeticException();
+		if (a == 0 && b == 0)
+			throw new IllegalAccessException();
+		if (a > 0 && b > 0)
+			throw new MyException();
+	}
+}

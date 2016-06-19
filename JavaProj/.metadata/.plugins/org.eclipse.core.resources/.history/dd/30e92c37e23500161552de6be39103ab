@@ -1,0 +1,10 @@
+package lesson9Dz;
+
+import java.util.List;
+
+public class Person {
+	
+	private String name;
+	private List<Pet> pets;
+
+}

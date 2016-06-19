@@ -1,0 +1,19 @@
+package lesson7Dz;
+
+import static org.junit.Assert.*;
+
+import java.util.List;
+
+import org.junit.Test;
+
+public class CommodityTest {
+	
+	List<Commodity> listToCheck;
+	CommodityManager commodityManager;
+	
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

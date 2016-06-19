@@ -1,0 +1,65 @@
+package lesson7Dz;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/*Реалізовуємо програму з консольним меню. Використати Scanner. Створити
+ клас Commodity.Описати даний клас трьома - чотирма полями. Створити
+ функціональний клас, в якому описати наступні методи для роботи з
+ лістом об'єктів:
+
+ 1. Додати товар в ліст.
+
+ 2. Видалити товар з ліста (вказати або всі необіхідні параметри, або
+ по якомусь критерію).
+
+ 3. Замінити товар в лісті.
+
+ 4. Посортувати по всьому (при натисканні повинне випасти меню, яке
+ запропонує по якому полю посортувати. Після вибору поля обрати напрям
+ сортування). Створити усі необхідні компаратори.
+
+ 0. Вихід з програми.
+
+ Покрити тестами на 70%*/
+
+public class CommodityManager {
+
+	private List<Commodity> commodityList;
+
+	public CommodityManager() {
+		commodityList = new ArrayList<>();
+	}
+
+	public List<Commodity> getCommodityList() {
+		return commodityList;
+	}
+
+	public void addCommodity(Commodity commodity) {
+		getCommodityList().add(commodity);
+	}
+
+	public void deleteCommodity(int id) {
+		getCommodityList().removeIf((e) -> e.getId() == id);
+	}
+	
+	public void deleteCommodity(String name) {
+		getCommodityList().removeIf((e) -> e.getName().equals(name));
+	}
+	
+	public void replaceCommodity(int id, Commodity newCommodity) {
+		for (Commodity commodity: getCommodityList()){
+			if (commodity.getId()==id)
+				getCommodityList().set(getCommodityList().indexOf(commodity), newCommodity);
+		}
+	}
+		
+	public void sortById(boolean reverse) {
+		if (!reverse)
+			getCommodityList().sort((o1, o2) -> o1.getId().compareTo(o2.getId()));
+	}	
+	
+	
+	
+
+}

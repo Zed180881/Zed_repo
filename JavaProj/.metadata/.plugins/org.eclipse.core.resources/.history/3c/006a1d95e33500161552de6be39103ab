@@ -1,0 +1,5 @@
+package lesson9Dz;
+
+public class Snake extends Pet {
+
+}
