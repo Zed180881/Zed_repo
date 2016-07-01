@@ -1,0 +1,26 @@
+package lesson10;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import lesson6.Seasons;
+
+public class SeasonQupte {
+
+    private final Map<Seasons, String> map = new HashMap<>();
+
+    public String getQuote(Seasons season) {
+	switch (season) {
+	case WINTER:
+	    return "Winter is cold";
+	case SUMMER:
+	    return "Summer is hot";
+	case AUTUMN:
+	    return "Autumn is rainy";
+	case SPRING:
+	    return "Spring is shiny";
+	default:
+	    return null;
+	}
+    }
+}

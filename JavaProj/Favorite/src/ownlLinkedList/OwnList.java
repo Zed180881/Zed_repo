@@ -54,6 +54,10 @@ import java.util.*;
 public class OwnList extends AbstractList<String> implements List<String>,
 		Cloneable, Serializable {
 
+	/**
+     * 
+     */
+    private static final long serialVersionUID = 1L;
 	int size = 0;
 	Node<String> root = new Node<>(null, null);
 	Node<String> parent = root;
@@ -168,6 +172,7 @@ public class OwnList extends AbstractList<String> implements List<String>,
 		return true;
 	}
 
+	@SuppressWarnings("hiding")
 	private static class Node<String> {
 		String value;
 		Node<String> parent;

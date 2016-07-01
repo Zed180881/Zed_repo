@@ -1,0 +1,15 @@
+package lesson11;
+
+import java.util.Scanner;
+
+public class Main {
+    
+    private static PersonManagement pm = new PersonManagement();
+    private static final Scanner SC = new Scanner(System.in);
+
+    public static void main(String[] args) {
+	// TODO Auto-generated method stub
+
+    }
+
+}

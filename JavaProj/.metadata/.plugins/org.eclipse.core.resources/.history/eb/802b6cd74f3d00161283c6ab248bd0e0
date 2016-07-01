@@ -1,0 +1,47 @@
+package lesson10;
+
+import static org.junit.Assert.*;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import lesson6.Seasons;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+public class MapTest {
+
+    private Map<String, String> map = new HashMap<>();
+    private SeasonQupte seasonQupte = new SeasonQupte();
+
+    @Before
+    public void init() {
+	map.put("Ivan", "Manager");
+	map.put("Petro", "QA");
+	map.put("Mykola", "QC");
+	map.put("Sergiy", "Developer");
+    }
+
+    @After
+    public void clear() {
+	map.clear();
+    }
+
+    @Test
+    public void get() {
+	String actual = map.get("Ivan");
+	String expected = "Manager";
+	assertEquals(expected, actual);
+	assertNull(map.get("Manager"));
+    }
+    
+    @Test
+    public void getQuote(){
+	String actual = seasonQupte.getQuote(Seasons.WINTER);
+	String expected = "Winter is cold";
+	assertEquals(expected, actual);
+    }
+
+}

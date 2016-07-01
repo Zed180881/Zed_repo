@@ -1,0 +1,72 @@
+package lesson10;
+
+import static org.junit.Assert.*;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
+
+import lesson6.Seasons;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+public class MapTest {
+
+    private Map<String, String> map = new HashMap<>();
+    private Map<String, String> treeMap = new TreeMap<>();
+    private SeasonQupte seasonQupte = new SeasonQupte();
+    private Map<String, List<String>> mapList = new HashMap<>();
+
+    @Before
+    public void init() {
+	map.put("Ivan", "Manager");
+	map.put("Petro", "QA");
+	map.put("Mykola", "QC");
+	map.put("Sergiy", "Developer");
+	mapList.put("Ivan", new ArrayList<>());
+	mapList.get("Ivan").add("Barsik");
+
+	mapList.put("Petro", new ArrayList<>());
+	mapList.put("Mykola", new ArrayList<>());
+	mapList.put("Sergiy", new ArrayList<>());
+	mapList.put(null, new ArrayList());
+	mapList.get(null).add("Tuzik");
+
+    }
+
+    @After
+    public void clear() {
+	map.clear();
+    }
+
+    @Test
+    public void get() {
+	String actual = map.get("Ivan");
+	String expected = "Manager";
+	assertEquals(expected, actual);
+	assertNull(map.get("Manager"));
+    }
+
+    @Test
+    public void getQuote() {
+	String actual = seasonQupte.getQuote(Seasons.WINTER);
+	String expected = "Winter is cold";
+	assertEquals(expected, actual);
+	actual = seasonQupte.getQuote(Seasons.SUMMER);
+	expected = "Summer is hot";
+	assertEquals(expected, actual);
+    }
+
+    // @Test
+    // public void treemap(){
+    // treeMap.put(null, "Vasya");
+    // String actual = treeMap.get(null);
+    // String expected = "Vasya";
+    // assertEquals(expected, actual);
+    // }
+
+}

@@ -1,0 +1,19 @@
+package lesson11;
+
+import java.util.ArrayList;
+
+public class PersonManagement extends ArrayList<Person> {
+
+    @Override
+    public boolean add(Person arg0) {
+	if (!this.contains(arg0))
+	    return super.add(arg0);
+	return false;
+    }
+
+    public void addPerson(String name, String age) {
+	int ageInt = Integer.valueOf(age);
+	add(new Person(name, ageInt));
+    }
+
+}

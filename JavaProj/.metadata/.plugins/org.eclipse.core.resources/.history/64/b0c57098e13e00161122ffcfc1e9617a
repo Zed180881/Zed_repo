@@ -1,0 +1,46 @@
+package lesson11;
+
+import java.util.Scanner;
+
+public class Main {
+
+    private static PersonManagement pm = new PersonManagement();
+    private static final Scanner SC = new Scanner(System.in);
+
+    public static void main(String[] args) {
+	boolean isRun = true;
+	while (isRun) {
+	    System.out.println("Enter 1 to add Person");
+	    System.out.println("Enter 2 to save all persons");
+	    System.out.println("Enter 3 to clear all persons");
+	    System.out.println("Enter 0 to exit");
+
+	    switch (SC.next()) {
+	    case "1":
+		addPerson();
+		break;
+	    case "2":
+		save("saves.person");
+		break;
+	    case "3":
+		pm.clear();
+		break;
+	    default:
+		isRun = false;
+		SC.close();
+		break;
+	    }
+	}
+
+    }
+
+    private static void save(String string) {
+	// TODO Auto-generated method stub
+
+    }
+
+    private static void addPerson() {
+	// TODO Auto-generated method stub
+
+    }
+}

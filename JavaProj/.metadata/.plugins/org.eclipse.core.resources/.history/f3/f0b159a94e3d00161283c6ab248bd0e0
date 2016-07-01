@@ -1,0 +1,19 @@
+package lesson10;
+
+import lesson6.Seasons;
+
+public class SeasonQupte {
+    public String getQuote(Seasons season) {
+	switch (season) {
+	case WINTER:
+	    return "Winter is cold";
+	case SUMMER:
+	    return "Summer is hot";
+	case AUTUMN:
+	    return "Autumn is rainy";
+	case SPRING:
+	    return "Spring is shiny";
+
+	}
+    }
+}
