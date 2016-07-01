@@ -1,0 +1,37 @@
+package lesson11Dz;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+public class MyMapTest {
+
+    private MyMap<String, String> map = new MyMap<String, String>();
+
+    @Before
+    public void init() {
+	map.add(new MyEntry<String, String>("1", "one"));
+	map.add(new MyEntry<String, String>("2", "two"));
+	map.add(new MyEntry<String, String>("3", "three"));
+	map.add(new MyEntry<String, String>("4", "four"));
+	map.add(new MyEntry<String, String>("5", "five"));
+    }
+
+    @After
+    public void clear() {
+	map = new MyMap<String, String>();
+    }
+
+    @Test
+    public void addTest() {
+	assertFalse(map.getMapSet().contains(
+		new MyEntry<String, String>("6", "six")));
+	map.add(new MyEntry<String, String>("6", "six"));
+	assertTrue(map.getMapSet().contains(
+		new MyEntry<String, String>("6", "six")));
+	assertEquals(6, map.getMapSet().size());
+    }
+
+}

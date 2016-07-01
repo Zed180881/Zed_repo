@@ -1,0 +1,63 @@
+package lesson11Dz;
+
+/*Домашня робота: Створити клас MyEntry<K,V>. Описати в ньому
+ дженеріками –поля, гетери/сетери, toString. Створити клас MyMap<K,V>,
+ в якому буде поле Set<MyEntry<K,V>>. Реалізвати в даному класі методи,
+ які б:
+ додавали новий об’єкт в мапу
+ видаляли об’єкт мапи за ключем(тобто немає ні ключа ні значення)
+ видаляли об’єкт мапи за значенням(значенню об’єкта присвоюється
+ нульова спилка, при цьому зберігається ключ)
+ виводили на екран Set ключів
+ Виводили на екран List значень
+ Виводили на екран цілу мапу
+ Покриття 50%*/
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+public class MyMap<K, V> {
+
+    private Set<MyEntry<K, V>> mapSet = new HashSet<>();
+
+    public void add(MyEntry<K, V> entry) {
+	mapSet.add(entry);
+    }
+
+    public void deleteByKey(K key) {
+	mapSet.removeIf((e) -> e.getKey().equals(key));
+    }
+
+    public void deleteByValue(V value) {
+	for (MyEntry<K, V> entry : mapSet) {
+	    if (entry.getValue().equals(value))
+		entry.setValue(null);
+	}
+    }
+
+    public Set<K> getKeySet() {
+	Set<K> keySet = new HashSet<>();
+	for (MyEntry<K, V> entry : mapSet) {
+	    System.out.println(entry.getKey());
+	    keySet.add(entry.getKey());
+	}
+	return keySet;
+    }
+
+    public List<V> printValueSet() {
+	List<V> listValues = new ArrayList<V>();
+	for (MyEntry<K, V> entry : mapSet) {
+	    System.out.println(entry.getValue());
+	    listValues.add(entry.getValue());
+	}
+	return listValues;
+    }
+
+    public void printMap() {
+	for (MyEntry<K, V> entry : mapSet) {
+	    System.out.println(entry);
+	}
+    }
+}

@@ -1,7 +1,10 @@
 package lesson09Dz;
 
-public class Person {
+import java.io.Serializable;
 
+public class Person implements Serializable {
+
+    private static final long serialVersionUID = -8272761494795822190L;
     private String name;
 
     public Person(String name) {
@@ -37,4 +40,9 @@ public class Person {
 	    return false;
 	return true;
     }
+
+    @Override
+    public String toString() {
+	return "Person [name=" + name + "]";
+    }    
 }

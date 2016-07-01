@@ -1,13 +1,20 @@
 package lesson09Dz;
 
 import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 /*Створити клас Зооклуб описати поле класу:
  Map<Person, List<Pet>> map;
@@ -25,17 +32,24 @@ import java.util.Map;
  Вийти з програми
 
  Використати для побудови меню Switch.
- Покрити тестами на 60%*/
+ Покрити тестами на 60%
+
+ до Зооклубу додати наступні методи:
+ Дописати в блокнот
+ Перезаписати в блокнот
+ Зчитати з блокноту на консоль
+ Провести серіалізацію та десеріалізацію.
+ Покриття тестами 40%*/
 
 public class ZooClub {
 
     private HashMap<Person, ArrayList<Pet>> map;
 
-//    public static void main(String[] args) throws IOException {
-//	ZooClub zooClub = new ZooClub();
-//	InputStream inputStream = System.in;
-//	zooClub.run(inputStream);
-//    }
+    // public static void main(String[] args) throws IOException {
+    // ZooClub zooClub = new ZooClub();
+    // InputStream inputStream = System.in;
+    // zooClub.run(inputStream);
+    // }
 
     public ZooClub() {
 	map = new HashMap<Person, ArrayList<Pet>>();
@@ -46,7 +60,8 @@ public class ZooClub {
     }
 
     public void run(InputStream inputStream) throws IOException {
-	BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
+	BufferedReader reader = new BufferedReader(new InputStreamReader(
+		inputStream));
 	fillZooClub();
 	boolean isRun = true;
 	while (isRun) {
@@ -57,6 +72,11 @@ public class ZooClub {
 	    System.out.println("4. Видалити учасника клубу.");
 	    System.out.println("5. Видалити вид тварин зі всіх власників.");
 	    System.out.println("6. Вивести на екран зооклуб.");
+	    System.out.println("7. Дописати зооклуб в блокнот.");
+	    System.out.println("8. Перезаписати зооклуб в блокнот.");
+	    System.out.println("9. Вивести зооклуб з блокнота на екран.");
+	    System.out.println("10. Зберегти зооклуб.");
+	    System.out.println("11. Завантажити зооклуб.");
 	    System.out.println("0. Вихід");
 	    int choice = Integer.parseInt(reader.readLine());
 	    switch (choice) {
@@ -84,6 +104,26 @@ public class ZooClub {
 		printZooClub();
 		break;
 	    }
+	    case 7: {
+		addToTextReportZooClub();
+		break;
+	    }
+	    case 8: {
+		createTextReportZooClub();
+		break;
+	    }
+	    case 9: {
+		printTextReportZooClub();
+		break;
+	    }
+	    case 10: {
+		saveZooClub();
+		break;
+	    }
+	    case 11: {
+		loadZooClub();
+		break;
+	    }
 	    case 0: {
 		isRun = false;
 		break;
@@ -95,31 +135,82 @@ public class ZooClub {
 	}
     }
 
-    public void deleteAllPetsByType(BufferedReader reader) throws IOException {	
+    @SuppressWarnings("unchecked")
+    public void loadZooClub() {
+	try (ObjectInputStream oos = new ObjectInputStream(new FileInputStream(
+		"zoosave.data"))) {
+	    map = (HashMap<Person, ArrayList<Pet>>) oos.readObject();
+	} catch (IOException | ClassNotFoundException e) {
+	}
+    }
+
+    public void saveZooClub() {
+	try (ObjectOutputStream oos = new ObjectOutputStream(
+		new FileOutputStream("zoosave.data"))) {
+	    oos.writeObject(map);
+	    oos.flush();
+	} catch (IOException e) {
+	}
+    }
+
+    public void printTextReportZooClub() {
+	try (Scanner sc = new Scanner(new File("zoosummary.txt"))) {
+	    while (sc.hasNextLine())
+		System.out.println(sc.nextLine());
+	} catch (IOException e) {
+	}
+    }
+
+    private void createTextReportZooClub() {
+	try (FileWriter fw = new FileWriter("zoosummary.txt", false)) {
+	    for (Map.Entry<Person, ArrayList<Pet>> entry : getMap().entrySet()) {
+		fw.append(entry.getKey().toString() + "\n");
+		for (Pet pet : entry.getValue()) {
+		    fw.append(pet.toString() + "\n");
+		}
+	    }
+	} catch (IOException e) {
+	}
+    }
+
+    private void addToTextReportZooClub() {
+	try (FileWriter fw = new FileWriter("zoosummary.txt", true)) {
+	    for (Map.Entry<Person, ArrayList<Pet>> entry : getMap().entrySet()) {
+		fw.append(entry.getKey().toString() + "\n");
+		for (Pet pet : entry.getValue()) {
+		    fw.append(pet.toString() + "\n");
+		}
+	    }
+	} catch (IOException e) {
+	}
+    }
+
+    public void deleteAllPetsByType(BufferedReader reader) throws IOException {
 	printZooClub();
 	System.out.println("Введіть тип тваринки для видалення:");
 	String petType = reader.readLine();
 	for (Map.Entry<Person, ArrayList<Pet>> entry : map.entrySet()) {
 	    entry.getValue().removeIf(((e) -> e.getPetType().equals(petType)));
-	}	
+	}
     }
 
-    public void deleteMember(BufferedReader reader) throws IOException {	
+    public void deleteMember(BufferedReader reader) throws IOException {
 	printZooClub();
 	System.out.println("Введіть імя та прізвище учасника для видалення:");
 	Person member = new Person(reader.readLine());
-	if (map.containsKey(member)){
+	if (map.containsKey(member)) {
 	    map.remove(member);
 	    System.out.println("Учасника клубу видалено!");
 	} else
-	    System.out.println("Нема такого учасника!");	    	
+	    System.out.println("Нема такого учасника!");
     }
 
-    public void deletePet(BufferedReader reader) throws IOException {	
+    public void deletePet(BufferedReader reader) throws IOException {
 	printZooClub();
-	System.out.println("Введіть імя та прізвище учасника для видалення тваринки:");
+	System.out
+		.println("Введіть імя та прізвище учасника для видалення тваринки:");
 	Person member = new Person(reader.readLine());
-	if (!map.containsKey(member)){
+	if (!map.containsKey(member)) {
 	    System.out.println("Нема такого учасника!");
 	    return;
 	}
@@ -131,9 +222,10 @@ public class ZooClub {
 	    System.out.println("Такоъ тваринки в цього учасника нема!");
     }
 
-    public void addNewPet(BufferedReader reader) throws IOException {	
+    public void addNewPet(BufferedReader reader) throws IOException {
 	printZooClub();
-	System.out.println("Введіть імя та прізвище учасника для додавання тваринки:");
+	System.out
+		.println("Введіть імя та прізвище учасника для додавання тваринки:");
 	String memberName = reader.readLine();
 	Person member = new Person(memberName);
 	System.out.println("Введіть імя тваринки:");
@@ -141,14 +233,13 @@ public class ZooClub {
 	System.out.println("Введіть тип тваринки:");
 	String petType = reader.readLine();
 	Pet newPet = new Pet(petName, petType);
-	if (map.containsKey(member)){
+	if (map.containsKey(member)) {
 	    if (map.get(member).contains(newPet)) {
 		System.out.println("Така тваринка в цього учасника вже є!");
 		return;
-	    }		
+	    }
 	    map.get(member).add(new Pet(petName, petType));
-	}    
-	else
+	} else
 	    map.put(member, new ArrayList<>(Arrays.asList(newPet)));
     }
 
@@ -164,18 +255,19 @@ public class ZooClub {
 	}
     }
 
-    public void addNewMember(BufferedReader reader) throws IOException {	
+    public void addNewMember(BufferedReader reader) throws IOException {
 	System.out.println("Додавання учасника клубу:");
 	System.out.println("Введіть імя та прізвище учасника:");
 	String name = reader.readLine();
 	Person newMember = new Person(name);
-	if (map.containsKey(newMember)){
+	if (map.containsKey(newMember)) {
 	    System.out.println("Такий учасник вже є в клубі!");
 	    return;
 	}
 	ArrayList<Pet> newMemberPets = new ArrayList<>();
 	while (true) {
-	    System.out.println("Введіть імя та тип тваринки через пробіл (X для виходу):");
+	    System.out
+		    .println("Введіть імя та тип тваринки через пробіл (X для виходу):");
 	    String s = reader.readLine();
 	    if ("X".equals(s))
 		break;
@@ -186,7 +278,7 @@ public class ZooClub {
 	    }
 	    newMemberPets.add(new Pet(petData[0], petData[1]));
 	}
-	map.put(newMember, newMemberPets);	
+	map.put(newMember, newMemberPets);
     }
 
     public void fillZooClub() {

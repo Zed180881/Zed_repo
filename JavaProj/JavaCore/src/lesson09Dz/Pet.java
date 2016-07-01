@@ -1,7 +1,10 @@
 package lesson09Dz;
 
-public class Pet {
+import java.io.Serializable;
 
+public class Pet implements Serializable {
+
+    private static final long serialVersionUID = 8457603206777139714L;
     private String name;
     private String petType;
 
@@ -48,4 +51,9 @@ public class Pet {
 	    return false;
 	return true;
     }
+
+    @Override
+    public String toString() {
+	return "Pet [name=" + name + ", petType=" + petType + "]";
+    }    
 }

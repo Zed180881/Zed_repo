@@ -1,0 +1,5 @@
+package lesson12Dz;
+
+public class MyThread extends Thread {
+
+}

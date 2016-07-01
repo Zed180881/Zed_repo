@@ -1,0 +1,11 @@
+package lesson10Dz;
+
+public class Collection {
+
+    private Object[] objectArray;
+
+    public Collection(int size) {
+	objectArray = new Object[size];
+    }
+
+}

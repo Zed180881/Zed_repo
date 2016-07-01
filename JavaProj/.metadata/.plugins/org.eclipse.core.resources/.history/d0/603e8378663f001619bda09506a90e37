@@ -1,0 +1,5 @@
+package lesson10Dz;
+
+public interface Iterator {
+
+}
