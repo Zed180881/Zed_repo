@@ -1,5 +1,0 @@
-package lesson11Dz;
-
-public class MyEntry<K, V> {
-
-}

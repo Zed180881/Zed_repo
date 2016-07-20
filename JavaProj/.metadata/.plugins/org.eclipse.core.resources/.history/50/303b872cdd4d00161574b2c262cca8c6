@@ -1,0 +1,113 @@
+package ua.entity;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
+
+@Entity
+public class Commodity {
+
+    private int id;
+
+    private Category category;
+
+    private String model;
+
+    private Producer producer;
+
+    private int quantity;
+
+    private double price;
+
+    private CommodityStatus commodityStatus;
+
+    private int warranty;
+
+    private List<Order> orders = new ArrayList<Order>();
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    public int getId() {
+	return id;
+    }
+
+    public void setId(int id) {
+	this.id = id;
+    }
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    public Category getCategory() {
+	return category;
+    }
+
+    public void setCategory(Category category) {
+	this.category = category;
+    }
+
+    public String getModel() {
+	return model;
+    }
+
+    public void setModel(String model) {
+	this.model = model;
+    }
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    public Producer getProducer() {
+	return producer;
+    }
+
+    public void setProducer(Producer producer) {
+	this.producer = producer;
+    }
+
+    public int getQuantity() {
+	return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+	this.quantity = quantity;
+    }
+
+    public double getPrice() {
+	return price;
+    }
+
+    public void setPrice(double price) {
+	this.price = price;
+    }
+
+    public int getWarranty() {
+	return warranty;
+    }
+
+    public void setWarranty(int warranty) {
+	this.warranty = warranty;
+    }
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    public CommodityStatus getCommodityStatus() {
+	return commodityStatus;
+    }
+
+    public void setCommodityStatus(CommodityStatus commodityStatus) {
+	this.commodityStatus = commodityStatus;
+    }
+
+    @ManyToMany(fetch = FetchType.LAZY)
+    public List<Order> getOrders() {
+	return orders;
+    }
+
+    public void setOrders(List<Order> orders) {
+	this.orders = orders;
+    }
+
+}

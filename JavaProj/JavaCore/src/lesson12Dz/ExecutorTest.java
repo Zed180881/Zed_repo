@@ -19,10 +19,6 @@ package lesson12Dz;
 
  Покриття не важливо.*/
 
-import java.util.Scanner;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-
 import org.junit.Test;
 
 public class ExecutorTest {

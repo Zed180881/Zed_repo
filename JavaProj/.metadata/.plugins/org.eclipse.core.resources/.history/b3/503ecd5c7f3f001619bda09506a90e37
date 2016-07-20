@@ -1,5 +1,0 @@
-package lesson11Dz;
-
-public class MyMap<K, V> {
-
-}

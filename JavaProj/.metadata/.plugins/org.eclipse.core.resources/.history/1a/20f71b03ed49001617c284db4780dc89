@@ -1,0 +1,62 @@
+package lesson18;
+
+import static org.junit.Assert.*;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+public class MySQLTest {
+
+    private static Connection connection;
+
+    @BeforeClass
+    public static void create() {
+	try {
+	    connection = DriverManager.getConnection(
+		    "jdbc:mysql://localhost/zed1981", "root", "123456");
+	    Statement statement = connection.createStatement();
+	    statement
+		    .execute("create table person(id int primary key auto_increment, name varchar(255), age int)");
+	} catch (SQLException e) {
+	    e.printStackTrace();
+	}
+    }
+
+    @AfterClass
+    public static void drop() {
+	try {
+	    Statement statement = connection.createStatement();
+	    statement.execute("drop table person");
+	    connection.close();
+	} catch (SQLException e) {
+	    e.printStackTrace();
+	}
+    }
+
+    @Before
+    public void add() {
+	try {
+	    PreparedStatement ps = connection
+		    .prepareStatement("insert into person (name, age) values(?, ?)");
+	    ps.setString(1, "Ivan");
+	    ps.setInt(2, 18);
+	    ps.execute();
+	} catch (SQLException e) {
+	    e.printStackTrace();
+	}
+    }
+
+    @Test
+    public void test() {
+
+    }
+
+}
