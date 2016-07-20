@@ -1,6 +1,0 @@
-G:\Git_Repo\C_Sharp_Proj\Lesson4\Lesson4\bin\Debug\Lesson4.exe.config
-G:\Git_Repo\C_Sharp_Proj\Lesson4\Lesson4\bin\Debug\Lesson4.exe
-G:\Git_Repo\C_Sharp_Proj\Lesson4\Lesson4\bin\Debug\Lesson4.pdb
-G:\Git_Repo\C_Sharp_Proj\Lesson4\Lesson4\obj\Debug\Lesson4.csprojResolveAssemblyReference.cache
-G:\Git_Repo\C_Sharp_Proj\Lesson4\Lesson4\obj\Debug\Lesson4.exe
-G:\Git_Repo\C_Sharp_Proj\Lesson4\Lesson4\obj\Debug\Lesson4.pdb

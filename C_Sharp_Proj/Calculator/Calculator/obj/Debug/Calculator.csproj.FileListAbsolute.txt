@@ -1,9 +1,0 @@
-G:\Git_Repo\C_Sharp_Proj\Calculator\Calculator\bin\Debug\Calculator.exe.config
-G:\Git_Repo\C_Sharp_Proj\Calculator\Calculator\bin\Debug\Calculator.exe
-G:\Git_Repo\C_Sharp_Proj\Calculator\Calculator\bin\Debug\Calculator.pdb
-G:\Git_Repo\C_Sharp_Proj\Calculator\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
-G:\Git_Repo\C_Sharp_Proj\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
-G:\Git_Repo\C_Sharp_Proj\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.Cache
-G:\Git_Repo\C_Sharp_Proj\Calculator\Calculator\obj\Debug\Calculator.exe
-G:\Git_Repo\C_Sharp_Proj\Calculator\Calculator\obj\Debug\Calculator.pdb
-G:\Git_Repo\C_Sharp_Proj\Calculator\Calculator\obj\Debug\Calculator.MainForm.resources
