@@ -1,0 +1,63 @@
+package ua.service.implementation;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import ua.entity.CommodityOrder;
+import ua.entity.OrderStatus;
+import ua.entity.User;
+import ua.repository.OrderStatusRepository;
+import ua.repository.UserRepository;
+import ua.service.OrderStatusService;
+import ua.service.UserService;
+
+@Service
+@Transactional
+public class UserServiceImpl implements UserService {
+
+    @Autowired
+    private UserRepository userRepository;
+
+    @Override
+    public void save(User user) {
+	if (userRepository.findByUserFullName(user.getFullName()) == null)
+	    userRepository.save(user);
+    }
+
+    @Override
+    public OrderStatus findByOrderStatusName(String orderStatusName) {
+	return orderStatusRepository.findByOrderStatusName(orderStatusName);
+    }
+
+    @Override
+    public void deleteByOrderStatusName(String orderStatusName) {
+	if (orderStatusRepository.findByOrderStatusName(orderStatusName) != null)
+	    orderStatusRepository
+		    .delete(findByOrderStatusName(orderStatusName));
+    }
+
+    @Override
+    public List<OrderStatus> findAll() {
+	return orderStatusRepository.findAll();
+    }
+
+    @Override
+    public void updateOrderStatus(String orderStatusName,
+	    String newOrderStatusName) {
+	if (orderStatusRepository.findByOrderStatusName(orderStatusName) != null)
+	    orderStatusRepository.findByOrderStatusName(orderStatusName)
+		    .setOrderStatusName(newOrderStatusName);
+
+    }
+
+    @Override
+    public List<CommodityOrder> findCommodityOrdersByOrderStatus(
+	    String orderStatusName) {
+	return orderStatusRepository.findByOrderStatusName(orderStatusName)
+		.getCommodityOrders();
+    }
+
+}

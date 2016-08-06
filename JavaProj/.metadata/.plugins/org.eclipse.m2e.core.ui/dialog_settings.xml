@@ -2,11 +2,17 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="pjotr.zlejonka"/>
 			<item value="pjotr.zeljonka"/>
+			<item value="zed"/>
 		</list>
 		<list key="name">
+			<item value="eShop"/>
 		</list>
 		<list key="artifactId">
+			<item value="eShop"/>
+			<item value="zed"/>
+			<item value="SpringProject"/>
 			<item value="MyShop"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -33,6 +39,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -43,6 +50,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Зельонка Петро\JavaProj\MyShop"/>
+			<item value="D:\Зельонка Петро\JavaProj"/>
 			<item value="D:\Зельонка Петро\JavaProj\JavaAdvanced"/>
 		</list>
 		<list key="projectNameTemplate">

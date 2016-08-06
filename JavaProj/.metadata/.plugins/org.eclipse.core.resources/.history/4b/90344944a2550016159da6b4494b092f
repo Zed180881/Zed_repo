@@ -1,0 +1,61 @@
+package ua.service.implementation;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import ua.entity.Commodity;
+import ua.entity.CommodityOrder;
+import ua.entity.User;
+import ua.repository.CommodityRepository;
+import ua.repository.UserRepository;
+import ua.service.CommodityService;
+import ua.service.UserService;
+
+@Service
+@Transactional
+public class CommodityServiceImpl implements CommodityService {
+
+    @Autowired
+    private CommodityRepository commodityRepository;
+
+    @Override
+    public void save(Commodity commodity) {
+	if (commodityRepository.findByModel(commodity.getModel()) == null)
+	    commodityRepository.save(commodity);
+    }
+
+    @Override
+    public Commodity findByCommodityModel(String commodityModel) {
+	return commodityRepository.findByModel(commodityModel);
+    }
+
+    @Override
+    public void deleteByCommodityModel(String commodityModel) {
+	if (commodityRepository.findByModel(commodityModel) != null)
+	    commodityRepository.delete(findByCommodityModel(commodityModel));
+    }
+
+    @Override
+    public List<Commodity> findAll() {
+	return commodityRepository.findAll();
+    }
+
+    @Override
+    public void updateCommodity(String commodityModel, Commodity newCommodity) {
+	if (commodityRepository.findByModel(commodityModel) != null) {
+
+	}
+
+    }
+
+    @Override
+    public List<CommodityOrder> findCommodityOrdersByCommodityModel(
+	    String commodityModel) {
+	return commodityRepository.findByModel(commodityModel)
+		.getCommodityOrders();
+    }
+
+}

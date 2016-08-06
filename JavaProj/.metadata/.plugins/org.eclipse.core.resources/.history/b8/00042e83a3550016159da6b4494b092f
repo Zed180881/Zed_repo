@@ -1,0 +1,79 @@
+package ua.service.implementation;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import ua.entity.Category;
+import ua.entity.Commodity;
+import ua.entity.CommodityOrder;
+import ua.entity.User;
+import ua.repository.CategoryRepository;
+import ua.repository.CommodityRepository;
+import ua.repository.CommodityStatusRepository;
+import ua.repository.ProducerRepository;
+import ua.repository.UserRepository;
+import ua.service.CommodityService;
+import ua.service.UserService;
+
+@Service
+@Transactional
+public class CommodityServiceImpl implements CommodityService {
+
+    @Autowired
+    private CommodityRepository commodityRepository;
+    
+    @Autowired
+    private CategoryRepository categoryRepository;
+    
+    @Autowired
+    private ProducerRepository producerRepository;
+    
+    @Autowired
+    private CommodityStatusRepository commodityStatusRepository;
+
+    @Override
+    public void save(Commodity commodity) {
+	if (commodityRepository.findByModel(commodity.getModel()) == null)
+	    commodityRepository.save(commodity);
+    }
+
+    @Override
+    public Commodity findByCommodityModel(String commodityModel) {
+	return commodityRepository.findByModel(commodityModel);
+    }
+
+    @Override
+    public void deleteByCommodityModel(String commodityModel) {
+	if (commodityRepository.findByModel(commodityModel) != null)
+	    commodityRepository.delete(findByCommodityModel(commodityModel));
+    }
+
+    @Override
+    public List<Commodity> findAll() {
+	return commodityRepository.findAll();
+    }
+
+    @Override
+    public void updateCommodity(String commodityModel, String categoryName,
+	    String newModel, String newProducer, int newQuantity,
+	    double newPrice, String newStatus, int newWarranty) {
+	if (commodityRepository.findByModel(commodityModel) != null) {
+	    Category category = categoryRepository.findByCategoryName(categoryName);
+	    if (category != null)
+		commodityRepository.findByModel(commodityModel).setCategory(category);
+	    
+	}
+
+    }
+
+    @Override
+    public List<CommodityOrder> findCommodityOrdersByCommodityModel(
+	    String commodityModel) {
+	return commodityRepository.findByModel(commodityModel)
+		.getCommodityOrders();
+    }
+
+}

@@ -84,7 +84,7 @@ public class Commodity {
 	return commodityStatus;
     }
 
-    @ManyToMany(fetch = FetchType.LAZY)
+    @ManyToMany(fetch = FetchType.LAZY, mappedBy = "commodities")
     public List<CommodityOrder> getCommodityOrders() {
 	return commodityOrders;
     }

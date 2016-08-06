@@ -1,0 +1,76 @@
+package ua.service.implementation;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import ua.entity.Commodity;
+import ua.entity.CommodityOrder;
+import ua.entity.User;
+import ua.repository.CommodityRepository;
+import ua.repository.UserRepository;
+import ua.service.CommodityService;
+import ua.service.UserService;
+
+@Service
+@Transactional
+public class CommodityServiceImpl implements CommodityService {
+
+    @Autowired
+    private CommodityRepository commodityRepository;
+
+    @Override
+    public void save(Commodity commodity) {
+	if (commodityRepository.findByModel(commodity.getModel()) == null)
+	    commodityRepository.save(commodity);
+    }
+
+    @Override
+    public Commodity findByCommodityModel(String commodityModel) {
+	return commodityRepository.findByModel(commodityModel);
+    }
+
+    @Override
+    public void deleteByCommodityModel(String commodityModel) {
+	if (commodityRepository.findByModel(commodityModel) != null)
+	    commodityRepository.delete(findByCommodityModel(commodityModel));
+    }
+
+    @Override
+    public List<Commodity> findAll() {
+	return commodityRepository.findAll();
+    }
+
+    @Override
+    public void updateUser(String userFullName, User newUser) {
+	if (userRepository.findByFullName(userFullName) != null) {
+	    if (!newUser.getFullName().equals(""))
+		userRepository.findByFullName(userFullName).setFullName(
+			newUser.getFullName());
+	    if (!newUser.getLogin().equals(""))
+		userRepository.findByFullName(userFullName).setLogin(
+			newUser.getLogin());
+	    if (!newUser.getPassword().equals(""))
+		userRepository.findByFullName(userFullName).setPassword(
+			newUser.getPassword());
+	    if (!newUser.getMail().equals(""))
+		userRepository.findByFullName(userFullName).setMail(
+			newUser.getMail());
+	    if (!newUser.getPhone().equals(""))
+		userRepository.findByFullName(userFullName).setPhone(
+			newUser.getPhone());
+	    if (!newUser.getAddress().equals(""))
+		userRepository.findByFullName(userFullName).setAddress(
+			newUser.getAddress());
+	}
+
+    }
+
+    @Override
+    public List<CommodityOrder> findCommodityOrdersByUser(String userFullName) {
+	return userRepository.findByFullName(userFullName).getCommodityOrders();
+    }
+
+}
