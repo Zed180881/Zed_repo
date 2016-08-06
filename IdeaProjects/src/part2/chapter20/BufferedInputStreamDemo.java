@@ -8,7 +8,7 @@ class BufferedInputStreamDemo {
     public static void main(String[] args) {
         String s = "This is copyright &copy;, but this &copy is not.\n";
         byte[] buf = s.getBytes();
-
+        //
         ByteArrayInputStream in = new ByteArrayInputStream(buf);
         int c;
         boolean marked = false;
