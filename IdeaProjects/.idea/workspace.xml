@@ -2,133 +2,186 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bf3e095-ec79-466f-a879-7adeaad0da4a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter20/BufferedReaderDemo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter20/CharArrayReaderDemo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter20/CharArrayWriterDemo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter20/ConsoleDemo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter20/FileReaderDemo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter20/FileWriterDemo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter20/MyClass.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter20/PushBackReaderDemo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter20/SerializationDemo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/DirList.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/DirListFilter$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/DirListFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/DirTreeList.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/ExplicitChannelRead.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/ExplicitChannelReadJDK6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/ExplicitChannelWrite.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/ExplicitChannelWriteJDK6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/MappedChannelRead.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/MappedChannelReadJDK6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/MappedChannelWrite.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/MappedChannelWriteJDK6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/MyFileVisitor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/NIOCopy.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/NIOStreamWrite.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/PathDemo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/ShowFile.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter22/InetAddressTest.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter16/AppendDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter16/Box.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter16/ChangeCase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter16/ConCat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter16/DeleteDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter16/EqualsDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter16/EqualsNotEqualTo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter16/GetCharsDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter16/IndexOfDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter16/IndexOfDemo1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter16/InsertDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter16/MakeString.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter16/ReplaceDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter16/ReverseDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter16/SetCharAtDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter16/SortString.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter16/StringBufferDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter16/StringJoinDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter16/StringReplace.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter16/SubStringCons.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter16/ToStringDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter16/UseTrim.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter17/ACDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter17/Angles.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter17/CloneDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter17/CloneDemo2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter17/DoubleDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter17/Elapsed.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter17/ExecDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter17/ExecDemoFini.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter17/InfNaN.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter17/IsDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter17/MemoryDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter17/NewThread.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter17/PBDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter17/ParseDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter17/PkgTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter17/RTTI.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter17/ShowUserDir.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter17/StringConversions.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter17/TestClone.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter17/TestClone2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter17/ThreadGroupDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter17/X.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter17/Y.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/Address.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/AlgoritmsDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/ArrayDequeDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/ArrayListDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/ArrayListToArray.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/ArraysDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/CompDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/CompDemo2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/CompLastNames.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/CompThenByFirstName.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/ForEachDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/HTDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/HTDemo2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/HashMapDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/HashSetDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/IteratorDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/LinkedHashSetDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/LinkedListDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/MailList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/MyComp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/PhoneBook.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/PropDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/PropDemoDef.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/SpliteratorDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/StackDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/TComp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/TreeMapDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/TreeMapDemo2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/TreeMapDemo2A.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/TreeSetDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter18/VectorDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/AvgFile.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/AvgNums.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/BeingWatched.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/BitSetDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/CalendarDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/CurDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/DateDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/FieldWidthDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/FindInLineDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/FormatDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/FormatDemo1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/FormatDemo2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/FormatDemo3.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/FormatDemo4.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/FormatDemo5.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/FormatDemo6.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/GregorianCalendarDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/LRBDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/LeftJustify.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/MyTimerTask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/ObserverDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/OptionalDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/PrecisionDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/RandDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/STDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/SampleRB.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/SampleRB_de.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/ScanMixed.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/SetDelimiters.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/TTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/TimeDateFormat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/TwoObservers.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/Watcher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter19/Watcher2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter20/BufferedInputStreamDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter20/ByteArrayInputStreamDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter20/ByteArrayInputStreamReset.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter20/ByteArrayOutputStreamDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter20/DataIODemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter20/DirList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter20/DirListOnly.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter20/FileDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter20/FileInputStreamDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter20/FileOutputStreamDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter20/InputStreamEnumerator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter20/OnlyExt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter20/PrintfDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter20/PushBackInputStreamDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part1/chapter20/SequenceInputStreamDemo.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter20/BufferedReaderDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter20/CharArrayReaderDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter20/CharArrayWriterDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter20/ConsoleDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter20/FileReaderDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter20/FileWriterDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter20/MyClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter20/PushBackReaderDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter20/SerializationDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/DirList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/DirListFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/DirTreeList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/ExplicitChannelRead.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/ExplicitChannelReadJDK6.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/ExplicitChannelWrite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/ExplicitChannelWriteJDK6.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/MappedChannelRead.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/MappedChannelReadJDK6.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/MappedChannelWrite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/MappedChannelWriteJDK6.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/MyFileVisitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/NIOCopy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/NIOStreamWrite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/PathDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/ShowFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter22/InetAddressTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/AppendDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/AppendDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/Box.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/Box.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/ChangeCase.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/ChangeCase.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/ConCat.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/ConCat.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/DeleteDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/DeleteDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/EqualsDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/EqualsDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/EqualsNotEqualTo.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/EqualsNotEqualTo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/GetCharsDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/GetCharsDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/IndexOfDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/IndexOfDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/IndexOfDemo1.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/IndexOfDemo1.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/InsertDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/InsertDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/MakeString.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/MakeString.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/ReplaceDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/ReplaceDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/ReverseDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/ReverseDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/SetCharAtDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/SetCharAtDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/SortString.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/SortString.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/StringBufferDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/StringBufferDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/StringJoinDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/StringJoinDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/StringReplace.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/StringReplace.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/SubStringCons.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/SubStringCons.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/ToStringDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/ToStringDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/UseTrim.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/UseTrim.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/ACDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/ACDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/Angles.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/Angles.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/CloneDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/CloneDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/CloneDemo2.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/CloneDemo2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/DoubleDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/DoubleDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/Elapsed.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/Elapsed.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/ExecDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/ExecDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/ExecDemoFini.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/ExecDemoFini.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/InfNaN.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/InfNaN.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/IsDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/IsDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/MemoryDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/MemoryDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/NewThread.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/NewThread.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/PBDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/PBDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/ParseDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/ParseDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/PkgTest.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/PkgTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/RTTI.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/RTTI.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/ShowUserDir.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/ShowUserDir.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/StringConversions.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/StringConversions.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/TestClone.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/TestClone.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/TestClone2.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/TestClone2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/ThreadGroupDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/ThreadGroupDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/X.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/X.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/Y.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/Y.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/Address.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/Address.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/AlgoritmsDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/AlgoritmsDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/ArrayDequeDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/ArrayDequeDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/ArrayListDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/ArrayListDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/ArrayListToArray.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/ArrayListToArray.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/ArraysDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/ArraysDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/CompDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/CompDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/CompDemo2.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/CompDemo2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/CompLastNames.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/CompLastNames.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/CompThenByFirstName.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/CompThenByFirstName.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/ForEachDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/ForEachDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/HTDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/HTDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/HTDemo2.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/HTDemo2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/HashMapDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/HashMapDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/HashSetDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/HashSetDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/IteratorDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/IteratorDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/LinkedHashSetDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/LinkedHashSetDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/LinkedListDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/LinkedListDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/MailList.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/MailList.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/MyComp.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/MyComp.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/PhoneBook.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/PhoneBook.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/PropDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/PropDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/PropDemoDef.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/PropDemoDef.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/SpliteratorDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/SpliteratorDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/StackDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/StackDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/TComp.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/TComp.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/TreeMapDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/TreeMapDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/TreeMapDemo2.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/TreeMapDemo2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/TreeMapDemo2A.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/TreeMapDemo2A.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/TreeSetDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/TreeSetDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/VectorDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/VectorDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/AvgFile.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/AvgFile.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/AvgNums.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/AvgNums.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/BeingWatched.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/BeingWatched.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/BitSetDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/BitSetDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/CalendarDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/CalendarDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/CurDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/CurDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/DateDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/DateDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/FieldWidthDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/FieldWidthDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/FindInLineDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/FindInLineDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/FormatDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/FormatDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/FormatDemo1.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/FormatDemo1.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/FormatDemo2.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/FormatDemo2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/FormatDemo3.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/FormatDemo3.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/FormatDemo4.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/FormatDemo4.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/FormatDemo5.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/FormatDemo5.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/FormatDemo6.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/FormatDemo6.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/GregorianCalendarDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/GregorianCalendarDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/LRBDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/LRBDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/LeftJustify.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/LeftJustify.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/MyTimerTask.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/MyTimerTask.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/ObserverDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/ObserverDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/OptionalDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/OptionalDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/PrecisionDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/PrecisionDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/RandDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/RandDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/STDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/STDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/SampleRB.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/SampleRB.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/SampleRB_de.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/SampleRB_de.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/ScanMixed.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/ScanMixed.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/SetDelimiters.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/SetDelimiters.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/TTest.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/TTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/TimeDateFormat.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/TimeDateFormat.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/TwoObservers.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/TwoObservers.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/Watcher.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/Watcher.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/Watcher2.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/Watcher2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/BufferedInputStreamDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/BufferedInputStreamDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/ByteArrayInputStreamDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/ByteArrayInputStreamDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/ByteArrayInputStreamReset.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/ByteArrayInputStreamReset.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/ByteArrayOutputStreamDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/ByteArrayOutputStreamDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/DataIODemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/DataIODemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/DirList.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/DirList.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/DirListOnly.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/DirListOnly.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/FileDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/FileDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/FileInputStreamDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/FileInputStreamDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/FileOutputStreamDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/FileOutputStreamDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/InputStreamEnumerator.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/InputStreamEnumerator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/OnlyExt.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/OnlyExt.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/PrintfDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/PrintfDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/PushBackInputStreamDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/PushBackInputStreamDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/SequenceInputStreamDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/SequenceInputStreamDemo.java" />
     </list>
     <ignored path="ShildtJava8.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -157,7 +210,7 @@
     <favorites_list name="ShildtJava8" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -281,9 +334,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -303,6 +356,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="IdeaProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShildtJava8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IdeaProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="part2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShildtJava8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IdeaProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="part2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter16" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShildtJava8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IdeaProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -980,11 +1087,12 @@
       <workItem from="1470316548170" duration="3965000" />
       <workItem from="1470470604331" duration="12722000" />
       <workItem from="1470486741771" duration="66000" />
+      <workItem from="1470487616055" duration="21000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180591000" />
+    <option name="totallyTimeSpent" value="180612000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1005,25 +1113,25 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19402985" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39817974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1101,7 +1209,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1109,7 +1216,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
