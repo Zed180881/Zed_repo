@@ -2,186 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bf3e095-ec79-466f-a879-7adeaad0da4a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter20/BufferedReaderDemo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter20/CharArrayReaderDemo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter20/CharArrayWriterDemo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter20/ConsoleDemo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter20/FileReaderDemo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter20/FileWriterDemo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter20/MyClass.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter20/PushBackReaderDemo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter20/SerializationDemo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/DirList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/DirListFilter$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/DirListFilter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/DirTreeList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/ExplicitChannelRead.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/ExplicitChannelReadJDK6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/ExplicitChannelWrite.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/ExplicitChannelWriteJDK6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/MappedChannelRead.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/MappedChannelReadJDK6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/MappedChannelWrite.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/MappedChannelWriteJDK6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/MyFileVisitor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/NIOCopy.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/NIOStreamWrite.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/PathDemo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter21/ShowFile.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/IdeaProjects/part1/chapter22/InetAddressTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter20/BufferedReaderDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter20/CharArrayReaderDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter20/CharArrayWriterDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter20/ConsoleDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter20/FileReaderDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter20/FileWriterDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter20/MyClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter20/PushBackReaderDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter20/SerializationDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/DirList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/DirListFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/DirTreeList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/ExplicitChannelRead.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/ExplicitChannelReadJDK6.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/ExplicitChannelWrite.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/ExplicitChannelWriteJDK6.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/MappedChannelRead.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/MappedChannelReadJDK6.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/MappedChannelWrite.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/MappedChannelWriteJDK6.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/MyFileVisitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/NIOCopy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/NIOStreamWrite.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/PathDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter21/ShowFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter22/InetAddressTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter22/HttpURLDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter22/UCDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter22/URLDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter22/WhoIs.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter22/WriteServer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter23/ACDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter23/AppletSkel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter23/Bases.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter23/ParamBanner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter23/ParamDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter23/Sample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter23/SimpleBanner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter23/StatusWindow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter24/AdapterDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter24/AnonimousInnerClassDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter24/InnerClassDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter24/KeyEvents.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter24/MouseEvents.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter24/MousePressedDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter24/MyMouseAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter24/MyMouseAdapter1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter24/MyMouseMotionAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter24/SimpleKey.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter25/AppWindow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter25/AppletFrame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter25/CenterText.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter25/ColorDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter25/FontInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter25/GraphicsDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter25/MultiLine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter25/ResizeMe.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter25/SampleFonts.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter25/SampleFrame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter25/SampleFrameEvents.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter25/ShowFonts.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter25/TextLayout.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter25/WindowEvents.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter25/XOR.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter26/BorderLayoutDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter26/ButtonDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter26/ButtonList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter26/CBGroup.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter26/CardLayoutDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter26/CheckBoxDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter26/ChoiceDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter26/DialogDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter26/FileDialogDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter26/FlowLayoutDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter26/GridBagDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter26/GridLayoutDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter26/InsetsDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter26/LabelDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter26/ListDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter26/MenuDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter26/MenuFrame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter26/SBDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter26/SampleDialog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter26/SampleFrame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter26/TextAreaDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter26/TextFieldDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter27/Blur.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter27/Contrast.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter27/Convolver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter27/DoubleBuffer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter27/Grayscale.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter27/HistoGrab.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter27/ImageFilterDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter27/Invert.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter27/LoadedImage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter27/MemoryImageGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter27/PlugInFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter27/Sharpen.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter27/SimpleImageLoad.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter27/TileImage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part2/chapter27/TrackedImageLoad.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/AppendDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/AppendDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/Box.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/Box.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/ChangeCase.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/ChangeCase.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/ConCat.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/ConCat.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/DeleteDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/DeleteDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/EqualsDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/EqualsDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/EqualsNotEqualTo.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/EqualsNotEqualTo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/GetCharsDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/GetCharsDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/IndexOfDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/IndexOfDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/IndexOfDemo1.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/IndexOfDemo1.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/InsertDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/InsertDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/MakeString.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/MakeString.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/ReplaceDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/ReplaceDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/ReverseDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/ReverseDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/SetCharAtDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/SetCharAtDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/SortString.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/SortString.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/StringBufferDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/StringBufferDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/StringJoinDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/StringJoinDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/StringReplace.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/StringReplace.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/SubStringCons.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/SubStringCons.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/ToStringDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/ToStringDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter16/UseTrim.java" afterPath="$PROJECT_DIR$/src/part2/chapter16/UseTrim.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/ACDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/ACDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/Angles.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/Angles.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/CloneDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/CloneDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/CloneDemo2.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/CloneDemo2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/DoubleDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/DoubleDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/Elapsed.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/Elapsed.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/ExecDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/ExecDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/ExecDemoFini.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/ExecDemoFini.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/InfNaN.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/InfNaN.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/IsDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/IsDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/MemoryDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/MemoryDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/NewThread.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/NewThread.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/PBDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/PBDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/ParseDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/ParseDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/PkgTest.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/PkgTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/RTTI.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/RTTI.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/ShowUserDir.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/ShowUserDir.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/StringConversions.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/StringConversions.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/TestClone.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/TestClone.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/TestClone2.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/TestClone2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/ThreadGroupDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/ThreadGroupDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/X.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/X.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter17/Y.java" afterPath="$PROJECT_DIR$/src/part2/chapter17/Y.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/Address.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/Address.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/AlgoritmsDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/AlgoritmsDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/ArrayDequeDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/ArrayDequeDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/ArrayListDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/ArrayListDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/ArrayListToArray.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/ArrayListToArray.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/ArraysDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/ArraysDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/CompDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/CompDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/CompDemo2.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/CompDemo2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/CompLastNames.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/CompLastNames.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/CompThenByFirstName.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/CompThenByFirstName.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/ForEachDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/ForEachDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/HTDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/HTDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/HTDemo2.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/HTDemo2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/HashMapDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/HashMapDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/HashSetDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/HashSetDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/IteratorDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/IteratorDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/LinkedHashSetDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/LinkedHashSetDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/LinkedListDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/LinkedListDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/MailList.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/MailList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/MyComp.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/MyComp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/PhoneBook.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/PhoneBook.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/PropDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/PropDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/PropDemoDef.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/PropDemoDef.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/SpliteratorDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/SpliteratorDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/StackDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/StackDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/TComp.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/TComp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/TreeMapDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/TreeMapDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/TreeMapDemo2.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/TreeMapDemo2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/TreeMapDemo2A.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/TreeMapDemo2A.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/TreeSetDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/TreeSetDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter18/VectorDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter18/VectorDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/AvgFile.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/AvgFile.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/AvgNums.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/AvgNums.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/BeingWatched.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/BeingWatched.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/BitSetDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/BitSetDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/CalendarDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/CalendarDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/CurDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/CurDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/DateDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/DateDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/FieldWidthDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/FieldWidthDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/FindInLineDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/FindInLineDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/FormatDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/FormatDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/FormatDemo1.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/FormatDemo1.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/FormatDemo2.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/FormatDemo2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/FormatDemo3.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/FormatDemo3.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/FormatDemo4.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/FormatDemo4.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/FormatDemo5.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/FormatDemo5.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/FormatDemo6.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/FormatDemo6.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/GregorianCalendarDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/GregorianCalendarDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/LRBDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/LRBDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/LeftJustify.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/LeftJustify.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/MyTimerTask.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/MyTimerTask.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/ObserverDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/ObserverDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/OptionalDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/OptionalDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/PrecisionDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/PrecisionDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/RandDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/RandDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/STDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/STDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/SampleRB.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/SampleRB.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/SampleRB_de.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/SampleRB_de.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/ScanMixed.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/ScanMixed.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/SetDelimiters.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/SetDelimiters.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/TTest.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/TTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/TimeDateFormat.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/TimeDateFormat.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/TwoObservers.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/TwoObservers.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/Watcher.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/Watcher.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter19/Watcher2.java" afterPath="$PROJECT_DIR$/src/part2/chapter19/Watcher2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/BufferedInputStreamDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/BufferedInputStreamDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/ByteArrayInputStreamDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/ByteArrayInputStreamDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/ByteArrayInputStreamReset.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/ByteArrayInputStreamReset.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/ByteArrayOutputStreamDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/ByteArrayOutputStreamDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/DataIODemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/DataIODemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/DirList.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/DirList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/DirListOnly.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/DirListOnly.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/FileDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/FileDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/FileInputStreamDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/FileInputStreamDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/FileOutputStreamDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/FileOutputStreamDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/InputStreamEnumerator.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/InputStreamEnumerator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/OnlyExt.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/OnlyExt.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/PrintfDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/PrintfDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/PushBackInputStreamDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/PushBackInputStreamDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part1/chapter20/SequenceInputStreamDemo.java" afterPath="$PROJECT_DIR$/src/part2/chapter20/SequenceInputStreamDemo.java" />
     </list>
     <ignored path="ShildtJava8.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -210,13 +106,14 @@
     <favorites_list name="ShildtJava8" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
         <option value="AnnotationType" />
+        <option value="Kotlin File" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -233,57 +130,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/part1/chapter19/FormatDemo1.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter19/AvgNums.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter19/AvgFile.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter19/ScanMixed.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter19/SetDelimiters.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter19/FindInLineDemo.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter19/SampleRB.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter19/SampleRB_de.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter19/LRBDemo.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter20/FileDemo.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter20/DirList.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter20/OnlyExt.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter20/DirListOnly.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter20/FileInputStreamDemo.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter20/FileOutputStreamDemo.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter20/ByteArrayInputStreamDemo.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter20/ByteArrayInputStreamReset.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter20/ByteArrayOutputStreamDemo.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter20/PushBackInputStream.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter20/PushBackInputStreamDemo.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter20/InputStreamEnumerator.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter20/SequenceInputStreamDemo.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter20/PrintfDemo.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter20/DataIODemo.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter20/FileReaderDemo.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter20/FileWriterDemo.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter20/CharArrayReaderDemo.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter20/CharArrayWriterDemo.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter20/BufferedReaderDemo.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter20/PushBackReaderDemo.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter20/ConsoleDemo.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter20/MyClass.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter20/SerializationDemo.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter20/BufferedInputStreamDemo.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter21/ExplicitChannelRead.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter21/MappedChannelRead.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter21/ExplicitChannelWrite.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter21/MappedChannelWrite.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter21/NIOCopy.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter21/ShowFile.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter21/NIOStreamWrite.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter21/PathDemo.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter21/DirList.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter21/DirListFilter.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter21/MyFileVisitor.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter21/DirTreeList.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter21/ExplicitChannelReadJDK6.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter21/MappedChannelReadJDK6.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter21/ExplicitChannelWriteJDK6.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter21/MappedChannelWriteJDK6.java" />
-        <option value="$PROJECT_DIR$/src/part1/chapter22/InetAddressTest.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter25/SampleFrameEvents.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter25/WindowEvents.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter25/AppWindow.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter25/GraphicsDemo.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter25/ResizeMe.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter25/ColorDemo.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter25/XOR.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter25/ShowFonts.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter25/SampleFonts.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter25/FontInfo.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter25/MultiLine.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter25/CenterText.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter25/TextLayout.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter26/LabelDemo.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter26/ButtonDemo.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter26/ButtonList.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter26/ChackBoxDemo.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter26/CheckBoxDemo.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter26/CBGroup.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter26/ChoiceDemo.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter26/ListDemo.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter26/SBDemo.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter26/TextFieldDemo.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter26/TextAreaDemo.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter26/FlowLayoutDemo.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter26/BorderLayoutDemo.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter26/InsetsDemo.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter26/GridLayoutDemo.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter26/CardLayoutDemo.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter26/GridBagDemo.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter26/MenuDemo.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter26/SampleDialog.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter26/MenuFrame.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter26/DialogDemo.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter26/SampleFrame.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter26/FileDialogDemo.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter27/SimpleImageLoad.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter27/DoubleBuffer.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter27/TrackedImageLoad.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter27/MemoryImageGenerator.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter27/HistoGrab.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter27/TileImage.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter27/PlugInFilter.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter27/LoadedImage.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter27/Grayscale.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter27/Invert.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter27/Convolver.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter27/Contrast.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter27/Blur.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter27/Sharpen.java" />
+        <option value="$PROJECT_DIR$/src/part2/chapter27/ImageFilterDemo.java" />
       </list>
     </option>
   </component>
@@ -304,10 +201,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="width" value="960" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -335,7 +230,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -390,31 +284,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="part2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter16" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShildtJava8" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IdeaProjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -429,105 +302,63 @@
       <recent name="part1.chapter02" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="part1.chapter21" />
-      <recent name="part1.chapter20" />
-      <recent name="part1.chapter19" />
-      <recent name="part1.chapter18" />
-      <recent name="part1.chapter17" />
+      <recent name="part2.chapter27" />
+      <recent name="part2.chapter26" />
+      <recent name="part2.chapter25" />
+      <recent name="part2.chapter24" />
+      <recent name="part2.chapter23" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\Школа програмування\Java\IdeaProjects\src\part1\chapter12" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InetAddressTest">
-    <configuration default="false" name="ExplicitChannelReadJDK6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="part1.chapter21.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="part1.chapter21.ExplicitChannelReadJDK6" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+  <component name="RunManager" selected="Applet.ImageFilterDemo">
+    <configuration default="false" name="MemoryImageGenerator" type="Applet" factoryName="Applet" temporary="true">
       <module name="IdeaProjects" />
-      <envs />
+      <option name="MAIN_CLASS_NAME" value="part2.chapter27.MemoryImageGenerator" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method />
     </configuration>
-    <configuration default="false" name="MappedChannelReadJDK6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="part1.chapter21.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="part1.chapter21.MappedChannelReadJDK6" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+    <configuration default="false" name="HistoGrab" type="Applet" factoryName="Applet" temporary="true">
       <module name="IdeaProjects" />
-      <envs />
+      <option name="MAIN_CLASS_NAME" value="part2.chapter27.HistoGrab" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method />
     </configuration>
-    <configuration default="false" name="ExplicitChannelWriteJDK6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="part1.chapter21.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="part1.chapter21.ExplicitChannelWriteJDK6" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+    <configuration default="false" name="TileImage" type="Applet" factoryName="Applet" temporary="true">
       <module name="IdeaProjects" />
-      <envs />
+      <option name="MAIN_CLASS_NAME" value="part2.chapter27.TileImage" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method />
     </configuration>
-    <configuration default="false" name="MappedChannelWriteJDK6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="part1.chapter21.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="part1.chapter21.MappedChannelWriteJDK6" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+    <configuration default="false" name="ImageFilterDemo" type="Applet" factoryName="Applet" temporary="true">
       <module name="IdeaProjects" />
-      <envs />
+      <option name="MAIN_CLASS_NAME" value="part2.chapter27.ImageFilterDemo" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="file://$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <parameter name="filters" value="Grayscale+Invert+Contrast+Blur+Sharpen" />
+      <parameter name="img" value="http://images.huffingtonpost.com/2015-09-14-1442247397-576929-lili1.jpg" />
       <method />
     </configuration>
-    <configuration default="false" name="InetAddressTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ImageFilterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="part1.chapter22.*" />
+          <option name="PATTERN" value="part2.chapter27.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="part1.chapter22.InetAddressTest" />
+      <option name="MAIN_CLASS_NAME" value="part2.chapter27.ImageFilterDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1022,19 +853,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ExplicitChannelReadJDK6" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MappedChannelReadJDK6" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ExplicitChannelWriteJDK6" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MappedChannelWriteJDK6" />
-      <item index="4" class="java.lang.String" itemvalue="Application.InetAddressTest" />
+      <item index="0" class="java.lang.String" itemvalue="Applet.MemoryImageGenerator" />
+      <item index="1" class="java.lang.String" itemvalue="Applet.HistoGrab" />
+      <item index="2" class="java.lang.String" itemvalue="Applet.TileImage" />
+      <item index="3" class="java.lang.String" itemvalue="Applet.ImageFilterDemo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ImageFilterDemo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.InetAddressTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MappedChannelWriteJDK6" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ExplicitChannelWriteJDK6" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MappedChannelReadJDK6" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ExplicitChannelReadJDK6" />
+        <item index="0" class="java.lang.String" itemvalue="Applet.ImageFilterDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ImageFilterDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Applet.TileImage" />
+        <item index="3" class="java.lang.String" itemvalue="Applet.HistoGrab" />
+        <item index="4" class="java.lang.String" itemvalue="Applet.MemoryImageGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -1088,11 +919,15 @@
       <workItem from="1470470604331" duration="12722000" />
       <workItem from="1470486741771" duration="66000" />
       <workItem from="1470487616055" duration="21000" />
+      <workItem from="1470487731208" duration="8237000" />
+      <workItem from="1470569174550" duration="12905000" />
+      <workItem from="1470650780172" duration="23183000" />
+      <workItem from="1470678223721" duration="36000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180612000" />
+    <option name="totallyTimeSpent" value="224973000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1104,7 +939,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="0" y="0" width="960" height="1050" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1113,23 +948,23 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30941704" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19402985" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39817974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39096916" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847533" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1147,7 +982,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1156,66 +991,423 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter19/LeftJustify.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter19/SetDelimiters.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter19/AvgFile.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter19/FindInLineDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter19/SampleRB_de.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter19/SampleRB.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter19/LRBDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter20.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter20/FileDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter20/DirList.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter20/OnlyExt.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter20/DirListOnly.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter20/FileInputStreamDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter20/ByteArrayInputStreamDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter20/ByteArrayInputStreamReset.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter20/ByteArrayOutputStreamDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter20/PushBackInputStreamDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter20/InputStreamEnumerator.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter20/SequenceInputStreamDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter20/PrintfDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter20/DataIODemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter20/FileReaderDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter20/FileOutputStreamDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter20/FileWriterDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter20/CharArrayReaderDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter20/CharArrayWriterDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter20/BufferedReaderDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter20/PushBackReaderDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter20/ConsoleDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter20/MyClass.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter20/SerializationDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter20/BufferedInputStreamDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter21/MappedChannelRead.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter21/ExplicitChannelWrite.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter21/MappedChannelWrite.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter21/NIOCopy.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter21/ShowFile.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter21/NIOStreamWrite.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter21/PathDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter21/DirList.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter21/DirListFilter.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter21/MyFileVisitor.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter21/DirTreeList.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter21/ExplicitChannelRead.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter21/MappedChannelReadJDK6.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter21/ExplicitChannelReadJDK6.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter21/ExplicitChannelWriteJDK6.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter21/MappedChannelWriteJDK6.java" />
-    <entry file="file://$PROJECT_DIR$/src/part1/chapter22/InetAddressTest.java" />
-    <entry file="file://$PROJECT_DIR$/IdeaProjects.iml">
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter25/SampleFrameEvents.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="413">
+          <caret line="78" column="61" selection-start-line="78" selection-start-column="61" selection-end-line="78" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/part2/chapter18/Address.java">
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter25/WindowEvents.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="1462">
+          <caret line="87" column="59" selection-start-line="87" selection-start-column="59" selection-end-line="87" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter25/AppWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter25/GraphicsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter25/ResizeMe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter25/ColorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter25/XOR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter25/ShowFonts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter25/SampleFonts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter25/FontInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter25/MultiLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter25/CenterText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter25/TextLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="130" column="9" selection-start-line="130" selection-start-column="9" selection-end-line="130" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter26/LabelDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter26/ButtonDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter26/ButtonList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter26/CBGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter26/ChoiceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter26/ListDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="44" column="27" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter26/SBDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter26/TextFieldDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter26/TextAreaDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter26/FlowLayoutDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter26/BorderLayoutDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter26/InsetsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter26/GridLayoutDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter26/CardLayoutDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter26/CheckBoxDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter26/GridBagDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter26/MenuDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter26/SampleDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter26/MenuFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter26/DialogDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter26/SampleFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter26/FileDialogDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter27/DoubleBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1751#1752#0" expanded="true" />
+            <element signature="e#1775#1776#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter27/TrackedImageLoad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1564">
+          <caret line="92" column="23" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2207#2208#0" expanded="true" />
+            <element signature="e#2238#2239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter27/MemoryImageGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter27/SimpleImageLoad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="13" column="107" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="107" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter27/HistoGrab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+            <element signature="e#1457#1458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter27/TileImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="17" column="107" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="107" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1670#1671#0" expanded="true" />
+            <element signature="e#1694#1695#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter27/Grayscale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter27/Invert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter27/Contrast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter27/Blur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="9" selection-start-line="5" selection-start-column="8" selection-end-line="28" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter27/Sharpen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="38" column="136" selection-start-line="38" selection-start-column="136" selection-end-line="38" selection-end-column="136" />
+          <folding>
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter27/PlugInFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter27/Convolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter27/LoadedImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter27/ImageFilterDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part2/chapter28.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
