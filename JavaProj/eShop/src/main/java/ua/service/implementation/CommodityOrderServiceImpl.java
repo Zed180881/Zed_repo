@@ -1,7 +1,6 @@
 package ua.service.implementation;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,8 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import ua.entity.Commodity;
 import ua.entity.CommodityOrder;
-import ua.entity.OrderStatus;
-import ua.entity.User;
+import ua.form.CommodityOrderForm;
 import ua.repository.CommodityOrderRepository;
 import ua.repository.CommodityRepository;
 import ua.repository.OrderStatusRepository;
@@ -23,7 +21,7 @@ import ua.service.CommodityOrderService;
 @Transactional
 public class CommodityOrderServiceImpl implements CommodityOrderService {
 
-    private SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy"); // 05.09.2015
+    private CommodityOrder commodityOrder;
 
     @Autowired
     private CommodityOrderRepository commodityOrderRepository;
@@ -38,60 +36,25 @@ public class CommodityOrderServiceImpl implements CommodityOrderService {
     private CommodityRepository commodityRepository;
 
     @Override
-    public void save(String userName, String orderStatusName, String orderDate,
-	    String payDate, String deliveryDate, String commodityModel1,
-	    String commodityModel2, String commodityModel3,
-	    String commodityModel4, String commodityModel5) {
-
-	CommodityOrder commodityOrder = new CommodityOrder();
-	User user = userRepository.findByFullName(userName);
-	if (user != null)
-	    commodityOrder.setUser(user);
-	else {
-	    System.out.println("User not found");
-	    return;
-	}
-	OrderStatus orderStatus = orderStatusRepository
-		.findByOrderStatusName(orderStatusName);
-	if (orderStatus != null)
-	    commodityOrder.setOrderStatus(orderStatus);
-	else {
-	    System.out.println("Order Status not found");
-	    return;
-	}
-	try {
-	    if (!orderDate.equals(""))
-		commodityOrder.setOrderDate(sdf.parse(orderDate));
-	    if (!payDate.equals(""))
-		commodityOrder.setPayDate(sdf.parse(payDate));
-	    if (!deliveryDate.equals(""))
-		commodityOrder.setDeliveryDate(sdf.parse(deliveryDate));
-	} catch (ParseException e) {
-	    System.out.println("Error parsing date.");
-	    System.out.println("Please enter date in format dd.mm.yyyy");
-	    return;
-	}
-	List<Commodity> commodities = new ArrayList<>();
-	Commodity commodity = commodityRepository.findByModel(commodityModel1);
-	if (commodity != null)
-	    commodities.add(commodity);
-	commodity = commodityRepository.findByModel(commodityModel2);
-	if (commodity != null)
-	    commodities.add(commodity);
-	commodity = commodityRepository.findByModel(commodityModel3);
-	if (commodity != null)
-	    commodities.add(commodity);
-	commodity = commodityRepository.findByModel(commodityModel4);
-	if (commodity != null)
-	    commodities.add(commodity);
-	commodity = commodityRepository.findByModel(commodityModel5);
-	if (commodity != null)
-	    commodities.add(commodity);
-	if (commodities.size() > 0)
+    public void save(CommodityOrderForm commodityOrderForm) {
+	commodityOrder = new CommodityOrder();
+	commodityOrder.setId(commodityOrderForm.getId());
+	commodityOrder.setUser(commodityOrderForm.getUser());
+	commodityOrder.setOrderDate(LocalDate.parse(commodityOrderForm
+		.getOrderDate()));
+	if (!commodityOrderForm.getPayDate().equals(""))
+	    commodityOrder.setPayDate(LocalDate.parse(commodityOrderForm
+		    .getPayDate()));
+	if (!commodityOrderForm.getDeliveryDate().equals(""))
+	    commodityOrder.setDeliveryDate(LocalDate.parse(commodityOrderForm
+		    .getDeliveryDate()));
+	commodityOrder.setOrderStatus(commodityOrderForm.getOrderStatus());
+	if (!commodityOrderForm.getCommodities().isEmpty()) {
+	    List<Commodity> commodities = new ArrayList<>();
+	    for (Commodity model : commodityOrderForm.getCommodities()) {
+		commodities.add(commodityRepository.findByModel(model.getModel()));
+	    }
 	    commodityOrder.setCommodities(commodities);
-	else {
-	    System.out.println("Order without commodities");
-	    return;
 	}
 	commodityOrder.setSum(commodityOrder.calculateSum());
 	commodityOrderRepository.save(commodityOrder);
@@ -103,9 +66,13 @@ public class CommodityOrderServiceImpl implements CommodityOrderService {
     }
 
     @Override
-    public void deleteByOrderID(String orderID) {
-	if (commodityOrderRepository.findOne(Integer.parseInt(orderID)) != null)
-	    commodityRepository.delete(Integer.parseInt(orderID));
+    @Transactional
+    public void deleteById(int id) {
+	if ((commodityOrder = commodityOrderRepository.findOne(id)) != null) {
+	    commodityOrder.getCommodities().clear();
+	    commodityOrderRepository.save(commodityOrder);
+	    commodityOrderRepository.delete(id);
+	}
     }
 
     @Override
@@ -114,35 +81,46 @@ public class CommodityOrderServiceImpl implements CommodityOrderService {
     }
 
     @Override
-    public void updateCommodityOrder(String orderID, String orderStatusName,
-	    String payDate, String deliveryDate) {
-	if (commodityOrderRepository.findOne(Integer.parseInt(orderID)) != null) {
-
-	    OrderStatus orderStatus = orderStatusRepository
-		    .findByOrderStatusName(orderStatusName);
-	    if (orderStatus != null)
-		commodityOrderRepository.findOne(Integer.parseInt(orderID))
-			.setOrderStatus(orderStatus);
-
-	    try {
-		if (!payDate.equals(""))
-		    commodityOrderRepository.findOne(Integer.parseInt(orderID))
-			    .setPayDate(sdf.parse(payDate));
-		if (!deliveryDate.equals(""))
-		    commodityOrderRepository.findOne(Integer.parseInt(orderID))
-			    .setDeliveryDate(sdf.parse(deliveryDate));
-	    } catch (ParseException e) {
-		System.out.println("Error parsing date.");
-		System.out.println("Please enter date in format dd.mm.yyyy");
+    public CommodityOrderForm findOne(int id) {
+	commodityOrder = commodityOrderRepository.findOne(id);
+	CommodityOrderForm commodityOrderForm = new CommodityOrderForm();
+	commodityOrderForm.setId(commodityOrder.getId());
+	commodityOrderForm.setUser(commodityOrder.getUser());
+	commodityOrderForm.setOrderStatus(commodityOrder.getOrderStatus());
+	commodityOrderForm.setSum(String.valueOf(commodityOrder.getSum()));
+	commodityOrderForm.setOrderDate(commodityOrder.getOrderDate()
+		.toString());
+	if (commodityOrder.getPayDate() != null)
+	    commodityOrderForm.setPayDate(commodityOrder.getPayDate()
+		    .toString());
+	else
+	    commodityOrderForm.setPayDate("");
+	if (commodityOrder.getDeliveryDate() != null)
+	    commodityOrderForm.setDeliveryDate(commodityOrder.getDeliveryDate()
+		    .toString());
+	else
+	    commodityOrderForm.setDeliveryDate("");
+	if (!commodityOrder.getCommodities().isEmpty()) {
+	    List<Commodity> models = new ArrayList<>();
+	    for (Commodity commodity : commodityOrder.getCommodities()) {
+		models.add(commodity);
 	    }
+	    commodityOrderForm.setCommodities(models);
 	}
-
+	return commodityOrderForm;
     }
 
     @Override
-    public List<Commodity> findCommoditiesByOrderID(String orderID) {
-	return commodityOrderRepository.findOne(Integer.parseInt(orderID))
-		.getCommodities();
+    public void addCommodity(int id, int commodityID) {
+	CommodityOrder commodityOrder = commodityOrderRepository.findOne(id);
+	Commodity commodity = commodityRepository.findOne(commodityID);
+	commodityOrder.getCommodities().add(commodity);
     }
 
+    @Override
+    public void deleteCommodity(int id, int commodityID) {
+	CommodityOrder commodityOrder = commodityOrderRepository.findOne(id);
+	commodityOrder.getCommodities().removeIf(
+		(c) -> c.getId() == commodityID);
+    }
 }

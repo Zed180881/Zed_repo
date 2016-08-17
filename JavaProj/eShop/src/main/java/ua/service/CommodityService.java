@@ -3,24 +3,21 @@ package ua.service;
 import java.util.List;
 
 import ua.entity.Commodity;
-import ua.entity.CommodityOrder;
+import ua.form.CommodityForm;
 
 public interface CommodityService {
 
-    void save(String categoryName, String model, String producerName,
-	    int quantity, double price, String statusName, int warranty);
+    void save(CommodityForm commodityForm);
 
     Commodity findByCommodityModel(String commodityModel);
 
     void deleteByCommodityModel(String commodityModel);
 
+    void deleteById(int id);
+
     List<Commodity> findAll();
 
-    void updateCommodity(String commodityModel, String categoryName,
-	    String model, String producerName, int quantity, double price,
-	    String statusName, int warranty);
+    CommodityForm findOneForm(int id);
 
-    List<CommodityOrder> findCommodityOrdersByCommodityModel(
-	    String commodityModel);
-
+    Commodity findOne(int id);
 }

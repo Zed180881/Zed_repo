@@ -1,0 +1,19 @@
+package ua.service;
+
+import java.util.List;
+
+import ua.entity.Category;
+import ua.entity.Commodity;
+
+public interface CategoryService {
+
+    void save(Category category);
+
+    Category findByCategoryName(String categoryName);
+
+    void deleteByCategoryName(String categoryName);
+
+    List<Category> findAll();    
+
+    Category findOne(int id);
+}

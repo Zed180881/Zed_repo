@@ -1,0 +1,51 @@
+package ua.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import ua.entity.OrderStatus;
+import ua.service.OrderStatusService;
+
+@Controller
+public class OrderStatusController {
+
+    @Autowired
+    private OrderStatusService orderStatusService;
+
+    @ModelAttribute("orderStatus")
+    public OrderStatus getOrderStatus() {
+	return new OrderStatus();
+    }
+
+    @RequestMapping("/admin/ordstatus")
+    public String showOrderStatus(Model model) {
+	model.addAttribute("orderStatuses", orderStatusService.findAll());
+	return "adminOrderStatus";
+    }
+
+    @RequestMapping(value = "/admin/ordstatus", method = RequestMethod.POST)
+    public String saveOrderStatus(
+	    @ModelAttribute("orderStatus") OrderStatus orderStatus) {
+	orderStatusService.save(orderStatus);
+	return "redirect:/admin/ordstatus";
+    }
+
+    @RequestMapping(value = "/admin/ordstatus/delete/{name}")
+    public String deleteOrderStatus(@PathVariable String name) {
+	orderStatusService.deleteByOrderStatusName(name);
+	return "redirect:/admin/ordstatus";
+    }
+
+    @RequestMapping("/admin/ordstatus/update/{id}")
+    public String updateCommodityStatus(@PathVariable int id, Model model) {
+	model.addAttribute("orderStatus", orderStatusService.findOne(id));
+	model.addAttribute("orderStatuses", orderStatusService.findAll());
+	return "adminOrderStatus";
+    }
+}

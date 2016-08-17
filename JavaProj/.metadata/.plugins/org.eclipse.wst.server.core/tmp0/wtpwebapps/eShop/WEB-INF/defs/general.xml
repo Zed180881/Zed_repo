@@ -60,6 +60,6 @@
 		<put-attribute name="title" value="adminCommodityOrder" />
 		<put-attribute name="body"
 			value="/WEB-INF/views/adminPanel/adminCommodityOrder.jsp" />
-	</definition>
+	</definition>	
 
 </tiles-definitions>

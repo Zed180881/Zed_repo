@@ -1,0 +1,128 @@
+package ua.service.implementation;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import ua.entity.Commodity;
+import ua.entity.CommodityOrder;
+import ua.form.CommodityOrderForm;
+import ua.repository.CommodityOrderRepository;
+import ua.repository.CommodityRepository;
+import ua.repository.OrderStatusRepository;
+import ua.repository.UserRepository;
+import ua.service.CommodityOrderService;
+
+@Service
+@Transactional
+public class CommodityOrderServiceImpl implements CommodityOrderService {
+
+    private CommodityOrder commodityOrder;
+
+    @Autowired
+    private CommodityOrderRepository commodityOrderRepository;
+
+    @Autowired
+    private OrderStatusRepository orderStatusRepository;
+
+    @Autowired
+    private UserRepository userRepository;
+
+    @Autowired
+    private CommodityRepository commodityRepository;
+
+    @Override
+    public void save(CommodityOrderForm commodityOrderForm) {
+	commodityOrder = new CommodityOrder();
+	commodityOrder.setId(commodityOrderForm.getId());
+	commodityOrder.setUser(commodityOrderForm.getUser());
+	commodityOrder.setOrderDate(LocalDate.parse(commodityOrderForm
+		.getOrderDate()));
+	if (!commodityOrderForm.getPayDate().equals(""))
+	    commodityOrder.setPayDate(LocalDate.parse(commodityOrderForm
+		    .getPayDate()));
+	if (!commodityOrderForm.getDeliveryDate().equals(""))
+	    commodityOrder.setDeliveryDate(LocalDate
+		    .parse(commodityOrderForm.getDeliveryDate()));
+	commodityOrder.setOrderStatus(commodityOrderForm.getOrderStatus());
+	if (!commodityOrderForm.getCommodities().isEmpty()) {
+	    List<Commodity> commodities = new ArrayList<>();
+	    for (String model : commodityOrderForm.getCommodities()) {
+		commodities.add(commodityRepository.findByModel(model));
+	    }
+	    commodityOrder.setCommodities(commodities);
+	}
+	commodityOrder.setSum(commodityOrder.calculateSum());
+	commodityOrderRepository.save(commodityOrder);
+    }
+
+    @Override
+    public CommodityOrder findByOrderID(String orderID) {
+	return commodityOrderRepository.findOne(Integer.parseInt(orderID));
+    }
+
+    @Override
+    @Transactional
+    public void deleteByOrderID(String orderID) {
+	if ((commodityOrder = commodityOrderRepository.findOne(Integer
+		.parseInt(orderID))) != null) {
+	    commodityOrder.getCommodities().clear();
+	    commodityOrderRepository.save(commodityOrder);
+	    commodityOrderRepository.delete(Integer.parseInt(orderID));
+	}
+    }
+
+    @Override
+    public List<CommodityOrder> findAll() {
+	return commodityOrderRepository.findAll();
+    }
+
+    @Override
+    public CommodityOrderForm findOne(int id) {
+	commodityOrder = commodityOrderRepository.findOne(id);
+	CommodityOrderForm commodityOrderForm = new CommodityOrderForm();
+	commodityOrderForm.setId(commodityOrder.getId());
+	commodityOrderForm.setUser(commodityOrder.getUser());
+	commodityOrderForm.setOrderStatus(commodityOrder.getOrderStatus());
+	commodityOrderForm.setSum(String.valueOf(commodityOrder.getSum()));
+	commodityOrderForm.setOrderDate(commodityOrder.getOrderDate()
+		.toString());
+	if (commodityOrder.getPayDate() != null)
+	    commodityOrderForm.setPayDate(commodityOrder.getPayDate()
+		    .toString());
+	else
+	    commodityOrderForm.setPayDate("");
+	if (commodityOrder.getDeliveryDate() != null)
+	    commodityOrderForm.setDeliveryDate(commodityOrder.getDeliveryDate()
+		    .toString());
+	else
+	    commodityOrderForm.setDeliveryDate("");
+	if (!commodityOrder.getCommodities().isEmpty()) {
+	    List<String> models = new ArrayList<>();
+	    for (Commodity commodity : commodityOrder.getCommodities()) {
+		models.add(commodity.getModel());
+	    }
+	    commodityOrderForm.setCommodities(models);
+	}
+	return commodityOrderForm;
+    }
+
+    @Override
+    public void addCommodity(int id, int commodityID) {
+	CommodityOrder commodityOrder = commodityOrderRepository.findOne(id);
+	Commodity commodity = commodityRepository.findOne(commodityID);
+	commodityOrder.getCommodities().add(commodity);
+    }
+
+    @Override
+    public void deleteCommodity(int id, int commodityID) {
+	CommodityOrder commodityOrder = commodityOrderRepository.findOne(id);
+	commodityOrder.getCommodities().removeIf(
+		(c) -> c.getId() == commodityID);
+    }
+}

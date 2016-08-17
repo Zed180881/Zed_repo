@@ -2,25 +2,22 @@ package ua.service;
 
 import java.util.List;
 
-import ua.entity.Commodity;
 import ua.entity.CommodityOrder;
+import ua.form.CommodityOrderForm;
 
 public interface CommodityOrderService {
 
-    void save(String userName, String orderStatusName, String orderDate,
-	    String payDate, String deliveryDate, String commodityModel1,
-	    String commodityModel2, String commodityModel3,
-	    String commodityModel4, String commodityModel5);
+    void save(CommodityOrderForm commodityOrderForm);
 
     CommodityOrder findByOrderID(String orderID);
 
-    void deleteByOrderID(String orderID);
+    void deleteById(int id);
 
     List<CommodityOrder> findAll();
 
-    void updateCommodityOrder(String orderID, String orderStatusName,
-	    String payDate, String deliveryDate);
+    CommodityOrderForm findOne(int id);
 
-    List<Commodity> findCommoditiesByOrderID(String orderID);
+    void addCommodity(int id, int commodityID);
 
+    void deleteCommodity(int id, int commodityID);
 }

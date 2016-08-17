@@ -1,0 +1,19 @@
+package ua.service;
+
+import java.util.List;
+
+import ua.entity.CommodityOrder;
+import ua.entity.User;
+
+public interface UserService {
+
+    void save(User user);
+
+    User findByUserFullName(String userFullName);
+
+    void deleteByUserFullName(String userFullName);
+
+    List<User> findAll();
+
+    User findOne(int id);
+}

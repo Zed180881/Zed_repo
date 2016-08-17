@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import ua.entity.Commodity;
 import ua.entity.CommodityStatus;
 import ua.repository.CommodityStatusRepository;
 import ua.service.CommodityStatusService;
@@ -14,16 +13,14 @@ import ua.service.CommodityStatusService;
 @Service
 @Transactional
 public class CommodityStatusServiceImpl implements CommodityStatusService {
+    private CommodityStatus commodityStatus;
 
     @Autowired
     private CommodityStatusRepository commodityStatusRepository;
 
     @Override
-    public void save(String commodityStatusName) {
-	if (commodityStatusRepository
-		.findByCommodityStatusName(commodityStatusName) == null)
-	    commodityStatusRepository.save(new CommodityStatus(
-		    commodityStatusName));
+    public void save(CommodityStatus commodityStatus) {
+	commodityStatusRepository.save(commodityStatus);
     }
 
     @Override
@@ -34,10 +31,9 @@ public class CommodityStatusServiceImpl implements CommodityStatusService {
 
     @Override
     public void deleteByCommodityStatusName(String commodityStatusName) {
-	if (commodityStatusRepository
-		.findByCommodityStatusName(commodityStatusName) != null)
-	    commodityStatusRepository
-		    .delete(findByCommodityStatusName(commodityStatusName));
+	if ((commodityStatus = commodityStatusRepository
+		.findByCommodityStatusName(commodityStatusName)) != null)
+	    commodityStatusRepository.delete(commodityStatus);
     }
 
     @Override
@@ -46,22 +42,12 @@ public class CommodityStatusServiceImpl implements CommodityStatusService {
     }
 
     @Override
-    public void updateCommodityStatus(String commodityStatusName,
-	    String newCommodityStatusName) {
-	if (commodityStatusRepository
-		.findByCommodityStatusName(commodityStatusName) != null
-		&& !newCommodityStatusName.equals(""))
-	    commodityStatusRepository.findByCommodityStatusName(
-		    commodityStatusName).setCommodityStatusName(
-		    newCommodityStatusName);
-
+    public CommodityStatus findOne(int id) {
+	return commodityStatusRepository.findOne(id);
     }
 
     @Override
-    public List<Commodity> findCommoditiesByCommodityStatus(
-	    String commodityStatusName) {
-	return commodityStatusRepository.findByCommodityStatusName(
-		commodityStatusName).getCommodities();
+    public void deleteById(int id) {
+	commodityStatusRepository.delete(id);
     }
-
 }

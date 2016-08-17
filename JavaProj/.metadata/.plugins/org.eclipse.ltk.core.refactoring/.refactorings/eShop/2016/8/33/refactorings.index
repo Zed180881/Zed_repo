@@ -1,0 +1,15 @@
+1470759622452	Rename method 'showCategory'
+1470814635348	Rename method 'showCommodityStatus'
+1470814652920	Rename method 'showOrderStatus'
+1470814668393	Rename method 'showProducer'
+1470814981586	Rename method 'showUser'
+1470814992220	Rename method 'showCommodity'
+1470815002714	Rename method 'showCommodityOrder'
+1470815253993	Rename local variable 'name'
+1471004411004	Copy compilation unit
+1471004439146	Rename field 'categoryService'
+1471004451870	Rename local variable 'categoryService'
+1471004570024	Copy compilation unit
+1471012309139	Copy compilation unit
+1471012495374	Copy compilation unit
+1471012591756	Copy compilation unit

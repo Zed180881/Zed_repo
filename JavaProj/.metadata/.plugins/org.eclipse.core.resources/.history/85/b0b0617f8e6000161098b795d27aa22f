@@ -1,0 +1,25 @@
+package ua.form;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import ua.entity.Commodity;
+import ua.entity.OrderStatus;
+import ua.entity.User;
+
+public class CommodityOrderForm {
+    
+    private int id;
+
+    private User user;
+    
+    private OrderStatus orderStatus;
+
+    private String orderDate;
+
+    private String payDate;
+
+    private String deliveryDate;
+
+}

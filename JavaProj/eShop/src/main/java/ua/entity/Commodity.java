@@ -8,10 +8,13 @@ import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Index;
 import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
+import javax.persistence.Table;
 
 @Entity
+@Table(indexes=@Index(columnList="model"))
 public class Commodity {
 
     private int id;
@@ -53,7 +56,7 @@ public class Commodity {
 	return id;
     }
 
-    @ManyToOne(fetch = FetchType.EAGER)
+    @ManyToOne(fetch = FetchType.LAZY)
     public Category getCategory() {
 	return category;
     }
@@ -62,7 +65,7 @@ public class Commodity {
 	return model;
     }
 
-    @ManyToOne(fetch = FetchType.EAGER)
+    @ManyToOne(fetch = FetchType.LAZY)
     public Producer getProducer() {
 	return producer;
     }
@@ -79,12 +82,12 @@ public class Commodity {
 	return warranty;
     }
 
-    @ManyToOne(fetch = FetchType.EAGER)
+    @ManyToOne(fetch = FetchType.LAZY)
     public CommodityStatus getCommodityStatus() {
 	return commodityStatus;
     }
 
-    @ManyToMany(fetch = FetchType.EAGER, mappedBy = "commodities")
+    @ManyToMany(fetch = FetchType.LAZY, mappedBy = "commodities")
     public List<CommodityOrder> getCommodityOrders() {
 	return commodityOrders;
     }

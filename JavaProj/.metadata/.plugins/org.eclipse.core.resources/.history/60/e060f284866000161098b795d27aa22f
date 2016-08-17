@@ -1,0 +1,5 @@
+package ua.service.implementation.editor;
+
+public class CategoryEditor {
+
+}

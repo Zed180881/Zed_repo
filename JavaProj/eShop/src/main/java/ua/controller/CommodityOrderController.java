@@ -1,13 +1,30 @@
 package ua.controller;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.WebDataBinder;
+import org.springframework.web.bind.annotation.InitBinder;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
 
+import ua.entity.Commodity;
+import ua.entity.OrderStatus;
+import ua.entity.User;
+import ua.form.CommodityOrderForm;
 import ua.service.CommodityOrderService;
+import ua.service.CommodityService;
+import ua.service.OrderStatusService;
+import ua.service.UserService;
+import ua.service.implementation.editor.CommodityEditor;
+import ua.service.implementation.editor.OrderStatusEditor;
+import ua.service.implementation.editor.UserEditor;
+import ua.service.implementation.validators.CommodityOrderValidator;
 
 @Controller
 public class CommodityOrderController {
@@ -15,21 +32,75 @@ public class CommodityOrderController {
     @Autowired
     private CommodityOrderService commodityOrderService;
 
+    @Autowired
+    private UserService userService;
+
+    @Autowired
+    private CommodityService commodityService;
+
+    @Autowired
+    private OrderStatusService orderStatusService;
+
+    @InitBinder("commodityOrder")
+    protected void initBinder(WebDataBinder binder) {
+	binder.setValidator(new CommodityOrderValidator(commodityOrderService));
+	binder.registerCustomEditor(User.class, new UserEditor(userService));
+	binder.registerCustomEditor(OrderStatus.class, new OrderStatusEditor(
+		orderStatusService));
+	binder.registerCustomEditor(Commodity.class, new CommodityEditor(
+		commodityService));
+    }
+
+    @ModelAttribute("commodityOrder")
+    public CommodityOrderForm getCommodityOrderForm() {
+	return new CommodityOrderForm();
+    }
+
     @RequestMapping("/admin/order")
     public String showCommodityOrder(Model model) {
 	model.addAttribute("commodityOrders", commodityOrderService.findAll());
+	model.addAttribute("users", userService.findAll());
+	model.addAttribute("commodities", commodityService.findAll());
+	model.addAttribute("orderStatuses", orderStatusService.findAll());
 	return "adminCommodityOrder";
     }
 
     @RequestMapping(value = "/admin/order", method = RequestMethod.POST)
-    public String showCommodityOrder(@RequestParam String userName,
-	    String orderStatusName, String orderDate, String payDate,
-	    String deliveryDate, String commodityModel1,
-	    String commodityModel2, String commodityModel3,
-	    String commodityModel4, String commodityModel5) {
-	commodityOrderService.save(userName, orderStatusName, orderDate,
-		payDate, deliveryDate, commodityModel1, commodityModel2,
-		commodityModel3, commodityModel4, commodityModel5);
+    public String saveCommodityOrder(
+	    @ModelAttribute("commodityOrder") @Valid CommodityOrderForm commodityOrderForm,
+	    BindingResult br, Model model) {
+	if (br.hasErrors()) {
+	    model.addAttribute("commodityOrders",
+		    commodityOrderService.findAll());
+	    model.addAttribute("users", userService.findAll());
+	    model.addAttribute("commodities", commodityService.findAll());
+	    model.addAttribute("orderStatuses", orderStatusService.findAll());
+	    return "adminCommodityOrder";
+	}
+	commodityOrderService.save(commodityOrderForm);
+	return "redirect:/admin/order";
+    }
+
+    @RequestMapping(value = "/admin/order/delete/{id}")
+    public String deleteCommodityOrder(@PathVariable int id) {
+	commodityOrderService.deleteById(id);
+	return "redirect:/admin/order";
+    }
+
+    @RequestMapping("/admin/order/update/{id}")
+    public String updateCommodityOrder(@PathVariable int id, Model model) {
+	model.addAttribute("commodityOrder", commodityOrderService.findOne(id));
+	model.addAttribute("commodityOrders", commodityOrderService.findAll());
+	model.addAttribute("users", userService.findAll());
+	model.addAttribute("commodities", commodityService.findAll());
+	model.addAttribute("orderStatuses", orderStatusService.findAll());
+	return "adminCommodityOrder";
+    }
+
+    @RequestMapping(value = "/admin/order/delete/{orderId}/{commodityId}")
+    public String deleteCommodityFromOrder(@PathVariable int orderId,
+	    @PathVariable int commodityId) {
+	commodityOrderService.deleteCommodity(orderId, commodityId);
 	return "redirect:/admin/order";
     }
 }

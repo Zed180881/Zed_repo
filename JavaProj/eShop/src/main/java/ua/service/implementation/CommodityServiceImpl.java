@@ -6,11 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import ua.entity.Category;
 import ua.entity.Commodity;
-import ua.entity.CommodityOrder;
-import ua.entity.CommodityStatus;
-import ua.entity.Producer;
+import ua.form.CommodityForm;
 import ua.repository.CategoryRepository;
 import ua.repository.CommodityRepository;
 import ua.repository.CommodityStatusRepository;
@@ -20,6 +17,8 @@ import ua.service.CommodityService;
 @Service
 @Transactional
 public class CommodityServiceImpl implements CommodityService {
+
+    private Commodity commodity;
 
     @Autowired
     private CommodityRepository commodityRepository;
@@ -34,60 +33,17 @@ public class CommodityServiceImpl implements CommodityService {
     private CommodityStatusRepository commodityStatusRepository;
 
     @Override
-    public void save(String categoryName, String model, String producerName,
-	    int quantity, double price, String statusName, int warranty) {
-	if (commodityRepository.findByModel(model) == null) {
-	    Commodity commodity = new Commodity();
-	    Category category = categoryRepository
-		    .findByCategoryName(categoryName);
-	    if (category != null)
-		commodity.setCategory(category);
-	    else {
-		System.out.println("Model not found");
-		return;
-	    }
-	    Producer producer = producerRepository
-		    .findByProducerName(producerName);
-	    if (producer != null)
-		commodity.setProducer(producer);
-	    else {
-		System.out.println("Producer not found");
-		return;
-	    }
-	    if (quantity >= 0)
-		commodity.setQuantity(quantity);
-	    else {
-		System.out.println("Invalid Quantity");
-		return;
-	    }
-	    if (price > 0)
-		commodity.setPrice(price);
-	    else {
-		System.out.println("Invalid Price");
-		return;
-	    }
-	    CommodityStatus commodityStatus = commodityStatusRepository
-		    .findByCommodityStatusName(statusName);
-	    if (commodityStatus != null)
-		commodity.setCommodityStatus(commodityStatus);
-	    else {
-		System.out.println("Commodity Status not found");
-		return;
-	    }
-	    if (warranty >= 0)
-		commodity.setWarranty(warranty);
-	    else {
-		System.out.println("Invalid Warranty");
-		return;
-	    }
-	    if (!model.equals(""))
-		commodity.setModel(model);
-	    else {
-		System.out.println("Invalid ModelName");
-		return;
-	    }
-	    commodityRepository.save(commodity);
-	}
+    public void save(CommodityForm commodityForm) {
+	commodity = new Commodity();
+	commodity.setId(commodityForm.getId());
+	commodity.setModel(commodityForm.getModel());
+	commodity.setCategory(commodityForm.getCategory());
+	commodity.setCommodityStatus(commodityForm.getCommodityStatus());
+	commodity.setPrice(Double.valueOf(commodityForm.getPrice()));
+	commodity.setProducer(commodityForm.getProducer());
+	commodity.setQuantity(Integer.valueOf(commodityForm.getQuantity()));
+	commodity.setWarranty(Integer.valueOf(commodityForm.getWarranty()));
+	commodityRepository.save(commodity);
     }
 
     @Override
@@ -97,8 +53,8 @@ public class CommodityServiceImpl implements CommodityService {
 
     @Override
     public void deleteByCommodityModel(String commodityModel) {
-	if (commodityRepository.findByModel(commodityModel) != null)
-	    commodityRepository.delete(findByCommodityModel(commodityModel));
+	if ((commodity = commodityRepository.findByModel(commodityModel)) != null)
+	    commodityRepository.delete(commodity);
     }
 
     @Override
@@ -107,44 +63,27 @@ public class CommodityServiceImpl implements CommodityService {
     }
 
     @Override
-    public void updateCommodity(String commodityModel, String categoryName,
-	    String model, String producerName, int quantity, double price,
-	    String statusName, int warranty) {
-	if (commodityRepository.findByModel(commodityModel) != null) {
-	    Category category = categoryRepository
-		    .findByCategoryName(categoryName);
-	    if (category != null)
-		commodityRepository.findByModel(commodityModel).setCategory(
-			category);
-	    Producer producer = producerRepository
-		    .findByProducerName(producerName);
-	    if (producer != null)
-		commodityRepository.findByModel(commodityModel).setProducer(
-			producer);
-	    if (quantity >= 0)
-		commodityRepository.findByModel(commodityModel).setQuantity(
-			quantity);
-	    if (price > 0)
-		commodityRepository.findByModel(commodityModel).setPrice(price);
-	    CommodityStatus commodityStatus = commodityStatusRepository
-		    .findByCommodityStatusName(statusName);
-	    if (commodityStatus != null)
-		commodityRepository.findByModel(commodityModel)
-			.setCommodityStatus(commodityStatus);
-	    if (warranty >= 0)
-		commodityRepository.findByModel(commodityModel).setWarranty(
-			warranty);
-	    if (!model.equals(""))
-		commodityRepository.findByModel(commodityModel).setModel(model);
-	}
-
+    public CommodityForm findOneForm(int id) {
+	commodity = commodityRepository.findOne(id);
+	CommodityForm commodityForm = new CommodityForm();
+	commodityForm.setId(commodity.getId());
+	commodityForm.setCategory(commodity.getCategory());
+	commodityForm.setCommodityStatus(commodity.getCommodityStatus());
+	commodityForm.setModel(commodity.getModel());
+	commodityForm.setPrice(String.valueOf(commodity.getPrice()));
+	commodityForm.setProducer(commodity.getProducer());
+	commodityForm.setQuantity(String.valueOf(commodity.getQuantity()));
+	commodityForm.setWarranty(String.valueOf(commodity.getWarranty()));
+	return commodityForm;
     }
 
     @Override
-    public List<CommodityOrder> findCommodityOrdersByCommodityModel(
-	    String commodityModel) {
-	return commodityRepository.findByModel(commodityModel)
-		.getCommodityOrders();
+    public Commodity findOne(int id) {
+	return commodityRepository.findOne(id);
     }
 
+    @Override
+    public void deleteById(int id) {
+	commodityRepository.delete(id);
+    }
 }

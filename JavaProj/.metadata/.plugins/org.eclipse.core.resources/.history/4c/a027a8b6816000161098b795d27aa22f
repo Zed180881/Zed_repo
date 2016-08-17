@@ -1,0 +1,25 @@
+package ua.form;
+
+import ua.entity.Category;
+import ua.entity.CommodityStatus;
+import ua.entity.Producer;
+
+public class CommodityForm {
+    
+    private int id;
+
+    private Category category;
+
+    private String model;
+
+    private Producer producer;
+
+    private String quantity;
+
+    private String price;
+
+    private CommodityStatus commodityStatus;
+
+    private String warranty;
+
+}

@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import ua.entity.CommodityOrder;
 import ua.entity.User;
 import ua.repository.UserRepository;
 import ua.service.UserService;
@@ -14,53 +13,14 @@ import ua.service.UserService;
 @Service
 @Transactional
 public class UserServiceImpl implements UserService {
+    private User user;
 
     @Autowired
     private UserRepository userRepository;
 
     @Override
-    public void save(String fullName, String login, String password,
-	    String mail, String phone, String address) {
-	if (userRepository.findByFullName(fullName) == null) {
-	    User user = new User();
-	    if (!fullName.equals(""))
-		user.setFullName(fullName);
-	    else {
-		System.out.println("Invalid user name");
-		return;
-	    }
-	    if (!login.equals(""))
-		user.setLogin(login);
-	    else {
-		System.out.println("Invalid login");
-		return;
-	    }
-	    if (!password.equals(""))
-		user.setPassword(password);
-	    else {
-		System.out.println("Invalid password");
-		return;
-	    }
-	    if (!mail.equals(""))
-		user.setMail(mail);
-	    else {
-		System.out.println("Invalid mail");
-		return;
-	    }
-	    if (!phone.equals(""))
-		user.setPhone(phone);
-	    else {
-		System.out.println("Invalid phone");
-		return;
-	    }
-	    if (!address.equals(""))
-		user.setAddress(address);
-	    else {
-		System.out.println("Invalid address");
-		return;
-	    }
-	    userRepository.save(user);
-	}
+    public void save(User user) {
+	userRepository.save(user);
 
     }
 
@@ -71,8 +31,8 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void deleteByUserFullName(String userFullName) {
-	if (userRepository.findByFullName(userFullName) != null)
-	    userRepository.delete(findByUserFullName(userFullName));
+	if ((user = userRepository.findByFullName(userFullName)) != null)
+	    userRepository.delete(user);
     }
 
     @Override
@@ -81,31 +41,22 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public void updateUser(String userFullName, String userNewfullName,
-	    String login, String password, String mail, String phone,
-	    String address) {
-	if (userRepository.findByFullName(userFullName) != null) {
-	    if (!userNewfullName.equals(""))
-		userRepository.findByFullName(userFullName).setFullName(
-			userNewfullName);
-	    if (!login.equals(""))
-		userRepository.findByFullName(userFullName).setLogin(login);
-	    if (!password.equals(""))
-		userRepository.findByFullName(userFullName).setPassword(
-			password);
-	    if (!mail.equals(""))
-		userRepository.findByFullName(userFullName).setMail(mail);
-	    if (!phone.equals(""))
-		userRepository.findByFullName(userFullName).setPhone(phone);
-	    if (!address.equals(""))
-		userRepository.findByFullName(userFullName).setAddress(address);
-	}
-
+    public User findOne(int id) {
+	return userRepository.findOne(id);
     }
 
     @Override
-    public List<CommodityOrder> findCommodityOrdersByUser(String userFullName) {
-	return userRepository.findByFullName(userFullName).getCommodityOrders();
+    public void deleteById(int id) {
+	userRepository.delete(id);
     }
 
+    @Override
+    public User findByUserLogin(String login) {
+	return userRepository.findByLogin(login);
+    }
+
+    @Override
+    public User findByUserMail(String mail) {
+	return userRepository.findByMail(mail);
+    }
 }

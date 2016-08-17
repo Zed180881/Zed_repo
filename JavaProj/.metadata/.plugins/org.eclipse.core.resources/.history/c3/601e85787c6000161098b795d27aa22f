@@ -1,0 +1,99 @@
+package ua.service.implementation;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import ua.entity.Commodity;
+import ua.entity.CommodityOrder;
+import ua.entity.OrderStatus;
+import ua.entity.User;
+import ua.repository.CommodityOrderRepository;
+import ua.repository.CommodityRepository;
+import ua.repository.OrderStatusRepository;
+import ua.repository.UserRepository;
+import ua.service.CommodityOrderService;
+
+@Service
+@Transactional
+public class CommodityOrderServiceImpl implements CommodityOrderService {
+
+    private SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy"); // 05.09.2015
+    private CommodityOrder commodityOrder;
+
+    @Autowired
+    private CommodityOrderRepository commodityOrderRepository;
+
+    @Autowired
+    private OrderStatusRepository orderStatusRepository;
+
+    @Autowired
+    private UserRepository userRepository;
+
+    @Autowired
+    private CommodityRepository commodityRepository;
+
+    @Override
+    public void save(CommodityOrder commodityOrder) {
+	commodityOrder.setSum(commodityOrder.calculateSum());
+	commodityOrderRepository.save(commodityOrder);
+    }
+
+    @Override
+    public CommodityOrder findByOrderID(String orderID) {
+	return commodityOrderRepository.findOne(Integer.parseInt(orderID));
+    }
+
+    @Override
+    @Transactional
+    public void deleteByOrderID(String orderID) {
+	if ((commodityOrder = commodityOrderRepository.findOne(Integer.parseInt(orderID))) != null){
+	    commodityOrder.getCommodities().clear();
+	    commodityOrderRepository.save(commodityOrder);
+	    commodityOrderRepository.delete(Integer.parseInt(orderID));
+	}
+	    
+	    
+    }
+
+    @Override
+    public List<CommodityOrder> findAll() {
+	return commodityOrderRepository.findAll();
+    }
+
+    @Override
+    public void updateCommodityOrder(String orderID, String orderStatusName,
+	    String payDate, String deliveryDate) {
+	if ((commodityOrder = commodityOrderRepository.findOne(Integer
+		.parseInt(orderID))) != null) {
+
+	    OrderStatus orderStatus = orderStatusRepository
+		    .findByOrderStatusName(orderStatusName);
+	    if (orderStatus != null)
+		commodityOrder.setOrderStatus(orderStatus);
+
+	    try {
+		if (!payDate.equals(""))
+		    commodityOrder.setPayDate(sdf.parse(payDate));
+		if (!deliveryDate.equals(""))
+		    commodityOrder.setDeliveryDate(sdf.parse(deliveryDate));
+	    } catch (ParseException e) {
+		System.out.println("Error parsing date.");
+		System.out.println("Please enter date in format dd.mm.yyyy");
+	    }
+	}
+
+    }
+
+    @Override
+    public List<Commodity> findCommoditiesByOrderID(String orderID) {
+	return commodityOrderRepository.findOne(Integer.parseInt(orderID))
+		.getCommodities();
+    }
+
+}

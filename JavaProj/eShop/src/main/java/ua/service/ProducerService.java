@@ -2,21 +2,19 @@ package ua.service;
 
 import java.util.List;
 
-import ua.entity.Commodity;
 import ua.entity.Producer;
 
 public interface ProducerService {
 
-    void save(String producerName);
+    void save(Producer producer);
 
     Producer findByProducerName(String producerName);
 
     void deleteByProducerName(String producerName);
+    
+    void deleteById(int id);
 
     List<Producer> findAll();
 
-    void updateProducer(String producerName, String newProducerName);
-
-    List<Commodity> findCommoditiesByProducer(String producerName);
-
+    Producer findOne(int id);
 }

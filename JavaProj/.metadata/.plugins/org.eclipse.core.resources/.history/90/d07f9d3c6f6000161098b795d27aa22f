@@ -1,0 +1,65 @@
+package ua.service.implementation;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import ua.entity.Category;
+import ua.entity.Commodity;
+import ua.repository.CategoryRepository;
+import ua.service.CategoryService;
+
+@Service
+@Transactional
+public class CategoryServiceImpl implements CategoryService {
+    private Category category;
+
+    @Autowired
+    private CategoryRepository categoryRepository;
+
+    @Override
+    public void save(Category category) {
+	if (categoryRepository.findByCategoryName(category.getCategoryName()) == null)
+	    categoryRepository.save(category);
+    }
+
+    @Override
+    public Category findByCategoryName(String categoryName) {
+	return categoryRepository.findByCategoryName(categoryName);
+    }
+
+    @Override
+    public void deleteByCategoryName(String categoryName) {
+	// categoryName = new String(categoryName.getBytes("ISO-8859-1"),
+	// "UTF-8");
+	if ((category = categoryRepository.findByCategoryName(categoryName)) != null)
+	    categoryRepository.delete(category);
+    }
+
+    @Override
+    public List<Category> findAll() {
+	return categoryRepository.findAll();
+    }
+
+    @Override
+    public void updateCategory(String categoryName, String newCategoryName) {
+	if ((category = categoryRepository.findByCategoryName(categoryName)) != null
+		&& !newCategoryName.equals(""))
+	    category.setCategoryName(newCategoryName);
+
+    }
+
+    @Override
+    public List<Commodity> findCommoditiesByCategory(String categoryName) {
+	return categoryRepository.findByCategoryName(categoryName)
+		.getCommodities();
+    }
+
+    @Override
+    public Category findOne(int id) {
+	return categoryRepository.findOne(id);
+    }
+
+}

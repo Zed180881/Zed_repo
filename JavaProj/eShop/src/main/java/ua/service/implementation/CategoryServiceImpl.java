@@ -7,21 +7,20 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import ua.entity.Category;
-import ua.entity.Commodity;
 import ua.repository.CategoryRepository;
 import ua.service.CategoryService;
 
 @Service
 @Transactional
 public class CategoryServiceImpl implements CategoryService {
+    private Category category;
 
     @Autowired
     private CategoryRepository categoryRepository;
 
     @Override
-    public void save(String categoryName) {
-	if (categoryRepository.findByCategoryName(categoryName) == null)
-	    categoryRepository.save(new Category(categoryName));
+    public void save(Category category) {
+	categoryRepository.save(category);
     }
 
     @Override
@@ -31,8 +30,8 @@ public class CategoryServiceImpl implements CategoryService {
 
     @Override
     public void deleteByCategoryName(String categoryName) {
-	if (categoryRepository.findByCategoryName(categoryName) != null)
-	    categoryRepository.delete(findByCategoryName(categoryName));
+	if ((category = categoryRepository.findByCategoryName(categoryName)) != null)
+	    categoryRepository.delete(category);
     }
 
     @Override
@@ -41,18 +40,14 @@ public class CategoryServiceImpl implements CategoryService {
     }
 
     @Override
-    public void updateCategory(String categoryName, String newCategoryName) {
-	if (categoryRepository.findByCategoryName(categoryName) != null
-		&& !newCategoryName.equals(""))
-	    categoryRepository.findByCategoryName(categoryName)
-		    .setCategoryName(newCategoryName);
-
+    public Category findOne(int id) {
+	return categoryRepository.findOne(id);
     }
 
     @Override
-    public List<Commodity> findCommoditiesByCategory(String categoryName) {
-	return categoryRepository.findByCategoryName(categoryName)
-		.getCommodities();
+    public void deleteById(int id) {
+	categoryRepository.delete(id);
+	
     }
 
 }

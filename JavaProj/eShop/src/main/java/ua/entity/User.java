@@ -7,9 +7,13 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Index;
 import javax.persistence.OneToMany;
+import javax.persistence.Table;
 
 @Entity
+@Table(indexes = { @Index(columnList = "fullName"),
+	@Index(columnList = "login"), @Index(columnList = "mail") })
 public class User {
 
     private int id;

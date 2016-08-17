@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import ua.entity.CommodityOrder;
 import ua.entity.OrderStatus;
 import ua.repository.OrderStatusRepository;
 import ua.service.OrderStatusService;
@@ -14,14 +13,14 @@ import ua.service.OrderStatusService;
 @Service
 @Transactional
 public class OrderStatusServiceImpl implements OrderStatusService {
+    private OrderStatus orderStatus;
 
     @Autowired
     private OrderStatusRepository orderStatusRepository;
 
     @Override
-    public void save(String orderStatusName) {
-	if (orderStatusRepository.findByOrderStatusName(orderStatusName) == null)
-	    orderStatusRepository.save(new OrderStatus(orderStatusName));
+    public void save(OrderStatus orderStatus) {
+	orderStatusRepository.save(orderStatus);
     }
 
     @Override
@@ -31,9 +30,9 @@ public class OrderStatusServiceImpl implements OrderStatusService {
 
     @Override
     public void deleteByOrderStatusName(String orderStatusName) {
-	if (orderStatusRepository.findByOrderStatusName(orderStatusName) != null)
-	    orderStatusRepository
-		    .delete(findByOrderStatusName(orderStatusName));
+	if ((orderStatus = orderStatusRepository
+		.findByOrderStatusName(orderStatusName)) != null)
+	    orderStatusRepository.delete(orderStatus);
     }
 
     @Override
@@ -42,20 +41,13 @@ public class OrderStatusServiceImpl implements OrderStatusService {
     }
 
     @Override
-    public void updateOrderStatus(String orderStatusName,
-	    String newOrderStatusName) {
-	if (orderStatusRepository.findByOrderStatusName(orderStatusName) != null
-		&& !newOrderStatusName.equals(""))
-	    orderStatusRepository.findByOrderStatusName(orderStatusName)
-		    .setOrderStatusName(newOrderStatusName);
-
+    public OrderStatus findOne(int id) {
+	return orderStatusRepository.findOne(id);
     }
 
     @Override
-    public List<CommodityOrder> findCommodityOrdersByOrderStatus(
-	    String orderStatusName) {
-	return orderStatusRepository.findByOrderStatusName(orderStatusName)
-		.getCommodityOrders();
+    public void deleteById(int id) {
+	orderStatusRepository.delete(id);
     }
 
 }

@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import ua.entity.Commodity;
 import ua.entity.Producer;
 import ua.repository.ProducerRepository;
 import ua.service.ProducerService;
@@ -14,14 +13,14 @@ import ua.service.ProducerService;
 @Service
 @Transactional
 public class ProducerServiceImpl implements ProducerService {
+    private Producer producer;
 
     @Autowired
     private ProducerRepository producerRepository;
 
     @Override
-    public void save(String producerName) {
-	if (producerRepository.findByProducerName(producerName) == null)
-	    producerRepository.save(new Producer(producerName));
+    public void save(Producer producer) {
+	producerRepository.save(producer);
     }
 
     @Override
@@ -31,8 +30,8 @@ public class ProducerServiceImpl implements ProducerService {
 
     @Override
     public void deleteByProducerName(String producerName) {
-	if (producerRepository.findByProducerName(producerName) != null)
-	    producerRepository.delete(findByProducerName(producerName));
+	if ((producer = producerRepository.findByProducerName(producerName)) != null)
+	    producerRepository.delete(producer);
     }
 
     @Override
@@ -41,17 +40,12 @@ public class ProducerServiceImpl implements ProducerService {
     }
 
     @Override
-    public void updateProducer(String producerName, String newProducerName) {
-	if (producerRepository.findByProducerName(producerName) != null
-		&& !newProducerName.equals(""))
-	    producerRepository.findByProducerName(producerName)
-		    .setProducerName(newProducerName);
+    public Producer findOne(int id) {
+	return producerRepository.findOne(id);
     }
 
     @Override
-    public List<Commodity> findCommoditiesByProducer(String producerName) {
-	return producerRepository.findByProducerName(producerName)
-		.getCommodities();
+    public void deleteById(int id) {
+	producerRepository.delete(id);
     }
-
 }

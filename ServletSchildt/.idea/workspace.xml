@@ -1,0 +1,1542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f8e1ff9c-190a-4286-8ef3-5964a57ca6ee" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/AtomThread.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/AtomicDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/BarAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/BarDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/CDLDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/CallableDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/Consumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/ExgrDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/FJExperiment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/Factorial.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/ForkJoinDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/Hypot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/LockDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/LockThread.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/MakeString.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/MyPhaser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/MyThreadCB.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/MyThreadCDL.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/MyThreadExec.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/MyThreadPhaser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/MyThreadPhaser2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/PhaserDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/PhaserDemo2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/ProdCon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/Producer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/Q.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/RecurTaskDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/SemThread.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/Semdemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/Shared.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/SharedAtomic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/SimpExec.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/SqrtTransform.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/Sum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/SumFork.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/Transform.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter28/UseString.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter29/NamePhone.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter29/NamePhoneEMail.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter29/StreamDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter29/StreamDemo10.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter29/StreamDemo2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter29/StreamDemo3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter29/StreamDemo4.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter29/StreamDemo5.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter29/StreamDemo6.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter29/StreamDemo7.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter29/StreamDemo8.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter29/StreamDemo9.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter30/A.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter30/AddClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter30/AddServer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter30/AddServerImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter30/AddServerIntf.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter30/DateFormatDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter30/DateTimeDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter30/DateTimeDemo2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter30/DateTimeDemo3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter30/DateTimeDemo4.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter30/ReflectionDemo1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter30/ReflectionDemo2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter30/RegExpr.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter30/RegExpr2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter30/RegExpr3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter30/RegExpr4.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter30/RegExpr5.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter30/RegExpr6.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter30/RegExpr7.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter30/RegExpr8.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter30/RegExpr9.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter30/SimpleDateFormatDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part2/chapter30/TimeFormatDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part3/chapter31/EventDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part3/chapter31/MySwingApplet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part3/chapter31/PaintDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part3/chapter31/PaintPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part3/chapter31/SwingDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part3/chapter32/CitiesPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part3/chapter32/ColorsPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part3/chapter32/FlavorsPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part3/chapter32/JButtonDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part3/chapter32/JCheckBoxDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part3/chapter32/JComboBoxDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part3/chapter32/JLabelDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part3/chapter32/JListDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part3/chapter32/JRadioButtonDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part3/chapter32/JScrollPaneDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part3/chapter32/JTabbedPaneDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part3/chapter32/JTableDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part3/chapter32/JTextFieldDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part3/chapter32/JToggleButtonDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part3/chapter32/JTreeDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part3/chapter33/MenuDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part4/chapter34/DirectDrawDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part4/chapter34/JavaFXEventDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part4/chapter34/JavaFXLabelDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part4/chapter34/JavaFXSkel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part4/chapter35/ButtonImageDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part4/chapter35/CheckboxDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part4/chapter35/ComboBoxDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part4/chapter35/EffectsAndTransformsDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part4/chapter35/ImageDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part4/chapter35/LabelImageDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part4/chapter35/ListViewDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part4/chapter35/RadioButtonDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part4/chapter35/RadioButtonDemo2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part4/chapter35/ScrollPaneDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part4/chapter35/TextFieldDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part4/chapter35/ToggleButtonDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part4/chapter35/TreeViewDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part4/chapter36/MenuDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part5/chapter37/Colors.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part5/chapter37/ColorsBeanInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IdeaProjects/src/part5/chapter37/IntrospectorDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ServletSchildt_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ServletSchildt_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/zed/AddCookieServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/zed/ColorGetServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/zed/ColorPostServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/zed/DateServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/zed/GetCookiesServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/zed/HelloServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/zed/PostParametersServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/AddCookoie.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/ColorGet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/ColorPost.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/PostParameters.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/11/00454753b5550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/11/6043f741a4550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/12/70c26187605a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/13/0066c13bf05a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/13/20eda5aaff5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/13/a0241a2aa5550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/13/c0504309f65a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/14/4062bc27fa5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/15/4016df1dec5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/16/503d14c0d35a001610bca96196196fd6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/16/a04b40c7b5550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/17/3008a876615a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/17/90e0c484b7550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/1a/80c39da1a3550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/1a/e1c33b87605a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/1d/f00609128d550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/1e/3208a876615a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/1f/c0fe1e7c6d5a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/22/50debeef6c5a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/22/f055638cf05a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/24/7073420a055b00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/24/a0d51ed2b0550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/26/70bdf916f25a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/27/3408a876615a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/27/c0a7a5e993550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/28/50555d3cb5550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/29/10f578f4b8550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/2a/41dca076615a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/2c/30f4fcccb5550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/2c/80075d87605a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/2d/507bb7276d5a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/2e/46dca076615a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/2e/70aa2b1efe5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/2f/40a1c8ebb3550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/31/b07620dcb7550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/33/b07b7fa9b3550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/35/3097a576615a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/36/b0d7f56cff5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/37/3025f1f6b1550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/37/d095c7378f550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/38/8041db478d550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/38/d0b17cb4ff5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/39/0071bdaeda5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/39/53219c76615a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/39/9051bb1cfe5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/3a/d059cf55735a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/3a/d078868487550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/3c/3097f29b715a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/3c/802edfaff75a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/3d/4068435f95550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/3e/9004b71ba6550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/3e/b0367443b5550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/3f/d00d3e87605a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/4/90bd5a87605a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/40/50219c76615a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/40/8008348ff85a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/43/307b4479f45a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/44/30396e06715a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/44/a0637e99055b00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/45/60ed599fda5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/45/b0539e6f055b00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/47/801f0dda95550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/47/90e2dcd4f25a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/48/70e65ba8b7550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/4a/8041666a625a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/4a/90026a14a7550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/4b/20b5cdaa88550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/4b/3046d206f55a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/4b/90344944a2550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/4b/e0523987605a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/4c/109e73816a5a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/4c/7086024df45a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/4f/00ef74bbfc5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/50/3108a876615a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/51/602fa8e5f95a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/51/f0ad70b3dc5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/53/b0d6c1116d5a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/54/d0d7500df85a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/55/e03f6aa8fd5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/57/30da3478b5550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/57/3526a376615a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/58/404708dcfb5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/58/c0f63aaaa3550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/5b/a0853514f85a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/5d/50ea0feb8c550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/5e/3097cf91a3550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/5f/60039fdd96550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/6/d0d057beb0550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/60/0020bd91da5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/60/10569aea95550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/60/105c8e9bfe5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/60/a06ef8e6605a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/60/a0cd8885695a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/63/b0919cc2da5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/68/803661c1615a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/69/436b9e76615a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/6c/3043787ddb5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/6c/42dca076615a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/6f/3326a376615a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/6f/70949d536d5a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/6f/b0cfcfd0fb5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/6f/e0b46d01b4550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/70/907c5d6f93550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/70/d027ffb588550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/70/f260d586605a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/72/20ce03dc715a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/72/b0e2f8e0fa5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/72/e091b180ff5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/73/807079f193550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/74/704d9b5afa5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/75/50c7bc07735a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/75/70dba7a3715a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/78/4083077f8c550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/78/808e1511d85a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/79/10e37fcab1550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/79/5016ee0293550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/7a/60821fe7d35a001610bca96196196fd6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/7a/f0702c94b9550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/7a/f0cd6b408f550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/7b/60681e0ef55a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/7c/00302d69a6550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/7e/4042fa3fa1550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/7e/f081dc63a1550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/7e/f0bfe94af15a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/7f/1093381095550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/7f/a010509289550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/8/30bacc12715a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/80/100add39fa5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/80/2048b17c95550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/80/9022a9e5715a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/81/20443883fc5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/82/20c4f80db4550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/82/44dca076615a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/82/c00e7383f25a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/84/100152c9f95a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/84/b0876dd2db5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/84/e0ec1b98b4550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/85/80776c4c715a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/86/c0bed6af625a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/86/f017a577a2550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/8a/2062cab3b7550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/8a/20ba44a8a5550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/8a/416b9e76615a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/8c/e0cd47f5a4550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/8d/501999128a550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/8d/d0dc60a3705a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/8f/209c9839fc5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/8f/80563ca18b550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/90/e0fac0e5725a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/90/f0973487605a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/91/e0c7f51889550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/94/3026a376615a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/94/a065ded6f75a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/98/50def4d9005b00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/9a/52219c76615a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/9a/90decf1bb8550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/9b/c0d7654ba1550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/9c/b0452c7daf550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/9d/3226a376615a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/9d/40d944fd93550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/9e/2026084e715a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/9e/80c23eddb8550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/9f/908e2e3b715a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/9f/e0f4dc96f15a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/a/40c28b6687550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/a/c072946bda5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/a0/90ee4f96da5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/a1/0018d700a5550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/a2/60c8a4376d5a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/a2/8094dbce715a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/a4/102bfcbaa2550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/a4/3426a376615a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/a6/90f8c467f85a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/a7/7062f6fdd75a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/a8/702c6f2c8a550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/a9/1051f46cff5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/ac/60280c87605a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/ac/60c9f40cdd5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/ad/80e8205db8550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/af/1083e9a3b5550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/af/30fd3583db5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/af/f0083787605a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/b/a081fab793550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/b/b0c4cb0d6a5a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/b0/30070002015b00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/b0/e04c2cdb005b00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/b1/5032ea366a5a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/b1/60de3d64dc5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/b1/806f9741db5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/b2/d02413fb96550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/b4/c040db5289550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/b4/e0a26e68f45a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/b5/30cf8b4af65a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/b6/0006cbb9f05a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/b7/f014d88ab4550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/b8/00042e83a3550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/b8/3070182edb5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/b8/70f3eb2b005b00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/b9/20c9793093550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/b9/c04e2cfff55a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/ba/20da1287b5550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/bb/c0de1676f05a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/bc/10ea950ab4550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/bd/700a0f71f45a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/c0/202729bdda5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/c1/3626a376615a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/c1/f060d586605a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/c4/5063092cfc5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/c5/a0d6a84fb7550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/c5/e025aa5f625a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/c6/e010f6cdfd5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/c6/f01025088f550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/c7/60022491dc5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/c7/f0de279ab3550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/cb/e0c33b87605a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/cc/3079e72cfa5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/cc/a02d9f12a7550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/cc/b0785cbb725a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/cc/f02cda31f85a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/ce/704ab18fda5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/ce/b02734b1695a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/cf/80446ae4725a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/d0/20eaec156a5a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/d0/b009685ef65a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/d0/d09cd051b0550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/d1/002bd77eb9550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/d1/a0fbe38a715a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/d1/c081f77dab550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/d1/c092a28cf95a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/d2/5056721f715a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/d3/20556a2a035b00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/d3/3126a376615a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/d4/3508a876615a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/d6/30a22a7a045b00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/d7/8007860b95550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/d7/f0495f2cb6550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/dd/007a88b4f15a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/de/b0e0b62294550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/e0/b0a6e61a005b00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/e4/e0f40d50f85a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/e4/f160d586605a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/e5/b07121e995550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/e6/30cd2c828e550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/e6/d10d3e87605a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/e6/f0263287605a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/e8/90c890a6a5550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/e8/c0ea1d36f05a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/e9/805c8795dc5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/ea/60bc2b61dc5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/eb/90386a06d45a001610bca96196196fd6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/ec/3308a876615a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/ed/30c2850afe5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/f/2032525adc5a00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/f2/e0a52986a5550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/f4/70c1e0c0b7550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/fa/008ad2c392550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/fa/60ef207a8c550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/fa/800b9b55045b00161429a98ef029a444" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/fc/c02a55c18e550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/fc/e007d11792550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/fe/80c5e19087550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/fe/d0fac34a93550016159da6b4494b092f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.history/ff/90860bc5715a00161c2a8315b4f92b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/MyShop/.indexes/e4/b9/22/8c/4a/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/MyShop/.indexes/e4/b9/22/8c/9c/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/MyShop/.indexes/e4/b9/22/8c/b5/b2/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/MyShop/.indexes/e4/b9/22/8c/b5/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/2.tree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/.indexes/af/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/.indexes/e4/b9/22/4a/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/.indexes/e4/b9/22/9c/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/.indexes/e4/b9/22/b2/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/.indexes/e4/b9/22/b5/b2/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/.indexes/e4/b9/22/b5/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/.indexes/e4/b9/b3/a8/6e/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/.indexes/e4/b9/b3/a8/d6/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/.indexes/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/1.tree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.root/85.tree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/26522e0d83a422eed93329ece7565cfc/_a.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/26522e0d83a422eed93329ece7565cfc/_a_1.del" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/26522e0d83a422eed93329ece7565cfc/_b.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/26522e0d83a422eed93329ece7565cfc/_b_1.del" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/26522e0d83a422eed93329ece7565cfc/_c.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/26522e0d83a422eed93329ece7565cfc/_c_1.del" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/26522e0d83a422eed93329ece7565cfc/_d.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/26522e0d83a422eed93329ece7565cfc/_d_1.del" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/26522e0d83a422eed93329ece7565cfc/_e.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/26522e0d83a422eed93329ece7565cfc/_e_1.del" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/26522e0d83a422eed93329ece7565cfc/_f.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/26522e0d83a422eed93329ece7565cfc/_f_1.del" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/26522e0d83a422eed93329ece7565cfc/_g.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/26522e0d83a422eed93329ece7565cfc/segments_h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/6bab9ee453c9cd3f761f53c7fabf0eb9/segments_b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_1o.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_1o_2.del" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_1p.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_1p_1.del" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_1q.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_1r.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_1r_1.del" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_1s.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_1s_1.del" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_1t.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_1t_1.del" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_1u.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_1v.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_1w.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments_1s" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/fda15738b714be67e8d16c0edca26d6b/segments_3o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/logs/localhost_access_log.2016-08-05.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminCategory_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminCategory_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel_jsp.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/.indexes/b3/history.index" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/.indexes/b3/history.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/.indexes/e4/b9/22/8c/4a/history.index" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/.indexes/e4/b9/22/8c/4a/history.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/.indexes/e4/b9/22/8c/9c/history.index" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/.indexes/e4/b9/22/8c/9c/history.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/.indexes/e4/b9/22/8c/b5/b2/history.index" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/.indexes/e4/b9/22/8c/b5/b2/history.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/.indexes/e4/b9/22/8c/b5/history.index" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/.indexes/e4/b9/22/8c/b5/history.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/.indexes/e4/b9/b3/a8/6e/f5/history.index" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/.indexes/e4/b9/b3/a8/6e/f5/history.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/.indexes/e4/b9/b3/a8/e/history.index" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/.indexes/e4/b9/b3/a8/e/history.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/.indexes/e4/b9/b3/a8/history.index" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/.indexes/e4/b9/b3/a8/history.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/.indexes/properties.index" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/.indexes/properties.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/org.eclipse.jdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/org.eclipse.wst.jsdt.core/state.dat" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/org.eclipse.wst.jsdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/26522e0d83a422eed93329ece7565cfc/segments.gen" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/26522e0d83a422eed93329ece7565cfc/segments.gen" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/6bab9ee453c9cd3f761f53c7fabf0eb9/segments.gen" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/6bab9ee453c9cd3f761f53c7fabf0eb9/segments.gen" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/fda15738b714be67e8d16c0edca26d6b/segments.gen" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/fda15738b714be67e8d16c0edca26d6b/segments.gen" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/publish/publish0.dat" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/publish/publish0.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminCategory_jsp.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminCategory_jsp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminCommodityOrder_jsp.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminCommodityOrder_jsp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminCommodityStatus_jsp.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminCommodityStatus_jsp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminCommodity_jsp.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminCommodity_jsp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminOrderStatus_jsp.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminOrderStatus_jsp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminProducer_jsp.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminProducer_jsp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminUser_jsp.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminUser_jsp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/controller/CategoryController.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/controller/CategoryController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/controller/CommodityController.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/controller/CommodityController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/controller/CommodityOrderController.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/controller/CommodityOrderController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/controller/CommodityStatusController.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/controller/CommodityStatusController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/controller/IndexController.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/controller/IndexController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/controller/OrderStatusController.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/controller/OrderStatusController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/controller/ProducerController.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/controller/ProducerController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/controller/UserController.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/entity/Category.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/entity/Category.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/entity/Commodity.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/entity/Commodity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/entity/CommodityOrder.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/entity/CommodityOrder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/entity/CommodityStatus.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/entity/CommodityStatus.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/entity/OrderStatus.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/entity/OrderStatus.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/entity/Producer.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/entity/Producer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/entity/User.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/entity/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/repository/CategoryRepository.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/repository/CategoryRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/repository/CommodityOrderRepository.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/repository/CommodityOrderRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/repository/CommodityRepository.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/repository/CommodityRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/repository/CommodityStatusRepository.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/repository/CommodityStatusRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/repository/OrderStatusRepository.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/repository/OrderStatusRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/repository/ProducerRepository.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/repository/ProducerRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/repository/UserRepository.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/repository/UserRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/service/CategoryService.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/service/CategoryService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/service/CommodityOrderService.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/service/CommodityOrderService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/service/CommodityService.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/service/CommodityService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/service/CommodityStatusService.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/service/CommodityStatusService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/service/OrderStatusService.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/service/OrderStatusService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/service/ProducerService.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/service/ProducerService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/service/UserService.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/service/implementation/CategoryServiceImpl.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/service/implementation/CategoryServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/service/implementation/CommodityOrderServiceImpl.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/service/implementation/CommodityOrderServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/service/implementation/CommodityServiceImpl.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/service/implementation/CommodityServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/service/implementation/CommodityStatusServiceImpl.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/service/implementation/CommodityStatusServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/service/implementation/OrderStatusServiceImpl.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/service/implementation/OrderStatusServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/service/implementation/ProducerServiceImpl.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/service/implementation/ProducerServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/service/implementation/UserServiceImpl.class" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/classes/ua/service/implementation/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.validation/dep.index" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.validation/dep.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProjects/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../IdeaProjects/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.log" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/org.eclipse.egit.core/GitProjectData.properties" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/org.eclipse.egit.core/GitProjectData.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/org.eclipse.egit.core/GitProjectData.properties" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/org.eclipse.egit.core/GitProjectData.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.browser.prefs" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.browser.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.internet.cache/cache.xml" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.internet.cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/publish.xml" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/publish.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/publish.txt" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/publish.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/layout/classic_jsp.java" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/layout/classic_jsp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/layout/footer_jsp.java" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/layout/footer_jsp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/layout/header_jsp.java" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/layout/header_jsp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminCategory_jsp.java" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminCategory_jsp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminCommodityOrder_jsp.java" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminCommodityOrder_jsp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminCommodityStatus_jsp.java" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminCommodityStatus_jsp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminCommodity_jsp.java" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminCommodity_jsp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminOrderStatus_jsp.java" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminOrderStatus_jsp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminPanel_jsp.java" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminPanel_jsp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminProducer_jsp.java" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminProducer_jsp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminUser_jsp.java" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/adminPanel/adminUser_jsp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/index_jsp.java" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/_/org/apache/jsp/WEB_002dINF/views/index_jsp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/META-INF/maven/pjotr.zeljonka/eShop/pom.properties" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/META-INF/maven/pjotr.zeljonka/eShop/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/defs/general.xml" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/defs/general.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/views/adminPanel/adminCategory.jsp" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/views/adminPanel/adminCategory.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/views/adminPanel/adminCommodity.jsp" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/views/adminPanel/adminCommodity.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/views/adminPanel/adminCommodityOrder.jsp" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/views/adminPanel/adminCommodityOrder.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/views/adminPanel/adminCommodityStatus.jsp" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/views/adminPanel/adminCommodityStatus.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/views/adminPanel/adminOrderStatus.jsp" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/views/adminPanel/adminOrderStatus.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/views/adminPanel/adminProducer.jsp" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/views/adminPanel/adminProducer.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/views/adminPanel/adminUser.jsp" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/eShop/WEB-INF/views/adminPanel/adminUser.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/version.ini" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/version.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/Servers/.settings/org.eclipse.wst.server.core.prefs" afterPath="$PROJECT_DIR$/../JavaProj/Servers/.settings/org.eclipse.wst.server.core.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/.classpath" afterPath="$PROJECT_DIR$/../JavaProj/eShop/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/../JavaProj/eShop/.settings/org.eclipse.jdt.core.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/.settings/org.eclipse.wst.common.project.facet.core.xml" afterPath="$PROJECT_DIR$/../JavaProj/eShop/.settings/org.eclipse.wst.common.project.facet.core.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/controller/CategoryController.java" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/controller/CategoryController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/controller/CommodityController.java" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/controller/CommodityController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/controller/CommodityOrderController.java" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/controller/CommodityOrderController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/controller/CommodityStatusController.java" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/controller/CommodityStatusController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/controller/OrderStatusController.java" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/controller/OrderStatusController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/controller/ProducerController.java" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/controller/ProducerController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/controller/UserController.java" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/entity/Commodity.java" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/entity/Commodity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/entity/CommodityOrder.java" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/entity/CommodityOrder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/repository/CommodityOrderRepository.java" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/repository/CommodityOrderRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/repository/CommodityRepository.java" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/repository/CommodityRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/service/CategoryService.java" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/service/CategoryService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/service/CommodityOrderService.java" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/service/CommodityOrderService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/service/CommodityService.java" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/service/CommodityService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/service/CommodityStatusService.java" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/service/CommodityStatusService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/service/OrderStatusService.java" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/service/OrderStatusService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/service/ProducerService.java" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/service/ProducerService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/service/UserService.java" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/service/implementation/CategoryServiceImpl.java" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/service/implementation/CategoryServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/service/implementation/CommodityOrderServiceImpl.java" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/service/implementation/CommodityOrderServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/service/implementation/CommodityServiceImpl.java" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/service/implementation/CommodityServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/service/implementation/CommodityStatusServiceImpl.java" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/service/implementation/CommodityStatusServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/service/implementation/OrderStatusServiceImpl.java" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/service/implementation/OrderStatusServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/service/implementation/ProducerServiceImpl.java" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/service/implementation/ProducerServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/service/implementation/UserServiceImpl.java" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/java/ua/service/implementation/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/webapp/WEB-INF/defs/general.xml" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/webapp/WEB-INF/defs/general.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/webapp/WEB-INF/views/adminPanel/adminCategory.jsp" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/webapp/WEB-INF/views/adminPanel/adminCategory.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/webapp/WEB-INF/views/adminPanel/adminCommodity.jsp" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/webapp/WEB-INF/views/adminPanel/adminCommodity.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/webapp/WEB-INF/views/adminPanel/adminCommodityOrder.jsp" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/webapp/WEB-INF/views/adminPanel/adminCommodityOrder.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/webapp/WEB-INF/views/adminPanel/adminCommodityStatus.jsp" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/webapp/WEB-INF/views/adminPanel/adminCommodityStatus.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/webapp/WEB-INF/views/adminPanel/adminOrderStatus.jsp" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/webapp/WEB-INF/views/adminPanel/adminOrderStatus.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/webapp/WEB-INF/views/adminPanel/adminProducer.jsp" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/webapp/WEB-INF/views/adminPanel/adminProducer.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/eShop/src/main/webapp/WEB-INF/views/adminPanel/adminUser.jsp" afterPath="$PROJECT_DIR$/../JavaProj/eShop/src/main/webapp/WEB-INF/views/adminPanel/adminUser.jsp" />
+    </list>
+    <ignored path="ServletSchildt.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ServletSchildt" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/mypage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/zed/MainServlet.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/zed/HelloServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/PostParameters.html" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/zed/PostParametersServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/ColorGet.html" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/zed/ColorGetServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/ColorPost.html" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/zed/ColorPostServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/AddCookoie.html" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/zed/AddCookieServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/zed/GetCookiesServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/zed/DateServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ServletSchildt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ServletSchildt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ServletSchildt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ServletSchildt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ServletSchildt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ServletSchildt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ServletSchildt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ua.zed" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Git_Repo\ServletSchildt\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Local Tomcat">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ServletSchildt" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Local Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.70" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ServletSchildt:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ServletSchildt" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5321" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ServletSchildt:war" />
+        </option>
+      </method>
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Local Tomcat" />
+    </list>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8e1ff9c-190a-4286-8ef3-5964a57ca6ee" name="Default" comment="" />
+      <created>1471352702245</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1471352702245</updated>
+      <workItem from="1471352711014" duration="5857000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5857000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31777778" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32378855" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17910448" sideWeight="0.49331105" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50668895" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/zed/HelloServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/mypage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/zed/PostParametersServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/PostParameters.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/zed/ColorGetServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/ColorGet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/zed/ColorPostServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/ColorPost.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="72" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/zed/AddCookieServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/zed/GetCookiesServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/AddCookoie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/zed/DateServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="73" column="33" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

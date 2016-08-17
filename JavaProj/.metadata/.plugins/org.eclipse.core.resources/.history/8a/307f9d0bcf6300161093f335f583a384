@@ -1,0 +1,5 @@
+package ua.service.implementation.validators;
+
+public class CategoryValidator {
+
+}

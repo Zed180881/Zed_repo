@@ -1,7 +1,7 @@
 package ua.entity;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import javax.persistence.Entity;
@@ -21,30 +21,15 @@ public class CommodityOrder {
 
     private List<Commodity> commodities = new ArrayList<Commodity>();
 
-    private double sum;
+    private double sum = 0.0;
 
     private OrderStatus orderStatus;
 
-    private Date orderDate;
+    private LocalDate orderDate;
 
-    private Date payDate;
+    private LocalDate payDate;
 
-    private Date deliveryDate;
-
-    public CommodityOrder() {
-    }
-
-    public CommodityOrder(User user, List<Commodity> commodities,
-	    OrderStatus orderStatus, Date orderDate, Date payDate,
-	    Date deliveryDate) {
-	this.user = user;
-	this.commodities = commodities;
-	this.sum = this.calculateSum();
-	this.orderStatus = orderStatus;
-	this.orderDate = orderDate;
-	this.payDate = payDate;
-	this.deliveryDate = deliveryDate;
-    }
+    private LocalDate deliveryDate;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -52,12 +37,12 @@ public class CommodityOrder {
 	return id;
     }
 
-    @ManyToOne(fetch = FetchType.EAGER)
+    @ManyToOne(fetch = FetchType.LAZY)
     public User getUser() {
 	return user;
     }
 
-    @ManyToMany(fetch = FetchType.EAGER)
+    @ManyToMany(fetch = FetchType.LAZY)
     public List<Commodity> getCommodities() {
 	return commodities;
     }
@@ -66,20 +51,20 @@ public class CommodityOrder {
 	return sum;
     }
 
-    @ManyToOne(fetch = FetchType.EAGER)
+    @ManyToOne(fetch = FetchType.LAZY)
     public OrderStatus getOrderStatus() {
 	return orderStatus;
     }
 
-    public Date getOrderDate() {
+    public LocalDate getOrderDate() {
 	return orderDate;
     }
 
-    public Date getPayDate() {
+    public LocalDate getPayDate() {
 	return payDate;
     }
 
-    public Date getDeliveryDate() {
+    public LocalDate getDeliveryDate() {
 	return deliveryDate;
     }
 
@@ -103,15 +88,15 @@ public class CommodityOrder {
 	this.orderStatus = orderStatus;
     }
 
-    public void setOrderDate(Date orderDate) {
+    public void setOrderDate(LocalDate orderDate) {
 	this.orderDate = orderDate;
     }
 
-    public void setPayDate(Date payDate) {
+    public void setPayDate(LocalDate payDate) {
 	this.payDate = payDate;
     }
 
-    public void setDeliveryDate(Date deliveryDate) {
+    public void setDeliveryDate(LocalDate deliveryDate) {
 	this.deliveryDate = deliveryDate;
     }
 
