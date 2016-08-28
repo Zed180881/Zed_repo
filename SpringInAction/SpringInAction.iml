@@ -4,13 +4,6 @@
     <facet type="Spring" name="Spring">
       <configuration>
         <fileset id="fileset" name="Spring Application Context" removed="false">
-          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/knight.xml</file>
-          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/minstrel.xml</file>
-          <file>file://$MODULE_DIR$/src/test/resources/sia/ch01/KnightXMLInjectionTest-context.xml</file>
-          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/spring-idol.xml</file>
-          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/ch04.xml</file>
-          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/knights.xml</file>
-          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/knights-aop.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/springidol/spring-idol.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/springidol/springidol-context-2.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/springidolannotation/spring-idol.xml</file>
@@ -26,6 +19,13 @@
           <file>file://$MODULE_DIR$/src/main/resources/springidoljavaconfig/spring-idol.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/springidolqualifiers/spring-idol.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/springidolqualifiers/qualifiers/spring-idol.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/knights/knights.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/knights/knights-aop.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/springidoljavaconfig/springidol-context-2.xml</file>
+        </fileset>
+        <fileset id="fileset2" name="Spring Application Context (2)" removed="false">
+          <file>file://$MODULE_DIR$/src/main/java/sia/springidoljavaconfig/SpringIdolConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/sia/springidol/springidol/SpringIdolConfig.java</file>
         </fileset>
       </configuration>
     </facet>
