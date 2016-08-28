@@ -1,0 +1,28 @@
+package ua.form.filter;
+
+import ua.entity.Category;
+import ua.entity.CommodityStatus;
+import ua.entity.Producer;
+
+public class CommodityFilter {
+
+    private String model;
+
+    private int categoryId;
+
+    private int producerId;
+
+    private int commodityStatusId;
+
+    private int minQuantity;
+
+    private int maxQuantity;
+
+    private double minPrice;
+
+    private double maxPrice;
+
+    private int minWarranty;
+
+    private int maxWarranty;
+}

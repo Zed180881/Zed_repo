@@ -11,7 +11,8 @@ public class CommodityStatusValidator implements Validator {
 
     private final CommodityStatusService commodityStatusService;
 
-    public CommodityStatusValidator(CommodityStatusService commodityStatusService) {
+    public CommodityStatusValidator(
+	    CommodityStatusService commodityStatusService) {
 	this.commodityStatusService = commodityStatusService;
     }
 
@@ -23,14 +24,19 @@ public class CommodityStatusValidator implements Validator {
     @Override
     public void validate(Object object, Errors errors) {
 	CommodityStatus commodityStatus = (CommodityStatus) object;
-	ValidationUtils.rejectIfEmptyOrWhitespace(errors, "commodityStatusName", "",
-		"Commodity status name cann't be empty");
-	if (!commodityStatus.getCommodityStatusName().matches("[a-zA-Z ]+"))
+	ValidationUtils.rejectIfEmptyOrWhitespace(errors,
+		"commodityStatusName", "", "Статус не може бути порожнім");
+	if (!commodityStatus.getCommodityStatusName().matches(
+		"[a-zA-Z а-яієїА-ЯІЇЄ]+"))
 	    errors.rejectValue("commodityStatusName", "",
-		    "Illegal characters in commodity status name");
-	if (commodityStatusService.findByCommodityStatusName(commodityStatus.getCommodityStatusName()) != null)
+		    "Недопустимі символи в назві статусу");
+	if (commodityStatusService.findByCommodityStatusName(commodityStatus
+		.getCommodityStatusName()) != null
+		&& commodityStatusService.findByCommodityStatusName(
+			commodityStatus.getCommodityStatusName()).getId() != commodityStatus
+			.getId())
 	    errors.rejectValue("commodityStatusName", "",
-		    "Commodity status with this name already exists");
+		    "Такий статус вже є в базі");
     }
 
 }

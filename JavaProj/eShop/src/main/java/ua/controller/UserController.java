@@ -3,6 +3,8 @@ package ua.controller;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -13,7 +15,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import ua.entity.Role;
 import ua.entity.User;
+import ua.form.filter.UserFilter;
 import ua.service.UserService;
 import ua.service.implementation.validators.UserValidator;
 
@@ -34,16 +38,22 @@ public class UserController {
     }
 
     @RequestMapping("/admin/user")
-    public String showUser(Model model) {
-	model.addAttribute("users", userService.findAll());
+    public String showUser(Model model,
+	    @PageableDefault(size = 10) Pageable pageable,
+	    @ModelAttribute("filter") UserFilter filter) {
+	model.addAttribute("users", userService.findAll(pageable, filter));
+	model.addAttribute("roles", Role.values());
+	model.addAttribute("filter", filter);
 	return "adminUser";
     }
 
     @RequestMapping(value = "/admin/user", method = RequestMethod.POST)
     public String saveUser(@ModelAttribute("user") @Valid User user,
-	    BindingResult br, Model model) {
+	    BindingResult br, Model model,
+	    @PageableDefault(size = 10) Pageable pageable) {
 	if (br.hasErrors()) {
-	    model.addAttribute("users", userService.findAll());
+	    model.addAttribute("users", userService.findAll(pageable));
+	    model.addAttribute("roles", Role.values());
 	    return "adminUser";
 	}
 	userService.save(user);
@@ -57,9 +67,11 @@ public class UserController {
     }
 
     @RequestMapping("/admin/user/update/{id}")
-    public String updateUser(@PathVariable int id, Model model) {
+    public String updateUser(@PathVariable int id, Model model,
+	    @PageableDefault(size = 10) Pageable pageable) {
 	model.addAttribute("user", userService.findOne(id));
-	model.addAttribute("users", userService.findAll());
+	model.addAttribute("users", userService.findAll(pageable));
+	model.addAttribute("roles", Role.values());
 	return "adminUser";
     }
 }

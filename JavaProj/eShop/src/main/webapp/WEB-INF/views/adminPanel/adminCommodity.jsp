@@ -1,21 +1,18 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Commodity Management</title>
-</head>
-<body>
-	<h3>Add commodity:</h3>
-	<form:form action="/admin/commodity" method="post" modelAttribute="commodity">
+
+	<h3>Додати товар:</h3>
+	<form:form action="/admin/commodity" method="post" modelAttribute="commodity" enctype="multipart/form-data">
 		<form:errors path="*"/><br>
 		<form:input path="id" type="hidden"/>
-		<label for="model">Model:</label><br> 
-		<form:input type="text" path="model" id="model" placeholder="input model here" required="true"/><br>
-		<label for="category">Category:</label><br> 
+		<form:hidden path="version"/>
+		<form:hidden path="path"/>
+		<label for="model">Назва товару:</label><br> 
+		<form:input type="text" path="model" id="model" placeholder="назва" required="true"/><br>
+		<label for="file">Зображення товару</label><br>
+		<input type="file" name="file" id="file"><br>
+		<label for="category">Категорія:</label><br> 
 		<form:select path="category" id="category">
 			<c:forEach items="${categories}" var="category">
 				<c:choose>
@@ -28,7 +25,7 @@
 				</c:choose>
 			</c:forEach>			
 		</form:select><br>
-		<label for="producer">Producer:</label><br>
+		<label for="producer">Виробник:</label><br>
 		<form:select path="producer" id="producer">
 			<c:forEach items="${producers}" var="producer">
 				<c:choose>
@@ -41,11 +38,11 @@
 				</c:choose>
 			</c:forEach>
 		</form:select><br>		
-		<label for="quantity">Quantity:</label><br> 
+		<label for="quantity">Кількість:</label><br> 
 		<form:input type="number" path="quantity" id="quantity" min="1" step="1" required="true"/><br>
-		<label for="price">Price:</label><br> 
-		<form:input type="number" path="price" id="price" min="0" step="0.01" required="true"/><br>
-		<label for="commodityStatus">Commodity Status:</label><br>
+		<label for="price">Ціна:</label><br> 
+		<form:input type="number" path="price" id="price" min="0.01" step="0.01" required="true"/><br>
+		<label for="commodityStatus">Статус товару:</label><br>
 		<form:select path="commodityStatus" id="commodityStatus">
 			<c:forEach items="${commodityStatuses}" var="commodityStatus">
 				<c:choose>
@@ -58,24 +55,80 @@
 				</c:choose>			
 			</c:forEach>
 		</form:select><br>		
-		<label for="warranty">Warranty (months):</label><br> 
+		<label for="warranty">Гарантія (місяці):</label><br> 
 		<form:input type="number" path="warranty" id="warranty" min="0" step="1" required="true"/><br>
-		<input type="submit" value="Save commodity">
+		<input type="submit" value="Зберегти товар">
 	</form:form><br>
-	<h3>Current commodities:</h3>
+	<c:if test="${filter ne null}">
+	<form:form action="/admin/commodity" method="get" modelAttribute="filter">
+		<h3>Фільтрувати по:</h3>
+		<table>
+			<tr>
+				<th>Назва товару</th>				
+				<th>Категорія</th>
+				<th>Виробник</th>
+				<th>Статус</th>
+				<th>Кількість</th>
+				<th>Ціна</th>
+				<th>Гарантія</th>				
+			</tr>
+			<tr>
+				<td><form:input type="text" path="model" id="model" placeholder="назва"/></td>
+				<td>
+					<form:select path="categoryId">
+						<option value="0"> </option>
+						<c:forEach items="${categories}" var="category">
+							<option value="${category.id}">${category.categoryName}</option>	
+						</c:forEach>			
+					</form:select>			
+				</td>
+				<td>
+					<form:select path="producerId">
+						<option value="0"> </option>
+						<c:forEach items="${producers}" var="producer">
+							<option value="${producer.id}">${producer.producerName}</option>	
+						</c:forEach>			
+					</form:select>			
+				</td>
+				<td>
+					<form:select path="commodityStatusId">
+						<option value="0"> </option>
+						<c:forEach items="${commodityStatuses}" var="commodityStatus">
+							<option value="${commodityStatus.id}">${commodityStatus.commodityStatusName}</option>	
+						</c:forEach>			
+					</form:select>			
+				</td>
+				<td>Мінімальна<form:input type="number" path="minQuantity" step="1"/></td>
+				<td>Мінімальна<form:input type="number" path="minPrice" step="0.01"/></td>
+				<td>Мінімальна<form:input type="number" path="minWarranty" step="1"/></td>	
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>Максимальна<form:input type="number" path="maxQuantity" step="1"/></td>
+				<td>Максимальна<form:input type="number" path="maxPrice" step="0.01"/></td>
+				<td>максимальна<form:input type="number" path="maxWarranty" step="1"/></td>
+			</tr>
+			<tr><td><input type="submit" value="Фільтрувати"></td><td><a href="/admin/commodity?page=1&size=10">Скинути фільтр</a></td></tr>
+		</table>
+	</form:form>
+	</c:if>
+	<h3>Наявні товари:</h3>
 	<table>
 		<tr>
-			<th>Model</th>
-			<th>Category</th>
-			<th>Producer</th>
-			<th>Quantity</th>
-			<th>Price</th>
-			<th>Status</th>
-			<th>Warranty</th>
+			<th>Назва</th>
+			<th>Категорія</th>
+			<th>Виробник</th>
+			<th>Кількість</th>
+			<th>Ціна</th>
+			<th>Статус</th>
+			<th>Гарантія</th>
 			<th></th>
 			<th></th>	
 		</tr>
-	<c:forEach items="${commodities}" var="commodity">
+	<c:forEach items="${commodities.content}" var="commodity">
 		<tr>
 			<td>${commodity.model}</td>
 			<td>${commodity.category.categoryName}</td>
@@ -84,11 +137,20 @@
 			<td>${commodity.price}</td>
 			<td>${commodity.commodityStatus.commodityStatusName}</td>
 			<td>${commodity.warranty}</td>
-			<td><a href="/admin/commodity/delete/${commodity.id}">delete</a></td>
-			<td><a href="/admin/commodity/update/${commodity.id}">update</a></td>
+			<td><img src="/images/commodity/${commodity.id}${commodity.path}?version=${commodity.version}" height="100"/></td>
+			<td><a href="/admin/commodity/delete/${commodity.id}">&nbsp;&nbsp;видалити</a></td>
+			<td><a href="/admin/commodity/update/${commodity.id}">&nbsp;&nbsp;редагувати</a></td>
 		</tr>			
-	</c:forEach>	
-	</table><br>
-	<a href="/admin"><b><i>Back to administrator panel</i></b></a>	
-</body>
-</html>
+	</c:forEach>
+		<tr>
+			<td><c:if test="${commodities.number ne 0}">
+				<a href="/admin/commodity?page=${commodities.number}&size=${commodities.size}">попередня</a>
+			</c:if></td>
+			<td><c:if test="${commodities.number ne commodities.totalPages}">
+				<a href="/admin/commodity?page=${commodities.number+2}&size=${commodities.size}">наступна</a>
+			</c:if></td>
+		</tr>		
+	</table><br>	
+	<a href="/admin/commodity?page=1&size=10">10</a>
+	<a href="/admin/commodity?page=1&size=50">50</a><br>
+	<a href="/admin"><b><i>До панелі керуванняl</i></b></a>	

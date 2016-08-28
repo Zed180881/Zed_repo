@@ -3,6 +3,8 @@ package ua.controller;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -17,6 +19,7 @@ import ua.entity.Category;
 import ua.entity.Producer;
 import ua.entity.CommodityStatus;
 import ua.form.CommodityForm;
+import ua.form.filter.CommodityFilter;
 import ua.service.CategoryService;
 import ua.service.CommodityService;
 import ua.service.CommodityStatusService;
@@ -58,21 +61,27 @@ public class CommodityController {
     }
 
     @RequestMapping("/admin/commodity")
-    public String showCommodity(Model model) {
-	model.addAttribute("commodities", commodityService.findAll());
+    public String showCommodity(Model model,
+	    @PageableDefault(size = 10) Pageable pageable,
+	    @ModelAttribute("filter") CommodityFilter filter) {
+	model.addAttribute("commodities",
+		commodityService.findAll(pageable, filter));
 	model.addAttribute("categories", categoryService.findAll());
 	model.addAttribute("producers", producerService.findAll());
 	model.addAttribute("commodityStatuses",
 		commodityStatusService.findAll());
+	model.addAttribute("filter", filter);
 	return "adminCommodity";
     }
 
     @RequestMapping(value = "/admin/commodity", method = RequestMethod.POST)
     public String saveCommodity(
 	    @ModelAttribute("commodity") @Valid CommodityForm commodityForm,
-	    BindingResult br, Model model) {
+	    BindingResult br, Model model,
+	    @PageableDefault(size = 10) Pageable pageable) {
 	if (br.hasErrors()) {
-	    model.addAttribute("commodities", commodityService.findAll());
+	    model.addAttribute("commodities",
+		    commodityService.findAll(pageable));
 	    model.addAttribute("categories", categoryService.findAll());
 	    model.addAttribute("producers", producerService.findAll());
 	    model.addAttribute("commodityStatuses",
@@ -90,12 +99,13 @@ public class CommodityController {
     }
 
     @RequestMapping("/admin/commodity/update/{id}")
-    public String updateCommodity(@PathVariable int id, Model model) {
+    public String updateCommodity(@PathVariable int id, Model model,
+	    @PageableDefault(size = 10) Pageable pageable) {
 	model.addAttribute("categories", categoryService.findAll());
 	model.addAttribute("producers", producerService.findAll());
 	model.addAttribute("commodityStatuses",
 		commodityStatusService.findAll());
-	model.addAttribute("commodities", commodityService.findAll());
+	model.addAttribute("commodities", commodityService.findAll(pageable));
 	model.addAttribute("commodity", commodityService.findOneForm(id));
 	return "adminCommodity";
     }

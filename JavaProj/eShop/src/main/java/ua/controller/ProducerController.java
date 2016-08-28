@@ -3,6 +3,8 @@ package ua.controller;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -14,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import ua.entity.Producer;
+import ua.form.filter.ProducerFilter;
 import ua.service.ProducerService;
 import ua.service.implementation.validators.ProducerValidator;
 
@@ -34,17 +37,22 @@ public class ProducerController {
     }
 
     @RequestMapping("/admin/producer")
-    public String showProducer(Model model) {
-	model.addAttribute("producers", producerService.findAll());
+    public String showProducer(Model model,
+	    @PageableDefault(size = 10) Pageable pageable,
+	    @ModelAttribute("filter") ProducerFilter filter) {
+	model.addAttribute("producers",
+		producerService.findAll(pageable, filter));
+	model.addAttribute("filter", filter);
 	return "adminProducer";
     }
 
     @RequestMapping(value = "/admin/producer", method = RequestMethod.POST)
     public String saveProducer(
 	    @ModelAttribute("producer") @Valid Producer producer,
-	    BindingResult br, Model model) {
+	    BindingResult br, Model model,
+	    @PageableDefault(size = 10) Pageable pageable) {
 	if (br.hasErrors()) {
-	    model.addAttribute("producers", producerService.findAll());
+	    model.addAttribute("producers", producerService.findAll(pageable));
 	    return "adminProducer";
 	}
 	producerService.save(producer);
@@ -58,9 +66,10 @@ public class ProducerController {
     }
 
     @RequestMapping("/admin/producer/update/{id}")
-    public String updateProducer(@PathVariable int id, Model model) {
+    public String updateProducer(@PathVariable int id, Model model,
+	    @PageableDefault(size = 10) Pageable pageable) {
 	model.addAttribute("producer", producerService.findOne(id));
-	model.addAttribute("producers", producerService.findAll());
+	model.addAttribute("producers", producerService.findAll(pageable));
 	return "adminProducer";
     }
 }

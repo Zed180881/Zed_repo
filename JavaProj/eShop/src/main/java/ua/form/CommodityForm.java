@@ -1,5 +1,7 @@
 package ua.form;
 
+import org.springframework.web.multipart.MultipartFile;
+
 import ua.entity.Category;
 import ua.entity.CommodityStatus;
 import ua.entity.Producer;
@@ -21,6 +23,12 @@ public class CommodityForm {
     private CommodityStatus commodityStatus;
 
     private String warranty;
+
+    private String path;
+
+    private int version;
+
+    private MultipartFile file;
 
     public int getId() {
 	return id;
@@ -85,4 +93,28 @@ public class CommodityForm {
     public void setWarranty(String warranty) {
 	this.warranty = warranty;
     }
+
+    public String getPath() {
+        return path;
+    }
+
+    public void setPath(String path) {
+        this.path = path;
+    }
+
+    public int getVersion() {
+        return version;
+    }
+
+    public void setVersion(int version) {
+        this.version = version;
+    }
+
+    public MultipartFile getFile() {
+        return file;
+    }
+
+    public void setFile(MultipartFile file) {
+        this.file = file;
+    } 
 }

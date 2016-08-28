@@ -5,17 +5,21 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import ua.entity.Commodity;
 import ua.entity.CommodityOrder;
 import ua.form.CommodityOrderForm;
+import ua.form.filter.CommodityOrderFilter;
 import ua.repository.CommodityOrderRepository;
 import ua.repository.CommodityRepository;
 import ua.repository.OrderStatusRepository;
 import ua.repository.UserRepository;
 import ua.service.CommodityOrderService;
+import ua.service.implementation.specification.CommodityOrderFilterSpecification;
 
 @Service
 @Transactional
@@ -52,7 +56,9 @@ public class CommodityOrderServiceImpl implements CommodityOrderService {
 	if (!commodityOrderForm.getCommodities().isEmpty()) {
 	    List<Commodity> commodities = new ArrayList<>();
 	    for (Commodity model : commodityOrderForm.getCommodities()) {
-		commodities.add(commodityRepository.findByModel(model.getModel()));
+		if (model != null)
+		    commodities.add(commodityRepository.findByModel(model
+			    .getModel()));
 	    }
 	    commodityOrder.setCommodities(commodities);
 	}
@@ -122,5 +128,17 @@ public class CommodityOrderServiceImpl implements CommodityOrderService {
 	CommodityOrder commodityOrder = commodityOrderRepository.findOne(id);
 	commodityOrder.getCommodities().removeIf(
 		(c) -> c.getId() == commodityID);
+    }
+
+    @Override
+    public Page<CommodityOrder> findAll(Pageable pageable) {
+	return commodityOrderRepository.findAll(pageable);
+    }
+
+    @Override
+    public Page<CommodityOrder> findAll(Pageable pageable,
+	    CommodityOrderFilter filter) {	
+	return commodityOrderRepository.findAll(
+		new CommodityOrderFilterSpecification(filter), pageable);
     }
 }

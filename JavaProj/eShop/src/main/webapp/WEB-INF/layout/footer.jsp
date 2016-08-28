@@ -1,8 +1,6 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-
-<footer>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+	
 	<br>
-	<p>(С) 2016 Pjotr Zeljonka</p>
+	<p>(С) 2016 Зельонка Петро</p>
 	<p>zed180881@gmail.com</p>
-</footer>
+	<a href="/admin">Панель керування</a>

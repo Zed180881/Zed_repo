@@ -1,0 +1,9 @@
+package ch06_Factory;
+
+public abstract class DrinksMachine {
+    public abstract Drink dispenseDrink();
+
+    public String displayMessage() {
+        return "Thank for your custom.";
+    }
+}

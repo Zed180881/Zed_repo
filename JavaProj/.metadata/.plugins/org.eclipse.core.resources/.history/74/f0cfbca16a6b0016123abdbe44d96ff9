@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<!-- Some templates -->
+	<definition name="common" template="/WEB-INF/layout/classic.jsp">
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+		<put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+	</definition>
+
+	<definition name="index" extends="common">
+		<put-attribute name="title" value="E-Shop" />
+		<put-attribute name="body" value="/WEB-INF/views/index.jsp" />
+	</definition>
+	
+	<definition name="login" extends="common">
+		<put-attribute name="title" value="Авторизація" />
+		<put-attribute name="body" value="/WEB-INF/views/login.jsp" />
+	</definition>
+	
+	<definition name="register" extends="common">
+		<put-attribute name="title" value="Реєстрація користувача" />
+		<put-attribute name="body" value="/WEB-INF/views/register.jsp" />
+	</definition>
+
+	<definition name="adminPanel" extends="common">
+		<put-attribute name="title" value="Панель керування" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/adminPanel/adminPanel.jsp" />
+	</definition>
+
+	<definition name="adminCategory" extends="common">
+		<put-attribute name="title" value="adminCategory" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/adminPanel/adminCategory.jsp" />
+	</definition>
+
+	<definition name="adminProducer" extends="common">
+		<put-attribute name="title" value="adminProducer" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/adminPanel/adminProducer.jsp" />
+	</definition>
+
+	<definition name="adminCommodityStatus" extends="common">
+		<put-attribute name="title" value="adminCommodityStatus" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/adminPanel/adminCommodityStatus.jsp" />
+	</definition>
+
+	<definition name="adminCommodity" extends="common">
+		<put-attribute name="title" value="adminCommodity" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/adminPanel/adminCommodity.jsp" />
+	</definition>
+
+	<definition name="adminOrderStatus" extends="common">
+		<put-attribute name="title" value="adminOrderStatus" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/adminPanel/adminOrderStatus.jsp" />
+	</definition>
+
+	<definition name="adminUser" extends="common">
+		<put-attribute name="title" value="adminUser" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/adminPanel/adminUser.jsp" />
+	</definition>
+	
+	<definition name="adminCommodityOrder" extends="common">
+		<put-attribute name="title" value="adminCommodityOrder" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/adminPanel/adminCommodityOrder.jsp" />
+	</definition>	
+
+</tiles-definitions>

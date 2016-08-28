@@ -24,36 +24,35 @@ public class CommodityValidator implements Validator {
     public void validate(Object object, Errors errors) {
 	CommodityForm commodityForm = (CommodityForm) object;
 	ValidationUtils.rejectIfEmptyOrWhitespace(errors, "category", "",
-		"Category cann't be empty");
+		"Потрібно вибрати категорію товару");
 	ValidationUtils.rejectIfEmptyOrWhitespace(errors, "model", "",
-		"Model cann't be empty");
+		"Назва товару не може бути порожньою");
 	ValidationUtils.rejectIfEmptyOrWhitespace(errors, "producer", "",
-		"Producer cann't be empty");
+		"Потрібно вибрати виробника товару");
 	ValidationUtils.rejectIfEmptyOrWhitespace(errors, "quantity", "",
-		"Quantity cann't be empty");
+		"Потрібно вказати кількість товару");
 	ValidationUtils.rejectIfEmptyOrWhitespace(errors, "price", "",
-		"Price cann't be empty");
+		"Потрібно вказати ціну товару");
 	ValidationUtils.rejectIfEmptyOrWhitespace(errors, "commodityStatus",
-		"", "Commodity status cann't be empty");
+		"", "Потрібно вибрати статус товару");
 	ValidationUtils.rejectIfEmptyOrWhitespace(errors, "warranty", "",
-		"Commodity status cann't be empty");
+		"Потрібно вказати гарантію на товар");
 
-	if (!commodityForm.getModel().matches("[a-zA-Z 0-9]+"))
-	    errors.rejectValue("model", "", "Illegal characters in model name");
+	if (!commodityForm.getModel().matches("[a-zA-Zа-яієїА-ЯІЇЄ 0-9]+"))
+	    errors.rejectValue("model", "", "Недопустимі символи в назві товару");
 	if (commodityService.findByCommodityModel(commodityForm.getModel()) != null
 		&& commodityService.findByCommodityModel(commodityForm.getModel())
 			.getId() != commodityForm.getId())
 	    errors.rejectValue("model", "",
-		    "Commodity with this model already exists");
+		    "Товар з цією назвою вже є в базі");
 
 	
 	if (!commodityForm.getQuantity().matches("[0-9]+"))
-	    errors.rejectValue("quantity", "", "Illegal characters in quantity field. Only digits are allowed!");
+	    errors.rejectValue("quantity", "", "Недопустимі символи в полі Кількість. Мають бути тільки цифри.");
 	if (!commodityForm.getWarranty().matches("[0-9]+"))
-	    errors.rejectValue("warranty", "", "Illegal characters in warranty field. Only digits are allowed!");
+	    errors.rejectValue("warranty", "", "Недопустимі символи в полі Гарантія. Мають бути тільки цифри.");
 	if (!commodityForm.getPrice().matches("[.0-9]+"))
-	    errors.rejectValue("price", "", "Illegal characters in price field. Correct sample 12.11");
-	
+	    errors.rejectValue("price", "", "Недопустимі символи в полі Ціна. Мають бути тільки цифри.");	
     }
 
 }

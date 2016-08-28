@@ -24,13 +24,15 @@ public class ProducerValidator implements Validator {
     public void validate(Object object, Errors errors) {
 	Producer producer = (Producer) object;
 	ValidationUtils.rejectIfEmptyOrWhitespace(errors, "producerName", "",
-		"Producer name cann't be empty");
-	if (!producer.getProducerName().matches("[a-zA-Z ]+"))
+		"Назва виробника не може бути порожньою!");
+	if (!producer.getProducerName().matches("[a-zA-Z а-яієїА-ЯІЇЄ]+"))
 	    errors.rejectValue("producerName", "",
-		    "Illegal characters in producer name");
-	if (producerService.findByProducerName(producer.getProducerName()) != null)
+		    "Недопустимі символи в назві виробника!");
+	if (producerService.findByProducerName(producer.getProducerName()) != null
+		&& producerService.findByProducerName(
+			producer.getProducerName()).getId() != producer.getId())
 	    errors.rejectValue("producerName", "",
-		    "Producer with this name already exists");
+		    "Такий виробник вже є в базі!");
     }
 
 }

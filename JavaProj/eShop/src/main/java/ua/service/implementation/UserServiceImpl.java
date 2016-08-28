@@ -2,26 +2,38 @@ package ua.service.implementation;
 
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
+import javax.annotation.PostConstruct;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.stereotype.Service;
+
+import ua.entity.Role;
 import ua.entity.User;
+import ua.form.filter.UserFilter;
 import ua.repository.UserRepository;
 import ua.service.UserService;
+import ua.service.implementation.specification.UserFilterSpecification;
 
-@Service
-@Transactional
-public class UserServiceImpl implements UserService {
+@Service("userDetailsService")
+public class UserServiceImpl implements UserDetailsService, UserService {
     private User user;
 
     @Autowired
     private UserRepository userRepository;
 
-    @Override
-    public void save(User user) {
-	userRepository.save(user);
+    @Autowired
+    private BCryptPasswordEncoder encoder;
 
+    @Override
+    public void save(User user) {	
+	user.setPassword(encoder.encode(user.getPassword()));
+	userRepository.save(user);
     }
 
     @Override
@@ -58,5 +70,35 @@ public class UserServiceImpl implements UserService {
     @Override
     public User findByUserMail(String mail) {
 	return userRepository.findByMail(mail);
+    }
+
+    @Override
+    public Page<User> findAll(Pageable pageable) {
+	return userRepository.findAll(pageable);
+    }
+
+    @Override
+    public Page<User> findAll(Pageable pageable, UserFilter filter) {
+	return userRepository.findAll(new UserFilterSpecification(filter),
+		pageable);
+    }
+
+    @Override
+    public UserDetails loadUserByUsername(String username)
+	    throws UsernameNotFoundException {
+	return userRepository.findByLogin(username);
+    }
+
+    @PostConstruct
+    public void postConstruct() {
+	if (userRepository.findOne(1) == null) {
+	    User user = new User();
+	    user.setId(1);
+	    user.setLogin("admin");
+	    user.setRole(Role.ROLE_ADMIN);
+	    user.setPassword(encoder.encode("admin"));
+	    userRepository.save(user);
+	}
+
     }
 }

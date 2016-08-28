@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<start id="preamble" />-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+     http://www.springframework.org/schema/beans/spring-beans.xsd
+     http://www.springframework.org/schema/aop
+     http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!--<end id="preamble" />-->
+
+    <bean id="eddie"
+          class="sia.springidolaspectj.Instrumentalist">
+        <property name="instrument">
+            <bean class="sia.springidolaspectj.Guitar"/>
+        </property>
+    </bean>
+
+    <!--<start id="audience_bean" />-->
+    <bean id="audience"
+          class="sia.springidolaspectj.Audience"/>
+    <!--<end id="audience_bean" />-->
+
+    <!--<start id="contestant_introducer" />-->
+    <bean class="sia.springidolaspectj.ContestantIntroducer"/>
+    <!--<end id="contestant_introducer" />-->
+
+    <!--<start id="aspectj_autoproxy" />-->
+    <aop:aspectj-autoproxy/>
+    <!--<end id="aspectj_autoproxy" />-->
+
+</beans>

@@ -1,8 +1,12 @@
 package ua.controller;
 
+import java.time.LocalDate;
+
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -17,11 +21,13 @@ import ua.entity.Commodity;
 import ua.entity.OrderStatus;
 import ua.entity.User;
 import ua.form.CommodityOrderForm;
+import ua.form.filter.CommodityOrderFilter;
 import ua.service.CommodityOrderService;
 import ua.service.CommodityService;
 import ua.service.OrderStatusService;
 import ua.service.UserService;
 import ua.service.implementation.editor.CommodityEditor;
+import ua.service.implementation.editor.DateEditor;
 import ua.service.implementation.editor.OrderStatusEditor;
 import ua.service.implementation.editor.UserEditor;
 import ua.service.implementation.validators.CommodityOrderValidator;
@@ -49,6 +55,7 @@ public class CommodityOrderController {
 		orderStatusService));
 	binder.registerCustomEditor(Commodity.class, new CommodityEditor(
 		commodityService));
+	binder.registerCustomEditor(LocalDate.class, new DateEditor());
     }
 
     @ModelAttribute("commodityOrder")
@@ -57,21 +64,26 @@ public class CommodityOrderController {
     }
 
     @RequestMapping("/admin/order")
-    public String showCommodityOrder(Model model) {
-	model.addAttribute("commodityOrders", commodityOrderService.findAll());
+    public String showCommodityOrder(Model model,
+	    @PageableDefault(size = 10) Pageable pageable,
+	    @ModelAttribute("filter") CommodityOrderFilter filter) {
+	model.addAttribute("commodityOrders",
+		commodityOrderService.findAll(pageable, filter));
 	model.addAttribute("users", userService.findAll());
 	model.addAttribute("commodities", commodityService.findAll());
 	model.addAttribute("orderStatuses", orderStatusService.findAll());
+	model.addAttribute("filter", filter);
 	return "adminCommodityOrder";
     }
 
     @RequestMapping(value = "/admin/order", method = RequestMethod.POST)
     public String saveCommodityOrder(
 	    @ModelAttribute("commodityOrder") @Valid CommodityOrderForm commodityOrderForm,
-	    BindingResult br, Model model) {
+	    BindingResult br, Model model,
+	    @PageableDefault(size = 10) Pageable pageable) {
 	if (br.hasErrors()) {
 	    model.addAttribute("commodityOrders",
-		    commodityOrderService.findAll());
+		    commodityOrderService.findAll(pageable));
 	    model.addAttribute("users", userService.findAll());
 	    model.addAttribute("commodities", commodityService.findAll());
 	    model.addAttribute("orderStatuses", orderStatusService.findAll());
@@ -88,9 +100,11 @@ public class CommodityOrderController {
     }
 
     @RequestMapping("/admin/order/update/{id}")
-    public String updateCommodityOrder(@PathVariable int id, Model model) {
+    public String updateCommodityOrder(@PathVariable int id, Model model,
+	    @PageableDefault(size = 10) Pageable pageable) {
 	model.addAttribute("commodityOrder", commodityOrderService.findOne(id));
-	model.addAttribute("commodityOrders", commodityOrderService.findAll());
+	model.addAttribute("commodityOrders",
+		commodityOrderService.findAll(pageable));
 	model.addAttribute("users", userService.findAll());
 	model.addAttribute("commodities", commodityService.findAll());
 	model.addAttribute("orderStatuses", orderStatusService.findAll());

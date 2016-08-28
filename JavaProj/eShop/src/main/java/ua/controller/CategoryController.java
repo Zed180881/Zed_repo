@@ -3,6 +3,8 @@ package ua.controller;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -14,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import ua.entity.Category;
+import ua.form.filter.CategoryFilter;
 import ua.service.CategoryService;
 import ua.service.implementation.validators.CategoryValidator;
 
@@ -34,17 +37,22 @@ public class CategoryController {
     }
 
     @RequestMapping("/admin/category")
-    public String showCategory(Model model) {
-	model.addAttribute("categories", categoryService.findAll());
+    public String showCategory(Model model,
+	    @PageableDefault(size = 10) Pageable pageable,
+	    @ModelAttribute("filter") CategoryFilter filter) {
+	model.addAttribute("categories",
+		categoryService.findAll(pageable, filter));
+	model.addAttribute("filter", filter);
 	return "adminCategory";
     }
 
     @RequestMapping(value = "/admin/category", method = RequestMethod.POST)
     public String saveCategory(
 	    @ModelAttribute("category") @Valid Category category,
-	    BindingResult br, Model model) {
+	    BindingResult br, Model model,
+	    @PageableDefault(size = 10) Pageable pageable) {
 	if (br.hasErrors()) {
-	    model.addAttribute("categories", categoryService.findAll());
+	    model.addAttribute("categories", categoryService.findAll(pageable));
 	    return "adminCategory";
 	}
 	categoryService.save(category);
@@ -58,9 +66,10 @@ public class CategoryController {
     }
 
     @RequestMapping("/admin/category/update/{id}")
-    public String updateCategory(@PathVariable int id, Model model) {
+    public String updateCategory(@PathVariable int id, Model model,
+	    @PageableDefault(size = 10) Pageable pageable) {
 	model.addAttribute("category", categoryService.findOne(id));
-	model.addAttribute("categories", categoryService.findAll());
+	model.addAttribute("categories", categoryService.findAll(pageable));
 	return "adminCategory";
     }
 }

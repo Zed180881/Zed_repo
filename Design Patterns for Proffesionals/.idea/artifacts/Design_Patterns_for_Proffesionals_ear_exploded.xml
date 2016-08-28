@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="Design Patterns for Proffesionals:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Design_Patterns_for_Proffesionals_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Design Patterns for Proffesionals/javaeeApplication/javaEEApplication" />
+    </root>
+  </artifact>
+</component>

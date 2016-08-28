@@ -1,18 +1,11 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-</head>
-<body>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+	
 	<h1>
 		<b>E-shop</b>
 	</h1>
 	<p>
-		<b><i>Our goods - your pleasure :)</i></b>
+		<b><i>Наші товари - ваше задоволення :)</i></b>
+		<a href="/login">Авторизація</a>
+		<a href="/register">Зареєструватися</a>
 	</p>
 	<br>
-</body>
-</html>

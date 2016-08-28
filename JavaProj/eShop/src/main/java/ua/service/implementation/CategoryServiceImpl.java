@@ -1,14 +1,20 @@
 package ua.service.implementation;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import ua.entity.Category;
+import ua.form.filter.CategoryFilter;
 import ua.repository.CategoryRepository;
 import ua.service.CategoryService;
+import ua.service.implementation.specification.CategoryFilterSpecification;
 
 @Service
 @Transactional
@@ -20,7 +26,26 @@ public class CategoryServiceImpl implements CategoryService {
 
     @Override
     public void save(Category category) {
-	categoryRepository.save(category);
+	categoryRepository.saveAndFlush(category);
+	if (category.getFile() != null && !category.getFile().isEmpty()) {
+	    int index = category.getFile().getOriginalFilename()
+		    .lastIndexOf(".");
+	    String extension = category.getFile().getOriginalFilename()
+		    .substring(index);
+	    String path = System.getProperty("catalina.home")
+		    + "/images/category/";
+	    File file = new File(path);
+	    if (!file.exists())
+		file.mkdirs();
+	    file = new File(file, category.getId() + extension);
+	    try {
+		category.getFile().transferTo(file);
+	    } catch (IllegalStateException | IOException e) {		
+	    }
+	    category.setPath(extension);
+	    category.setVersion(category.getVersion() + 1);
+	    categoryRepository.save(category);
+	}
     }
 
     @Override
@@ -47,7 +72,18 @@ public class CategoryServiceImpl implements CategoryService {
     @Override
     public void deleteById(int id) {
 	categoryRepository.delete(id);
-	
+
+    }
+
+    @Override
+    public Page<Category> findAll(Pageable pageable) {
+	return categoryRepository.findAll(pageable);
+    }
+
+    @Override
+    public Page<Category> findAll(Pageable pageable, CategoryFilter filter) {
+	return categoryRepository.findAll(new CategoryFilterSpecification(
+		filter), pageable);
     }
 
 }

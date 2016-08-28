@@ -2,7 +2,11 @@ package ua.service;
 
 import java.util.List;
 
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+
 import ua.entity.Category;
+import ua.form.filter.CategoryFilter;
 
 public interface CategoryService {
 
@@ -17,4 +21,8 @@ public interface CategoryService {
     List<Category> findAll();
 
     Category findOne(int id);
+
+    Page<Category> findAll(Pageable pageable);
+
+    Page<Category> findAll(Pageable pageable, CategoryFilter filter);
 }

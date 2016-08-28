@@ -24,12 +24,14 @@ public class CategoryValidator implements Validator {
     public void validate(Object object, Errors errors) {
 	Category category = (Category) object;
 	ValidationUtils.rejectIfEmptyOrWhitespace(errors, "categoryName", "",
-		"Category name cann't be empty");
-	if (!category.getCategoryName().matches("[a-zA-Z ]+"))
+		"Назва категорії не може бути порожньою!");
+	if (!category.getCategoryName().matches("[a-zA-Z а-яієїА-ЯІЇЄ]+"))
 	    errors.rejectValue("categoryName", "",
-		    "Illegal characters in category name");
-	if (categoryService.findByCategoryName(category.getCategoryName()) != null)
+		    "Недопустимі символи в назві категорії!");
+	if (categoryService.findByCategoryName(category.getCategoryName()) != null
+		&& categoryService.findByCategoryName(
+			category.getCategoryName()).getId() != category.getId())
 	    errors.rejectValue("categoryName", "",
-		    "Category with this name already exists");
+		    "Така категорія вже є в базі!");
     }
 }

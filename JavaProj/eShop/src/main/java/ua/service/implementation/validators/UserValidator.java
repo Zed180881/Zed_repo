@@ -24,63 +24,66 @@ public class UserValidator implements Validator {
     public void validate(Object object, Errors errors) {
 	User user = (User) object;
 	ValidationUtils.rejectIfEmptyOrWhitespace(errors, "fullName", "",
-		"User name cann't be empty");
+		"ПІБ користувача не може бути порожнім");
 	ValidationUtils.rejectIfEmptyOrWhitespace(errors, "login", "",
-		"Login cann't be empty");
+		"Логін користувача не може бути порожнім");
 	ValidationUtils.rejectIfEmptyOrWhitespace(errors, "password", "",
-		"Password cann't be empty");
+		"Пароль користувача не може бути порожнім");
 	ValidationUtils.rejectIfEmptyOrWhitespace(errors, "mail", "",
-		"Mail cann't be empty");
+		"E-mail користувача не може бути порожнім");
 	ValidationUtils.rejectIfEmptyOrWhitespace(errors, "phone", "",
-		"Phone cann't be empty");
+		"Телефон користувача не може бути порожнім");
 	ValidationUtils.rejectIfEmptyOrWhitespace(errors, "address", "",
-		"Address cann't be empty");
+		"Адреса користувача не може бути порожньою");
 
 	if (user.getFullName().length() < 5)
 	    errors.rejectValue("fullName", "",
-		    "User full name can be at least 5 characters");
+		    "ПІБ користувача має бути мінімум 5 символів");
 	if (user.getFullName().split(" ").length < 2)
 	    errors.rejectValue("fullName", "",
-		    "User full name must contain at least name and surname");
-	if (!user.getFullName().matches("[a-zA-Z ]+"))
+		    "ПІБ користувача повинно включати ім'я та прізвище");
+	if (!user.getFullName().matches("[a-zA-Z а-яієїА-ЯІЇЄ]+"))
 	    errors.rejectValue("fullName", "",
-		    "Illegal characters in user full name");
+		    "Недопустимі символи в ПІБ користувача");
 	if (userService.findByUserFullName(user.getFullName()) != null
 		&& userService.findByUserFullName(user.getFullName()).getId() != user
 			.getId())
 	    errors.rejectValue("fullName", "",
-		    "User with this name already exists");
+		    "Користувач з цим ПІБ вже є в базі");
 
 	if (user.getLogin().length() < 5)
 	    errors.rejectValue("login", "",
-		    "User login can be at least 5 characters");
-	if (!user.getLogin().matches("[a-zA-Z0-9]+"))
-	    errors.rejectValue("login", "", "Illegal characters in user login");
+		    "Логін користувача має бути мінімум 5 символів");
+	if (!user.getLogin().matches("[a-zA-Zа-яієїА-ЯІЇЄ0-9]+"))
+	    errors.rejectValue("login", "",
+		    "Недопустимі символи в логіні користувача");
 	if (userService.findByUserLogin(user.getLogin()) != null
 		&& userService.findByUserLogin(user.getLogin()).getId() != user
 			.getId())
 	    errors.rejectValue("login", "",
-		    "User with this login already exists");
+		    "Користувач з цим логіном вже є в базі");
 
 	if (user.getPassword().length() < 5)
 	    errors.rejectValue("password", "",
-		    "User password can be at least 5 characters");
+		    "Пароль користувача має бути мінімум 5 символів");
 
 	if (user.getMail().split("@").length != 2)
-	    errors.rejectValue("mail", "", "Incorrect user mail");
-	if (!user.getMail().matches("[a-zA-Z@.0-9]+"))
-	    errors.rejectValue("mail", "", "Illegal characters in user mail");
+	    errors.rejectValue("mail", "", "Некоректний e-mail користувача");
+	if (!user.getMail().matches("[a-zA-Z@.0-9а-яієїА-ЯІЇЄ]+"))
+	    errors.rejectValue("mail", "",
+		    "Некоректні символи в e-mail користувача");
 	if (userService.findByUserMail(user.getMail()) != null
 		&& userService.findByUserMail(user.getMail()).getId() != user
 			.getId())
-	    errors.rejectValue("mail", "", "User with this mail already exists");
+	    errors.rejectValue("mail", "",
+		    "Користувач з цим e-mail вже є в базі");
 
 	if (user.getPhone().length() != 12)
 	    errors.rejectValue("phone", "",
-		    "User phone must be 12 digits with country code");
+		    "Телефон користувача має мати 12 цифр і включати код країни");
 	if (!user.getPhone().matches("[0-9]+"))
 	    errors.rejectValue("phone", "",
-		    "Incorrect phone. Must be digits only.");
+		    "Некоректний телефон користувача. Мають бути тільки цифри.");
     }
 
 }

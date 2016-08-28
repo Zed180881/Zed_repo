@@ -1,19 +1,41 @@
 package ua.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import ua.entity.User;
+import ua.service.UserService;
 
 @Controller
 public class IndexController {
-    
+
+    @Autowired
+    private UserService service;
+
     @RequestMapping("/")
-    public String showIndex(){
+    public String showIndex(User user, Model model) {
+	model.addAttribute("user", user);
 	return "index";
-    }   
-    
+    }
+
+    @RequestMapping(value = "/", method = RequestMethod.POST)
+    public String showIndex(@ModelAttribute User user) {
+	service.save(user);
+	return "redirect:/";
+    }
+
     @RequestMapping("/admin")
-    public String showAdmin(){
+    public String showAdmin() {
 	return "adminPanel";
-    }   
-    
+    }
+
+    @RequestMapping("/login")
+    public String login() {
+	return "login";
+    }
+
 }

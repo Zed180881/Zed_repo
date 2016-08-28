@@ -24,14 +24,16 @@ public class OrderStatusValidator implements Validator {
     public void validate(Object object, Errors errors) {
 	OrderStatus orderStatus = (OrderStatus) object;
 	ValidationUtils.rejectIfEmptyOrWhitespace(errors, "orderStatusName",
-		"", "Order status name cann't be empty");
-	if (!orderStatus.getOrderStatusName().matches("[a-zA-Z ]+"))
+		"", "Статус не може бути порожнім");
+	if (!orderStatus.getOrderStatusName().matches("[a-zA-Z а-яієїА-ЯІЇЄ]+"))
 	    errors.rejectValue("orderStatusName", "",
-		    "Illegal characters in order status name");
+		    "Недопустимі символи в назві статусу");
 	if (orderStatusService.findByOrderStatusName(orderStatus
-		.getOrderStatusName()) != null)
+		.getOrderStatusName()) != null
+		&& orderStatusService.findByOrderStatusName(
+			orderStatus.getOrderStatusName()).getId() != orderStatus
+			.getId())
 	    errors.rejectValue("orderStatusName", "",
-		    "Order status with this name already exists");
+		    "Такий статус вже є в базі");
     }
-
 }

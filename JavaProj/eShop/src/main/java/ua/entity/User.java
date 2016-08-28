@@ -1,20 +1,29 @@
 package ua.entity;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 import javax.persistence.Entity;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Index;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+import javax.persistence.Transient;
+
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
 
 @Entity
 @Table(indexes = { @Index(columnList = "fullName"),
 	@Index(columnList = "login"), @Index(columnList = "mail") })
-public class User {
+public class User implements UserDetails {
+
+    private static final long serialVersionUID = 2074066215679319915L;
 
     private int id;
 
@@ -23,6 +32,9 @@ public class User {
     private String login;
 
     private String password;
+
+    @Enumerated
+    private Role role;
 
     private String mail;
 
@@ -59,6 +71,7 @@ public class User {
 	return login;
     }
 
+    @Override
     public String getPassword() {
 	return password;
     }
@@ -110,5 +123,53 @@ public class User {
 
     public void setCommodityOrders(List<CommodityOrder> commodityOrders) {
 	this.commodityOrders = commodityOrders;
+    }
+
+    public Role getRole() {
+	return role;
+    }
+
+    public void setRole(Role role) {
+	this.role = role;
+    }
+
+    @Transient
+    @Override
+    public Collection<? extends GrantedAuthority> getAuthorities() {
+	SimpleGrantedAuthority sga = new SimpleGrantedAuthority(role.name());
+	List<SimpleGrantedAuthority> roles = new ArrayList<SimpleGrantedAuthority>(
+		1);
+	roles.add(sga);
+	return roles;
+    }
+
+    @Transient
+    @Override
+    public String getUsername() {
+	return String.valueOf(id);
+    }
+
+    @Transient
+    @Override
+    public boolean isAccountNonExpired() {
+	return true;
+    }
+
+    @Transient
+    @Override
+    public boolean isAccountNonLocked() {
+	return true;
+    }
+
+    @Transient
+    @Override
+    public boolean isCredentialsNonExpired() {
+	return true;
+    }
+
+    @Transient
+    @Override
+    public boolean isEnabled() {
+	return true;
     }
 }

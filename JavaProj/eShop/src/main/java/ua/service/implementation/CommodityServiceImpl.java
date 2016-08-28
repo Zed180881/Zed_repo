@@ -1,18 +1,24 @@
 package ua.service.implementation;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import ua.entity.Commodity;
 import ua.form.CommodityForm;
+import ua.form.filter.CommodityFilter;
 import ua.repository.CategoryRepository;
 import ua.repository.CommodityRepository;
 import ua.repository.CommodityStatusRepository;
 import ua.repository.ProducerRepository;
 import ua.service.CommodityService;
+import ua.service.implementation.specification.CommodityFilterSpecification;
 
 @Service
 @Transactional
@@ -43,7 +49,29 @@ public class CommodityServiceImpl implements CommodityService {
 	commodity.setProducer(commodityForm.getProducer());
 	commodity.setQuantity(Integer.valueOf(commodityForm.getQuantity()));
 	commodity.setWarranty(Integer.valueOf(commodityForm.getWarranty()));
-	commodityRepository.save(commodity);
+	commodity.setPath(commodityForm.getPath());
+	commodity.setVersion(commodityForm.getVersion());
+	commodityRepository.saveAndFlush(commodity);
+	if (commodityForm.getFile() != null
+		&& !commodityForm.getFile().isEmpty()) {
+	    int index = commodityForm.getFile().getOriginalFilename()
+		    .lastIndexOf(".");
+	    String extension = commodityForm.getFile().getOriginalFilename()
+		    .substring(index);
+	    String path = System.getProperty("catalina.home")
+		    + "/images/commodity/";
+	    File file = new File(path);
+	    if (!file.exists())
+		file.mkdirs();
+	    file = new File(file, commodity.getId() + extension);
+	    try {
+		commodityForm.getFile().transferTo(file);
+		commodity.setPath(extension);
+		commodity.setVersion(commodityForm.getVersion() + 1);
+	    } catch (IllegalStateException | IOException e) {
+	    }
+	    commodityRepository.save(commodity);
+	}
     }
 
     @Override
@@ -74,6 +102,8 @@ public class CommodityServiceImpl implements CommodityService {
 	commodityForm.setProducer(commodity.getProducer());
 	commodityForm.setQuantity(String.valueOf(commodity.getQuantity()));
 	commodityForm.setWarranty(String.valueOf(commodity.getWarranty()));
+	commodityForm.setPath(commodity.getPath());
+	commodityForm.setVersion(commodity.getVersion());
 	return commodityForm;
     }
 
@@ -85,5 +115,15 @@ public class CommodityServiceImpl implements CommodityService {
     @Override
     public void deleteById(int id) {
 	commodityRepository.delete(id);
+    }
+
+    @Override
+    public Page<Commodity> findAll(Pageable pageable) {
+	return commodityRepository.findAll(pageable);
+    }
+
+    @Override
+    public Page<Commodity> findAll(Pageable pageable, CommodityFilter filter) {	
+	return commodityRepository.findAll(new CommodityFilterSpecification(filter), pageable);
     }
 }
