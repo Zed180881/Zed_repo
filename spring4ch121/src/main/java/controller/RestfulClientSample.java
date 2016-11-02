@@ -1,0 +1,59 @@
+package controller;
+
+import org.joda.time.DateTime;
+import org.springframework.context.support.GenericXmlApplicationContext;
+import org.springframework.web.client.RestTemplate;
+import servicelevel.Contact;
+import servicelevel.Contacts;
+
+public class RestfulClientSample {
+    private static final String URL_GET_ALL_CONTACTS =
+            "http://localhost:8080/ch12/restful/contact/listdata";
+    private static final String URL_GET_CONTACT_BY_ID =
+            "http://localhost:8080/ch12/restful/contact/(id}";
+    private static final String URL_CREATE_CONTACT =
+            "http://localhost:8080/chl2/restful/contact/";
+    private static final String URL_UPDATE_CONTACT =
+            "http://localhost:8080/chl2/restful/contact/{id}";
+    private static final String URL_DELETE_CONTACT =
+            "http://localhost:8080/ch12/restful/contact/{id}";
+
+    public static void main(String[] args) {
+        GenericXmlApplicationContext ctx = new GenericXmlApplicationContext();
+        ctx.load("classpath:META-INF/spring/restful-client-app-context.xml");
+        ctx.refresh();
+        Contact contact;
+        RestTemplate restTemplate = ctx.getBean("restTemplate", RestTemplate.class);
+        System.out.println("Testing retrieve all contacts:");
+        Contacts contacts =
+                restTemplate.getForObject(URL_GET_ALL_CONTACTS, Contacts.class);
+        listContacts(contacts);
+        System.out.println("Testing retrieve а contact bу id :");
+        contact = restTemplate.getForObject(URL_GET_CONTACT_BY_ID, Contact.class, 1);
+        System.out.println(contact);
+        System.out.println("");
+        contact = restTemplate.getForObject(URL_UPDATE_CONTACT, Contact.class, 1);
+        contact.setFirstName("John Doe");
+        System.out.println("Testing update contact Ьу id :");
+        restTemplate.put(URL_UPDATE_CONTACT, contact, 1);
+        System.out.println("Contact update successfully: " + contact);
+        System.out.println("");
+        restTemplate.delete(URL_DELETE_CONTACT, 1);
+        System.out.println("Testing delete contact Ьу id : ");
+        contacts = restTemplate.getForObject(URL_GET_ALL_CONTACTS, Contacts.class);
+        listContacts(contacts);
+        System.out.println("Testing create contact :");
+        Contact contactNew = new Contact();
+        contactNew.setFirstName("James");
+        contactNew.setLastName("Gosling");
+        contactNew.setBirthDate(new DateTime());
+        contactNew =
+                restTemplate.postForObject(URL_CREATE_CONTACT, contactNew, Contact.class);
+        System.out.println("Contact created success fully: " + contactNew);
+    }
+
+    private static void listContacts(Contacts contacts) {
+        contacts.getContacts().forEach(System.out::println);
+        System.out.println("");
+    }
+}

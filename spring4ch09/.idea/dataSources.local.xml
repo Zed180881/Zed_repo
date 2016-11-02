@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - spring4ch09b@localhost" uuid="1ed45a7d-d50b-4637-86e8-87e9c10e650c">
+      <database-info product="MySQL" version="5.7.13-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-scope>spring4ch09b:</introspection-scope>
+      <resolve-scope>spring4ch09b:</resolve-scope>
+    </data-source>
+    <data-source name="MySQL - spring4ch09a@localhost" uuid="4659dcc9-f960-404d-9b84-8e5ba6bf0210">
+      <database-info product="MySQL" version="5.7.13-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-scope>spring4ch09a:</introspection-scope>
+      <resolve-scope>spring4ch09a:</resolve-scope>
+    </data-source>
+  </component>
+</project>

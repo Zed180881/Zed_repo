@@ -1,0 +1,65 @@
+<dataSource name="MySQL - spring4_ch16@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="spring4_ch16">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="information_schema" />
+    <schema id="3" name="lesson" />
+    <schema id="4" name="mysql" />
+    <schema id="5" name="performance_schema" />
+    <schema id="6" name="sakila" />
+    <schema id="7" name="spring4" />
+    <schema id="8" name="spring47" />
+    <schema id="9" name="spring4ch09a" />
+    <schema id="10" name="spring4ch09b" />
+    <schema id="11" name="spring4_ch11" />
+    <schema id="12" name="spring4_ch12" />
+    <schema id="13" name="store" />
+    <schema id="14" name="sys" />
+    <schema id="15" name="world" />
+    <schema id="16" name="zed1981" />
+    <table id="17" parent="1" name="contact" />
+    <column id="18" parent="17" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="19" parent="17" name="FIRST_NAME">
+      <mandatory>1</mandatory>
+      <data-type>varchar(60)|0</data-type>
+    </column>
+    <column id="20" parent="17" name="LAST_NAME">
+      <mandatory>1</mandatory>
+      <data-type>varchar(60)|0</data-type>
+    </column>
+    <column id="21" parent="17" name="BIRTH_DATE">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="22" parent="17" name="DESCRIPTION">
+      <data-type>varchar(2000)|0</data-type>
+    </column>
+    <column id="23" parent="17" name="PHOTO">
+      <data-type>blob|0</data-type>
+    </column>
+    <column id="24" parent="17" name="VERSION">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <default-expression>'0'</default-expression>
+    </column>
+    <index id="25" parent="17" name="UQ_CONTACT_1">
+      <columns>FIRST_NAME
+LAST_NAME</columns>
+      <desc-columns />
+      <unique>1</unique>
+    </index>
+    <key id="26" parent="17" name="PRIMARY">
+      <columns>ID</columns>
+      <primary>1</primary>
+    </key>
+    <key id="27" parent="17" name="UQ_CONTACT_1">
+      <columns>FIRST_NAME
+LAST_NAME</columns>
+      <underlying-index>UQ_CONTACT_1</underlying-index>
+    </key>
+  </database-model>
+</dataSource>

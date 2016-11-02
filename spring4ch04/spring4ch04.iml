@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/src/spring-config-initializingbean.xml</file>
+          <file>file://$MODULE_DIR$/src/spring-config-postconstruct.xml</file>
+          <file>file://$MODULE_DIR$/src/spring-config-destroymethod.xml</file>
+          <file>file://$MODULE_DIR$/src/spring-config-disposablebean.xml</file>
+          <file>file://$MODULE_DIR$/src/spring-config-predestroy.xml</file>
+          <file>file://$MODULE_DIR$/src/spring-config-beannameaware.xml</file>
+          <file>file://$MODULE_DIR$/src/spring-config-applicationcontextaware.xml</file>
+          <file>file://$MODULE_DIR$/src/spring-config-messagedigestfactorybean.xml</file>
+          <file>file://$MODULE_DIR$/src/spring-config-messagedigestfactorymethod.xml</file>
+          <file>file://$MODULE_DIR$/src/spring-config-propertyeditor.xml</file>
+          <file>file://$MODULE_DIR$/src/spring-config-initmethod.xml</file>
+          <file>file://$MODULE_DIR$/src/spring-config-custompropertyeditor.xml</file>
+          <file>file://$MODULE_DIR$/src/spring-config-messagesource.xml</file>
+          <file>file://$MODULE_DIR$/src/spring-config-applicationevent.xml</file>
+          <file>file://$MODULE_DIR$/src/spring-config-springprofileskindergarten.xml</file>
+          <file>file://$MODULE_DIR$/src/spring-config-springprofileshighschool.xml</file>
+          <file>file://$MODULE_DIR$/src/spring-config-environment.xml</file>
+          <file>file://$MODULE_DIR$/src/spring-config-jsr330config.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Spring-4.3.1.RELEASE" level="project" />
+    <orderEntry type="library" name="javax.inject:javax.inject-tck:1" level="project" />
+    <orderEntry type="library" name="groovy-2.4.7" level="application" />
+    <orderEntry type="library" name="org.codehaus.groovy:groovy-all:2.4.3" level="project" />
+  </component>
+</module>

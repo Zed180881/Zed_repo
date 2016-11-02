@@ -1,0 +1,1616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b1af7eae-dc72-4a24-b146-6363f275420d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/spitteremail/spitter_logo_50.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/resources/images/spitter_avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/resources/images/spitter_background.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/resources/images/spitter_logo_50.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/resources/images/spitter_me.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__avalon_framework_avalon_framework_4_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__com_fasterxml_classmate_1_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__com_jamesmurty_utils_java_xmlbuilder_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__com_rometools_rome_1_7_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__com_rometools_rome_utils_1_7_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__dumbster_dumbster_1_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__javax_el_el_api_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__javax_enterprise_cdi_api_1_1_PFD.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__javax_jms_jms_api_1_1_rev_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__javax_mail_mail_1_4_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__javax_servlet_servlet_api_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__log4j_log4j_1_2_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__logkit_logkit_1_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__net_iharder_base64_2_3_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__net_java_dev_jets3t_jets3t_0_9_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__opensymphony_ognl_2_6_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_apache_activemq_activemq_core_5_7_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_apache_activemq_kahadb_5_7_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_apache_activemq_protobuf_activemq_protobuf_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jms_1_1_spec_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_52.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_fusesource_hawtbuf_hawtbuf_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_fusesource_hawtdispatch_hawtdispatch_1_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_fusesource_hawtdispatch_hawtdispatch_transport_1_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_fusesource_mqtt_client_mqtt_client_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_1_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_jasypt_jasypt_1_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_jboss_spec_javax_interceptor_jboss_interceptors_api_1_1_spec_1_0_0_Beta1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_jdom_jdom2_2_0_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_slf4j_slf4j_api_1_5_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_0_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_0_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_springframework_spring_jms_4_3_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_springframework_spring_messaging_4_3_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_springframework_spring_orm_4_3_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_springframework_spring_remoting_2_0_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_springframework_spring_test_4_3_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_springframework_spring_tx_4_3_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_springframework_spring_web_4_3_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_springframework_webflow_spring_binding_2_4_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_springframework_webflow_spring_js_2_4_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_springframework_webflow_spring_js_resources_2_4_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_springframework_webflow_spring_webflow_2_4_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/messaging/Book.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/messaging/ConventionalReceiver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/messaging/ConventionalSender.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/messaging/EchoService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/messaging/EchoServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/messaging/MessageGetter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/messaging/Receiver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/messaging/RpcClientMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/messaging/RpcServiceMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/messaging/Sender.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/restclient/spitter/client/CustomErrorHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/restclient/spitter/client/NotModifiedException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/restclient/spitter/client/RestTemplateSpitterClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/restclient/spitter/client/RestTemplateSpitterClient_playground.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/restclient/spitter/client/SpitterClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/restclient/spitter/client/SpitterClientException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/restclient/spitter/client/SpitterClientMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/restclient/spitter/client/SpitterClientTheHardWay.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/restclient/spitter/client/SpitterException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/restclient/spitter/client/SpitterUpdateException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/restclient/spitter/client/SpittlesNotFoundException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/restclient/spitter/client/Thing.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/restclient/twitter/client/TwitterClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/async/ScheduledBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/jms/AlertMessageReceiver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/jms/AlertService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/jms/AlertServiceGateway.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/jms/AlertServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/jms/SpittleAlertHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/jmsrpc/AlertService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/jmsrpc/AlertServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/remotingclients/SpitterRmiClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/remotingjaxrpc/RemoteSpitterService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/remotingjaxrpc/SpitterServiceEndpoint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/remotingjaxws/SpitterServiceEndpoint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/remotingjaxwsstandalone/SpitterServiceEndpoint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/remotingrmi/HelloService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/remotingrmi/HelloServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/remotingrmi/RmiMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterdomainjpa/Spitter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterdomainjpa/Spittle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterdomainplain/Spitter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterdomainplain/Spittle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitteremail/SpitterEmailService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitteremail/SpitterEmailServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterjmx/HomeControllerManagedOperations.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterjmx/PagingNotificationListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterjmx/SpittleNotifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterjmx/SpittleNotifierImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterpersistencecommon/SpitterDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterpersistencehibernatecontextualsessisons/HibernateSpitterDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterpersistencehibernatetemplate/HibernateSpitterDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterpersistencejdbcconventional/JdbcSpitterDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterpersistencejpa/JpaSpitterDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterserviceannotationtx/SpitterServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterservicecommon/SpitterService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterservicedeclarativetx/SpitterServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterserviceprogrammatictx/SpitterServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterweb/AdminController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterweb/ForwardingController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterweb/HomeController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterweb/ImageUploadException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterweb/LoginController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterweb/RememberServiceSnitch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterweb/SpitterController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterweb/SpittleBackingBeanInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterweb/SpittleController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterweb/ThingController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterweb/rest/SpittersController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterweb/restless/DisplaySpittleController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterweb/restless/DisplaySpittlesForSpitterController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterweb/restless/ShowSpitterController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterweb/view/SpittlesAtomView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/spitter/spitterweb/view/SpittlesRssView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/springpizza/PaymentException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/springpizza/domain/CashOrCheckPayment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/springpizza/domain/CreditCardPayment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/springpizza/domain/Customer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/springpizza/domain/Order.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/springpizza/domain/Payment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/springpizza/domain/PaymentDetails.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/springpizza/domain/PaymentType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/springpizza/domain/Pizza.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/springpizza/domain/PizzaSize.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/springpizza/domain/Topping.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/springpizza/flow/PizzaFlowActions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/springpizza/flow/SpecialtyPizzaBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/springpizza/service/CustomerNotFoundException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/springpizza/service/CustomerService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/springpizza/service/CustomerServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/springpizza/service/OrderServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/springpizza/service/PaymentProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/springpizza/service/PricingEngine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/java/sia/springpizza/service/PricingEngineImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/messaging/receiver-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/messaging/rpc-client-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/messaging/rpc-service-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/messaging/sender-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/restclient/client.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/restclient/twitter-client.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/async/async-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/jms/messaging-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/jmsrpc/messaging-client-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/jmsrpc/messaging-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/remotingclients/burlap-client-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/remotingclients/hessian-client-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/remotingclients/httpInvoker-client-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/remotingclients/jaxrpc-client-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/remotingclients/jaxws-client-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/remotingclients/remoting-client-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/remotingclients/rmi-client-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/remotinghessian/remote-service-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/remotinghttpinvoker/remote-service-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/remotingjaxrpc/remote-service-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/remotingjaxws/remote-service-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/remotingjaxwsstandalone/remote-service-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/remotingrmi/remote-service-context-2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/remotingrmi/remote-service-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/spitterdomainjpa/META-INF/persistence.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/spitterdomainplain/META-INF/persistence.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/spitteremail/email-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/spitteremail/emailTemplate.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/spitterjmx/annotation-driven-mbean-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/spitterjmx/jmx-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/spitterjmx/mbean-exporter-context-basic.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/spitterjmx/mbean-exporter-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/spitterjmx/method-exclusion-assembler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/spitterjmx/method-interface-based-assembler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/spitterjmx/method-name-based-assembler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/spitterpersistancehibernatetemplate/Spitter.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/spitterpersistancehibernatetemplate/persistence-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/spitterpersistencecommon/data.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/spitterpersistencecommon/dataSource-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/spitterpersistencecommon/db.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/spitterpersistencecommon/schema.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/spitterpersistencehibernatecontextualsessisons/persistence-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/spitterpersistencejpa/persistence-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/spitterserviceannotation/service-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/spitterservicedeclarativetx/service-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/spitterserviceprogrammatictx/service-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/spitterweb/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/spitterweb/s3.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/spitterweb/spitter-setup.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/spitterweb/ui.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/spitter/spitterweb/users.ldif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/springpizza/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/springpizza/messages.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/resources/springpizza/scripts/PricingEngineImpl.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/WEB-INF/rawjsp/home.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/WEB-INF/spitter-security-inmemory.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/WEB-INF/spitter-security-jdbc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/WEB-INF/spitter-security-ldap.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/WEB-INF/spitter-security.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/WEB-INF/spitter-servlet.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/WEB-INF/urlrewrite.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/WEB-INF/views/about.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/WEB-INF/views/admin.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/WEB-INF/views/errorpages/404.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/WEB-INF/views/home.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/WEB-INF/views/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/WEB-INF/views/main_template.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/WEB-INF/views/spitters/edit.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/WEB-INF/views/spitters/list.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/WEB-INF/views/spitters/simpleform.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/WEB-INF/views/spitters/view.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/WEB-INF/views/spitters/views.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/WEB-INF/views/spittles/form.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/WEB-INF/views/spittles/list.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/WEB-INF/views/spittles/view.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/WEB-INF/views/spittles/views.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/WEB-INF/views/tiles/alreadyamember.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/WEB-INF/views/tiles/signinsignup.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/WEB-INF/views/tiles/spittleForm.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/WEB-INF/views/tiles/spittleList.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/WEB-INF/views/views.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/spitterweb/resources/css/spitter.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/SpringPizza-servlet.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/dataaccess.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/domain.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/flow.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/flows/pizza-singleflow/buildPizza.jspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/flows/pizza-singleflow/createPizza.jspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/flows/pizza-singleflow/paymentForm.jspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/flows/pizza-singleflow/pizza-flow.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/flows/pizza-singleflow/registrationForm.jspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/flows/pizza-singleflow/showOrder.jspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/flows/pizza-singleflow/takePayment.jspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/flows/pizza-singleflow/thankYou.jspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/flows/pizza-singleflow/welcome.jspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/flows/pizza/buildPizza.jspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/flows/pizza/customer/customer-flow.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/flows/pizza/customer/deliveryWarning.jspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/flows/pizza/customer/registrationForm.jspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/flows/pizza/customer/welcome.jspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/flows/pizza/order/createPizza.jspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/flows/pizza/order/order-flow.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/flows/pizza/order/showOrder.jspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/flows/pizza/payment/payment-flow.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/flows/pizza/payment/takePayment.jspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/flows/pizza/pizza-flow.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/flows/pizza/thankCustomer.jspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/oldjsps/chooseSize.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/oldjsps/chooseToppings.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/oldjsps/chooseType.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/oldjsps/creditCardForm.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/oldjsps/deliveryWarning.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/oldjsps/hello.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/oldjsps/home.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/oldjsps/newCustomerForm.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/oldjsps/newPizzaForm.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/oldjsps/orderDetails.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/oldjsps/paymentForm.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/oldjsps/paymentType.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/oldjsps/phoneNumberForm.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/services.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/urlrewrite.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/main/webapp/springpizza/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/test/java/sia/restclient/RestExplorationTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringInAction/src/test/java/sia/spitter/spitteremail/SpitterEmailServiceImplTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/artworksender/ArtworkSender.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/artworksender/FtpArtworkSender.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/artworksender/Recipient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/autowire/Bar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/autowire/Foo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/autowire/Target.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/beanalias/BeanNameAliasing.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/beaninheritance/SimpleBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/collectioninjectionannotationconfig/BookwormOracle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/collectioninjectionannotationconfig/CollectionInjection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/collectioninjectionannotationconfig/Oracle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/collectioninjectionxmlconfig/BookwormOracle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/collectioninjectionxmlconfig/CollectionInjection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/collectioninjectionxmlconfig/Oracle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/configurablemessageproviderannotationconfig/ConfigurableMessageProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/configurablemessageproviderannotationconfig/DeclareSpringComponents.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/configurablemessageproviderannotationconfig/MessageProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/configurablemessageproviderxmlconfig/ConfigurableMessageProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/configurablemessageproviderxmlconfig/DeclareSpringComponents.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/configurablemessageproviderxmlconfig/MessageProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/constructorconfusionannotationconfig/ConstructorConfusion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/constructorconfusionxmlconfig/ConstructorConfusion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/constructordependencyinjection/ConstructorInjection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/constructordependencyinjection/Dependency.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/contextualizeddependencylookup/Container.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/contextualizeddependencylookup/ContextualizedDependencyLookup.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/contextualizeddependencylookup/Dependency.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/contextualizeddependencylookup/ManagedComponent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/helloworldspringannotationconfig/DeclareSpringComponents.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/helloworldspringannotationconfig/HelloWorldМessageProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/helloworldspringannotationconfig/MessageProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/helloworldspringannotationconfig/MessageRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/helloworldspringannotationconfig/StandardOutMessageRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/helloworldspringdependencypull/HelloWorldMessageProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/helloworldspringdependencypull/HelloWorldSpringDI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/helloworldspringdependencypull/MessageProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/helloworldspringdependencypull/MessageRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/helloworldspringdependencypull/StandardOutMessageRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/helloworldspringxmlconfig/DeclareSpringComponents.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/helloworldspringxmlconfig/HelloWorldМessageProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/helloworldspringxmlconfig/MessageProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/helloworldspringxmlconfig/MessageRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/helloworldspringxmlconfig/StandardOutMessageRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/hierarchicalappcontextusage/HierarchicalAppContextUsage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/hierarchicalappcontextusage/SimpleTarget.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/injectref/BookwormOracle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/injectref/InjectRef.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/injectref/Oracle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/injectsimpleSpELannotationconfig/InjectSimple.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/injectsimpleSpELannotationconfig/InjectSimpleConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/injectsimpleSpELxmlconfig/InjectSimple.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/injectsimpleSpELxmlconfig/InjectSimpleConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/injectsimpleannotationconfig/InjectSimple.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/injectsimplexmlconfig/InjectSimple.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/lookupmethodinjection/AЬstractLookupDemoBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/lookupmethodinjection/DemoBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/lookupmethodinjection/LookupDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/lookupmethodinjection/MyHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/lookupmethodinjection/StandardLookupDemoBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/methodreplacement/FormatMessageReplacer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/methodreplacement/MethodReplacementExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/methodreplacement/ReplacementTarget.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/oraclespringxmlconfig/BookwormOracle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/oraclespringxmlconfig/Oracle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/oraclespringxmlconfig/XmlConfigWithBeanFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/prototypebeans/NonSingleton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/setterdependencyinjection/Dependency.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/main/java/setterdependencyinjection/SetterInjection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/spring-config-autowire.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/spring-config-beanalias.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/spring-config-collectioninjectionannotationconfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/spring-config-collectioninjectionxmlconfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/spring-config-configurablemessageproviderannotationconfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/spring-config-configurablemessageproviderxmlconfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/spring-config-constructorconfusionannotationconfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/spring-config-constructorconfusionxmlconfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/spring-config-helloworld.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/spring-config-helloworldannotationconfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/spring-config-helloworldxmlconfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/spring-config-hierarchicalappcontextusagechild.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/spring-config-hierarchicalappcontextusageparent.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/spring-config-inheritance.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/spring-config-injectref.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/spring-config-injectsimpleSpELannotationconfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/spring-config-injectsimpleSpELxmlconfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/spring-config-injectsimpleannotationconfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/spring-config-injectsimplexmlconfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/spring-config-lookupmethodinjection.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/spring-config-methodreplacement.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch03/src/spring-config-prototypebeans.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/applicationevent/MessageEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/applicationevent/MessageEventListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/applicationevent/Publisher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/beannameaware/BeanNamePrinter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/beannameaware/BeanNamePrinterExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/custompropertyeditor/CustomEditorExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/custompropertyeditor/Name.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/custompropertyeditor/NamePropertyEditor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/destroymethod/DestructiveBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/disposablebean/DestructiveBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/factorybean/AccessingFactoryBeans.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/factorybean/MessageDigestExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/factorybean/MessageDigestFactoryВean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/factorybean/MessageDigester.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/factorymethod/MessageDigestFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/factorymethod/MessageDigestFactoryExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/factorymethod/MessageDigester.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/initializingbean/SimpleBeanWithInterface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/initmethod/SimpleBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/javaconfig/ConfiguraЬleMessageProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/labels_cs_CZ. properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/labels_en. properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/messagesource/MessageSourceDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/postconstruct/SimpleBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/predestroy/DestructiveBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/propertyeditor/PropertyEditorBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/registershutdownhook/DestructiveBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/resourcesaccess/ResourceDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/shutdownhookbean/DestructiveBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/shutdownhookbean/ShutdownHookBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/spring-config-applicationcontextaware.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/spring-config-applicationevent.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/spring-config-beannameaware.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/spring-config-custompropertyeditor.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/spring-config-destroymethod.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/spring-config-disposablebean.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/spring-config-initializingbean.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/spring-config-messagedigestfactorybean.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/spring-config-messagedigestfactorymethod.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/spring-config-messagesource.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/spring-config-postconstruct.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/spring-config-predestroy.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring4ch04/src/spring-config-propertyeditor.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.root/116.tree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/26522e0d83a422eed93329ece7565cfc/segments_1c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments_3g" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/fda15738b714be67e8d16c0edca26d6b/segments_45" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/knights/BraveKnight.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/knights/DamselRescuingKnight.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/knights/Knight.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/knights/KnightAopMain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/knights/KnightMain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/knights/MakeRoundTableRounderQuest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/knights/Minstrel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/knights/Quest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/knights/QuestException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/knights/RescueDamselQuest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/knights/SlayDragonQuest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidol/springidol/Instrument.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidol/springidol/Instrumentalist.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidol/springidol/Juggler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidol/springidol/OneManBand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidol/springidol/PerformanceException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidol/springidol/Performer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidol/springidol/Piano.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidol/springidol/Poem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidol/springidol/PoeticJuggler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidol/springidol/Saxophone.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidol/springidol/Song.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidol/springidol/SongBook.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidol/springidol/Sonnet29.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidol/springidol/SpringIdolConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidol/springidol/Stage$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidol/springidol/Stage$StageSingletonHolder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidol/springidol/Stage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidol/springidol2/OneManBand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolannotation/Guitar.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolannotation/Instrument.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolannotation/Instrumentalist.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolannotation/PerformanceException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolannotation/Performer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolannotation/Piano.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaop/AroundAudience.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaop/Audience.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaop/Contestant.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaop/GraciousContestant.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaop/Guitar.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaop/Instrument.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaop/Instrumentalist.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaop/Magician.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaop/MindReader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaop/PerformanceException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaop/Performer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaop/Stutter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaop/Thinker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaop/Volunteer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaspectj/AlternateMagician.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaspectj/AroundAudience.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaspectj/Audience.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaspectj/Contestant.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaspectj/ContestantIntroducer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaspectj/GraciousContestant.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaspectj/Guitar.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaspectj/Instrument.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaspectj/Instrumentalist.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaspectj/Magician.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaspectj/MindReader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaspectj/PerformanceException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaspectj/Performer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaspectj/Stutter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaspectj/Thinker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolaspectj/Volunteer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolatinject/Guitar.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolatinject/Instrument.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolatinject/Instrumentalist.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolatinject/Knife.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolatinject/KnifeJuggler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolatinject/PerformanceException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolatinject/Performer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolatinject/Saxophone.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolatinject/StringedInstrument.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolautodiscovery/Guitar.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolautodiscovery/Instrument.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolautodiscovery/Instrumentalist.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolautodiscovery/PerformanceException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolautodiscovery/Performer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolautodiscovery/Piano.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidoljavaconfig/Instrument.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidoljavaconfig/Instrumentalist.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidoljavaconfig/Juggler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidoljavaconfig/PerformanceException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidoljavaconfig/Performer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidoljavaconfig/Piano.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidoljavaconfig/Poem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidoljavaconfig/PoeticJuggler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidoljavaconfig/Saxophone.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidoljavaconfig/Song.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidoljavaconfig/SongBook.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidoljavaconfig/Sonnet29.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidoljavaconfig/SpringIdolConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidoljavaconfig/Stage$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidoljavaconfig/Stage$StageSingletonHolder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidoljavaconfig/Stage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolqualifiers/Guitar.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolqualifiers/Instrument.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolqualifiers/Instrumentalist.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolqualifiers/Instrumentalist2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolqualifiers/PerformanceException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolqualifiers/Performer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolqualifiers/Saxophone.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolqualifiers/qualifiers/Guitar.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolqualifiers/qualifiers/HammeredDulcimer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolqualifiers/qualifiers/InstrumentType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolqualifiers/qualifiers/Instrumentalist.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolqualifiers/qualifiers/StringedInstrument.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/sia/springidolqualifiers/qualifiers/Strummed.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringInAction/target/test-classes/log4j.properties" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/org.eclipse.jdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/org.eclipse.wst.jsdt.core/state.dat" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.projects/eShop/org.eclipse.wst.jsdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/26522e0d83a422eed93329ece7565cfc/segments.gen" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/26522e0d83a422eed93329ece7565cfc/segments.gen" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/fda15738b714be67e8d16c0edca26d6b/segments.gen" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.core/nexus/fda15738b714be67e8d16c0edca26d6b/segments.gen" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.log" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.internet.cache/cache.xml" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.internet.cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaProj/.metadata/version.ini" afterPath="$PROJECT_DIR$/../JavaProj/.metadata/version.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringInAction/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringInAction/SpringInAction.iml" afterPath="$PROJECT_DIR$/../SpringInAction/SpringInAction.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringInAction/pom.xml" afterPath="$PROJECT_DIR$/../SpringInAction/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringInAction/target/classes/springidoljavaconfig/springidol-context-2.xml" afterPath="$PROJECT_DIR$/../SpringInAction/target/classes/springidoljavaconfig/springidol-context-2.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__commons_logging_commons_logging_1_1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_springframework_spring_test_4_3_1_RELEASE.xml" afterPath="$PROJECT_DIR$/../SpringInAction/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_2_RELEASE.xml" />
+    </list>
+    <ignored path="spring4ch02.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="spring4ch02" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/MessageProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MessageRenderer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HelloWorldMessageProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StandartOutMessageRenderer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StandardOutMessageRenderer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HelloWorldSpringDI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helloworlddecoupledwithfactory/helloworlddecoupled/MessageRenderer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helloworlddecoupledwithfactory/helloworlddecoupled/MessageSupportFactory.java" />
+        <option value="$PROJECT_DIR$/src/spring-config.xml" />
+        <option value="$PROJECT_DIR$/src/msf.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/helloworldspring/HelloWorldMessageProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helloworldspring/HelloWorldSpringDI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helloworldspring/MessageProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helloworldspring/MessageRenderer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helloworldspring/StandardOutMessageRenderer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helloworlddecoupledwithfactory/HelloWorldDecoupledWithFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helloworlddecoupledwithfactory/HelloWorldMessageProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helloworlddecoupledwithfactory/MessageProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helloworlddecoupledwithfactory/MessageRenderer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helloworlddecoupledwithfactory/MessageSupportFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helloworlddecoupledwithfactory/StandardOutMessageRenderer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helloworlddecoupled/HelloWorldDecoupled.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helloworlddecoupled/HelloWorldMessageProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helloworlddecoupled/MessageProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helloworlddecoupled/MessageRenderer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helloworlddecoupled/StandardOutMessageRenderer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helloworldcommandline/HelloWorldWithCommandLine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helloworldclassic/HelloWorld.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="960" />
+    <option name="width" value="960" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring4ch02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring4ch02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring4ch02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring4ch02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring4ch02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring4ch02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring4ch02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="main.java.helloworlddecoupledwithfactory" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.java.helloworlddecoupled" />
+      <recent name="main.java" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Git_Repo\spring4ch02\src\main\java\helloworlddecoupledwithfactory" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HelloWorldSpringDI">
+    <configuration default="false" name="HelloWorldSpringDI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="main.java.helloworldspring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="main.java.helloworldspring.HelloWorldSpringDI" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="spring4ch02" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="main.java.helloworldclassic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="main.java.helloworldclassic.HelloWorld" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="spring4ch02" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="HelloWorldWithCommandLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="main.java.helloworldcommandline.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="main.java.helloworldcommandline.HelloWorldWithCommandLine" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="mama" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="spring4ch02" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="HelloWorldDecoupled" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="main.java.helloworlddecoupled.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="main.java.helloworlddecoupled.HelloWorldDecoupled" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="spring4ch02" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="HelloWorldDecoupledWithFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="main.java.helloworlddecoupledwithfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="main.java.helloworlddecoupledwithfactory.HelloWorldDecoupledWithFactory" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="spring4ch02" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="spring4ch02" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.HelloWorldSpringDI" />
+      <item index="1" class="java.lang.String" itemvalue="Application.HelloWorld" />
+      <item index="2" class="java.lang.String" itemvalue="Application.HelloWorldWithCommandLine" />
+      <item index="3" class="java.lang.String" itemvalue="Application.HelloWorldDecoupled" />
+      <item index="4" class="java.lang.String" itemvalue="Application.HelloWorldDecoupledWithFactory" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.HelloWorldSpringDI" />
+        <item index="1" class="java.lang.String" itemvalue="Application.HelloWorldDecoupledWithFactory" />
+        <item index="2" class="java.lang.String" itemvalue="Application.HelloWorldDecoupled" />
+        <item index="3" class="java.lang.String" itemvalue="Application.HelloWorldWithCommandLine" />
+        <item index="4" class="java.lang.String" itemvalue="Application.HelloWorld" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1af7eae-dc72-4a24-b146-6363f275420d" name="Default" comment="" />
+      <created>1472905376167</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1472905376167</updated>
+      <workItem from="1472905379335" duration="875000" />
+      <workItem from="1473238615651" duration="2161000" />
+      <workItem from="1473241581539" duration="73000" />
+      <workItem from="1473411542301" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3112000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="960" y="0" width="960" height="1050" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35222223" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/helloworldspring/MessageProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/helloworldspring/MessageRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/helloworldspring/HelloWorldMessageProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/helloworldspring/StandardOutMessageRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/helloworldspring/HelloWorldSpringDI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/msf.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="1" column="81" selection-start-line="1" selection-start-column="81" selection-end-line="1" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/helloworldspring/HelloWorldMessageProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/helloworldspring/HelloWorldSpringDI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/helloworldspring/MessageProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/helloworldspring/MessageRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/helloworldspring/StandardOutMessageRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/helloworlddecoupledwithfactory/HelloWorldDecoupledWithFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/helloworlddecoupledwithfactory/HelloWorldMessageProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/helloworlddecoupledwithfactory/MessageProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/helloworlddecoupledwithfactory/MessageRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/helloworlddecoupledwithfactory/MessageSupportFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/helloworlddecoupledwithfactory/StandardOutMessageRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/helloworlddecoupled/HelloWorldDecoupled.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/helloworlddecoupled/HelloWorldMessageProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/helloworlddecoupled/MessageProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/helloworlddecoupled/MessageRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/helloworlddecoupled/StandardOutMessageRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/helloworldcommandline/HelloWorldWithCommandLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/helloworldclassic/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

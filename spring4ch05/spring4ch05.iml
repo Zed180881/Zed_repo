@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/src/proxyfactorybean.xml</file>
+          <file>file://$MODULE_DIR$/src/introduction.xml</file>
+          <file>file://$MODULE_DIR$/src/proxyfactorybeanaop.xml</file>
+          <file>file://$MODULE_DIR$/src/proxyfactorybeanannotation.xml</file>
+          <file>file://$MODULE_DIR$/src/aspectjintegration.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Spring-4.3.1.RELEASE" level="project" />
+    <orderEntry type="library" name="org.aspectj:aspectjrt:1.8.9" level="project" />
+    <orderEntry type="library" name="aspectjweaver-1.8.9" level="project" />
+  </component>
+</module>

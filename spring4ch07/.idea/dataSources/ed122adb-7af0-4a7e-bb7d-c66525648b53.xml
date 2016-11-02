@@ -1,0 +1,17 @@
+<dataSource name="MySQL - spring47@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="spring47">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="information_schema" />
+    <schema id="3" name="lesson" />
+    <schema id="4" name="mysql" />
+    <schema id="5" name="performance_schema" />
+    <schema id="6" name="sakila" />
+    <schema id="7" name="spring4" />
+    <schema id="8" name="store" />
+    <schema id="9" name="sys" />
+    <schema id="10" name="world" />
+    <schema id="11" name="zed1981" />
+  </database-model>
+</dataSource>

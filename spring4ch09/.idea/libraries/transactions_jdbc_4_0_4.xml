@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="transactions-jdbc-4.0.4">
+    <CLASSES>
+      <root url="jar://G:/Школа програмування/Java/transactions-jdbc-4.0.4.jar!/" />
+      <root url="jar://G:/Школа програмування/Java/transactions-jta-4.0.4.jar!/" />
+      <root url="jar://G:/Школа програмування/Java/transactions-hibernate3-4.0.4.jar!/" />
+      <root url="jar://G:/Школа програмування/Java/transactions-api-4.0.4.jar!/" />
+      <root url="jar://G:/Школа програмування/Java/transactions-4.0.4.jar!/" />
+      <root url="jar://G:/Школа програмування/Java/atomikos-util-4.0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
