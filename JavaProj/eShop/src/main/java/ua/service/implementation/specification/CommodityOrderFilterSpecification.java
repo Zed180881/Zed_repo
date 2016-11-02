@@ -1,18 +1,21 @@
 package ua.service.implementation.specification;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-import java.time.LocalDate;
 
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Expression;
+import javax.persistence.criteria.Join;
+import javax.persistence.criteria.JoinType;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
 
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.data.jpa.domain.Specifications;
 
+import ua.entity.Commodity;
 import ua.entity.CommodityOrder;
 import ua.form.filter.CommodityOrderFilter;
 
@@ -42,8 +45,10 @@ public class CommodityOrderFilterSpecification implements
 
     private void findByCommodityId() {
 	if (filter.getCommodityId() > 0) {
-	    list.add((root, cq, cb) -> root.get("commodities").in(
-		    filter.getCommodityId()));
+	    list.add((root, cq, cb) -> {
+		Join<Commodity, CommodityOrder> join = root.join("commodities");
+		return join.get("id").in(filter.getCommodityId());
+	    });
 	}
     }
 
@@ -131,13 +136,12 @@ public class CommodityOrderFilterSpecification implements
     @Override
     public Predicate toPredicate(Root<CommodityOrder> root,
 	    CriteriaQuery<?> query, CriteriaBuilder cb) {
-	query.distinct(true);
 	if (query.getResultType() != Long.class
 		&& query.getResultType() != long.class) {
-	    root.fetch("user");
-	    root.fetch("commodities");
-	    root.fetch("orderStatus");
-	    query.distinct(true);
+	    root.fetch("user", JoinType.LEFT);
+	    root.fetch("orderStatus", JoinType.LEFT);
+	    root.fetch("commodities", JoinType.LEFT);
+	    query.orderBy(cb.asc(root.get("id")));
 	}
 	if (filter != null) {
 	    findByUserId();

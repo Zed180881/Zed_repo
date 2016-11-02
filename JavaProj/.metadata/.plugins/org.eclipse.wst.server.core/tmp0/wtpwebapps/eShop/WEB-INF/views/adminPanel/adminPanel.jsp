@@ -11,6 +11,6 @@
 		<li><a href="/admin/comstatus">Керування статусами товарів</a></li>	
 		<li><a href="/admin/ordstatus">Керування статусами ордерів</a></li>		
 	</ul>
-	<form:form action="/logout" method="post">
-		<input type="submit" value="Logout">
-	</form:form>
+	<div class="row">	
+		<a class="btn btn-success" href="/">На головну</a>	
+	</div>

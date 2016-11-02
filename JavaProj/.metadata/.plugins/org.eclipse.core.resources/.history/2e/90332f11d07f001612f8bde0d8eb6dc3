@@ -1,0 +1,57 @@
+package ua.controller;
+
+import java.security.Principal;
+import java.time.LocalDate;
+
+import javax.validation.Valid;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.web.PageableDefault;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.WebDataBinder;
+import org.springframework.web.bind.annotation.InitBinder;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import ua.entity.Commodity;
+import ua.entity.OrderStatus;
+import ua.entity.User;
+import ua.form.CommodityOrderForm;
+import ua.form.filter.CommodityOrderFilter;
+import ua.service.CommodityOrderService;
+import ua.service.CommodityService;
+import ua.service.OrderStatusService;
+import ua.service.UserService;
+import ua.service.implementation.editor.CommodityEditor;
+import ua.service.implementation.editor.DateEditor;
+import ua.service.implementation.editor.OrderStatusEditor;
+import ua.service.implementation.editor.UserEditor;
+import ua.service.implementation.validators.CommodityOrderValidator;
+
+@Controller
+public class MyOrdersController {
+
+    @Autowired
+    private CommodityOrderService commodityOrderService;
+
+    @Autowired
+    private UserService userService;
+
+    @Autowired
+    private CommodityService commodityService;
+
+    @Autowired
+    private OrderStatusService orderStatusService;    
+    
+    
+    @RequestMapping("/myOrders")
+    public String showCommodityOrdersByUser(Model model, Principal principal) {
+	model.addAttribute("commodityOrders", commodityOrderService.findAllByUser());	
+	return "myOrders";
+    }    
+}

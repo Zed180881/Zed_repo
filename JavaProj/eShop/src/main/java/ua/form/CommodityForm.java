@@ -13,6 +13,8 @@ public class CommodityForm {
     private Category category;
 
     private String model;
+    
+    private String description;
 
     private Producer producer;
 
@@ -116,5 +118,13 @@ public class CommodityForm {
 
     public void setFile(MultipartFile file) {
         this.file = file;
-    } 
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 }

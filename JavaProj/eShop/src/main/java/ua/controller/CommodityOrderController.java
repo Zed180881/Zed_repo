@@ -58,17 +58,28 @@ public class CommodityOrderController {
 	binder.registerCustomEditor(LocalDate.class, new DateEditor());
     }
 
+    @InitBinder("filter")
+    protected void initBinderFilter(WebDataBinder binder) {	
+	binder.registerCustomEditor(LocalDate.class, new DateEditor());
+    }
+    
     @ModelAttribute("commodityOrder")
     public CommodityOrderForm getCommodityOrderForm() {
 	return new CommodityOrderForm();
     }
+    @RequestMapping("/admin/order/update/{id}")
+    public String updateCommodityOrder(@PathVariable int id, Model model, @PageableDefault(size = 10) Pageable pageable) {
+	model.addAttribute("commodityOrder", commodityOrderService.findOne(id));
+	model.addAttribute("commodityOrders", commodityOrderService.findAll(pageable));
+	model.addAttribute("users", userService.findAll());
+	model.addAttribute("commodities", commodityService.findAll());
+	model.addAttribute("orderStatuses", orderStatusService.findAll());
+	return "adminCommodityOrder";
+    }
 
     @RequestMapping("/admin/order")
-    public String showCommodityOrder(Model model,
-	    @PageableDefault(size = 10) Pageable pageable,
-	    @ModelAttribute("filter") CommodityOrderFilter filter) {
-	model.addAttribute("commodityOrders",
-		commodityOrderService.findAll(pageable, filter));
+    public String showCommodityOrder(Model model, @PageableDefault(size = 10) Pageable pageable,  @ModelAttribute("filter") @Valid CommodityOrderFilter filter, BindingResult br) {
+	model.addAttribute("commodityOrders", commodityOrderService.findAll(pageable, filter));
 	model.addAttribute("users", userService.findAll());
 	model.addAttribute("commodities", commodityService.findAll());
 	model.addAttribute("orderStatuses", orderStatusService.findAll());
@@ -99,17 +110,6 @@ public class CommodityOrderController {
 	return "redirect:/admin/order";
     }
 
-    @RequestMapping("/admin/order/update/{id}")
-    public String updateCommodityOrder(@PathVariable int id, Model model,
-	    @PageableDefault(size = 10) Pageable pageable) {
-	model.addAttribute("commodityOrder", commodityOrderService.findOne(id));
-	model.addAttribute("commodityOrders",
-		commodityOrderService.findAll(pageable));
-	model.addAttribute("users", userService.findAll());
-	model.addAttribute("commodities", commodityService.findAll());
-	model.addAttribute("orderStatuses", orderStatusService.findAll());
-	return "adminCommodityOrder";
-    }
 
     @RequestMapping(value = "/admin/order/delete/{orderId}/{commodityId}")
     public String deleteCommodityFromOrder(@PathVariable int orderId,

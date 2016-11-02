@@ -27,6 +27,8 @@ public class CommodityValidator implements Validator {
 		"Потрібно вибрати категорію товару");
 	ValidationUtils.rejectIfEmptyOrWhitespace(errors, "model", "",
 		"Назва товару не може бути порожньою");
+	ValidationUtils.rejectIfEmptyOrWhitespace(errors, "description", "",
+		"Опис товару не може бути порожнім");
 	ValidationUtils.rejectIfEmptyOrWhitespace(errors, "producer", "",
 		"Потрібно вибрати виробника товару");
 	ValidationUtils.rejectIfEmptyOrWhitespace(errors, "quantity", "",

@@ -1,0 +1,29 @@
+package ua.controller;
+
+import java.security.Principal;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import ua.service.UserService;
+
+@Controller
+public class UserDetailController {
+
+    @Autowired
+    private UserService userService;    
+
+    @RequestMapping("/userDetails")
+    public String showUser(Model model, Principal principal) {
+	model.addAttribute("user", userService.findOne(Integer.parseInt(principal.getName())));	
+	return "userDetails";
+    }    
+
+    @RequestMapping("/userDetails/update")
+    public String updateUser(Model model, Principal principal) {
+	model.addAttribute("user", userService.findOne(Integer.parseInt(principal.getName())));
+	return "userDetails";
+    }
+}

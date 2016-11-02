@@ -1,0 +1,7 @@
+package sia.restclient.spitter.client;
+
+public class SpitterUpdateException extends SpitterException {
+    public SpitterUpdateException(String message, Throwable cause) {
+        super(message, cause);
+    }
+}

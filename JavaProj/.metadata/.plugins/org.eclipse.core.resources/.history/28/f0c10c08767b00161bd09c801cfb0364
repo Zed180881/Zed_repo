@@ -1,0 +1,94 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+
+<script type="text/javascript">
+$(function(){	
+	$("select[name=categoryId]").chosen({width: "100%"});
+	$("select[name=producerId]").chosen({width: "100%"});	
+})
+</script>
+
+<div class="row">
+	<div class="col-md-3">
+		<c:if test="${filter ne null}">
+			<h3>Пошук товарів:</h3>
+			<form:form role="form" action="/" method="get" modelAttribute="filter">				
+				<div class="form-group">
+					<label for="model">Назва товару</label>
+					<form:input class="form-control input-lg" type="text" path="model" id="model" placeholder="назва"/>
+				</div>
+				<div class="form-group">
+					<label for="categoryId">Категорія</label>
+						<form:select path="categoryId" class="form-control" id="categoryId">
+							<option value="0"> </option>
+							<c:forEach items="${categories}" var="category">
+								<option value="${category.id}">${category.categoryName}</option>	
+							</c:forEach>			
+						</form:select>	
+				</div>
+				<div class="form-group">
+					<label for="producerId">Виробник</label>
+						<form:select path="producerId" class="form-control" id="producerId">
+							<option value="0"> </option>
+							<c:forEach items="${producers}" var="producer">
+								<option value="${producer.id}">${producer.producerName}</option>	
+							</c:forEach>			
+						</form:select>	
+				</div>
+				<div class="form-group">
+					<label for="minPrice">Ціна</label>
+					<form:input type="number" class="form-control" path="minPrice" id="minPrice" step="0.01"/>
+					<p class="help-block">Мінімальна</p>
+					<form:input type="number" class="form-control" path="maxPrice" step="0.01"/>
+					<p class="help-block">Максимальна</p>
+				</div>				
+				<input class="btn btn-primary" type="submit" value="Фільтрувати">
+				<a class="btn btn-primary" href="/?page=1&size=10">Скинути фільтр</a>
+				<a class="btn btn-info" href="/?page=1&size=10">10</a>
+				<a class="btn btn-info" href="/?page=1&size=50">50</a><br>				
+			</form:form>
+		</c:if>
+	</div>
+	<div class="col-md-9">
+		<h3>Наявні товари:</h3>
+		<table>
+			<tr>
+				<th>Назва</th>
+				<th>Категорія</th>
+				<th>Виробник</th>
+				<th>Кількість</th>
+				<th>Ціна</th>
+				<th>Статус</th>
+				<th>Гарантія</th>				
+			</tr>
+		<c:forEach items="${commodities.content}" var="commodity">
+			<tr>
+				<td>${commodity.model}</td>
+				<td>${commodity.category.categoryName}</td>
+				<td>${commodity.producer.producerName}</td>
+				<td>${commodity.quantity}</td>
+				<td>${commodity.price}</td>
+				<td>${commodity.commodityStatus.commodityStatusName}</td>
+				<td>${commodity.warranty}</td>
+				<td><img src="/images/commodity/${commodity.id}${commodity.path}?version=${commodity.version}" height="100"/></td>			
+			</tr>			
+		</c:forEach>
+			<tr>
+				<td><c:if test="${commodities.number ne 0}">
+					<a href="/?page=${commodities.number}&size=${commodities.size}">попередня</a>
+				</c:if></td>
+				<td><c:if test="${commodities.number ne commodities.totalPages}">
+					<a href="/?page=${commodities.number+2}&size=${commodities.size}">наступна</a>
+				</c:if></td>
+			</tr>
+		</table><br>
+		
+	</div>
+</div>
+
+<c:if test="${param.fail eq true}">
+	<p>Помилка авторизації</p>
+</c:if>
+
+<!-- <Connector connectionTimeout="20000" port="8080" protocol="HTTP/1.1" redirectPort="8443" URIEncoding="UTF-8" useBodyEncodingGorURI="true"/> -->

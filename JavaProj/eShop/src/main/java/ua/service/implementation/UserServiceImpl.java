@@ -5,6 +5,7 @@ import java.util.List;
 import javax.annotation.PostConstruct;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -12,6 +13,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import ua.entity.Role;
 import ua.entity.User;
@@ -37,6 +39,7 @@ public class UserServiceImpl implements UserDetailsService, UserService {
     }
 
     @Override
+    @Transactional(readOnly = true)
     public User findByUserFullName(String userFullName) {
 	return userRepository.findByFullName(userFullName);
     }
@@ -48,42 +51,49 @@ public class UserServiceImpl implements UserDetailsService, UserService {
     }
 
     @Override
+    @Transactional(readOnly = true)
     public List<User> findAll() {
 	return userRepository.findAll();
     }
 
     @Override
+    @Transactional(readOnly = true)
     public User findOne(int id) {
 	return userRepository.findOne(id);
     }
 
     @Override
-    public void deleteById(int id) {
+    public void deleteById(int id) throws DataIntegrityViolationException {
 	userRepository.delete(id);
     }
 
     @Override
+    @Transactional(readOnly = true)
     public User findByUserLogin(String login) {
 	return userRepository.findByLogin(login);
     }
 
     @Override
+    @Transactional(readOnly = true)
     public User findByUserMail(String mail) {
 	return userRepository.findByMail(mail);
     }
 
     @Override
+    @Transactional(readOnly = true)
     public Page<User> findAll(Pageable pageable) {
 	return userRepository.findAll(pageable);
     }
 
     @Override
+    @Transactional(readOnly = true)
     public Page<User> findAll(Pageable pageable, UserFilter filter) {
 	return userRepository.findAll(new UserFilterSpecification(filter),
 		pageable);
     }
 
     @Override
+    @Transactional(readOnly = true)
     public UserDetails loadUserByUsername(String username)
 	    throws UsernameNotFoundException {
 	return userRepository.findByLogin(username);

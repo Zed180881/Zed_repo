@@ -1,0 +1,73 @@
+package ua.service.implementation;
+
+import javax.mail.Message;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeMessage;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.mail.MailException;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.mail.javamail.MimeMessagePreparator;
+import org.springframework.stereotype.Service;
+
+import ua.entity.CommodityOrder;
+
+@Service
+public class OrderMailServiceImpl {
+
+    @Autowired
+    private JavaMailSender mailSender;
+
+    public void setMailSender(JavaMailSender mailSender) {
+	this.mailSender = mailSender;
+    }
+
+    public void sendOrderDetailsToUser(final CommodityOrder order) {
+
+	MimeMessagePreparator preparator = new MimeMessagePreparator() {
+
+	    public void prepare(MimeMessage mimeMessage) throws Exception {
+
+		mimeMessage.setRecipient(Message.RecipientType.TO,
+			new InternetAddress(order.getUser().getMail()));
+		mimeMessage.setFrom(new InternetAddress(
+			"e-shop-support@e-shop.com"));
+		mimeMessage.setSubject("Ваше замовлення");
+		mimeMessage.setText(
+		"Шановний " + order.getUser().getFullName()
+			+ ", Дякуємо за Ваше замовлення. Номер замовлення "
+			+ order.getId() + " Сума замовлення " + order.getSum() + " грн.");
+	    }
+	};
+
+	try {
+	    this.mailSender.send(preparator);
+	} catch (MailException ex) {
+	    System.err.println(ex.getMessage());
+	}
+    }
+    
+    public void sendOrderDetailsToAdmin(final CommodityOrder order) {
+
+	MimeMessagePreparator preparator = new MimeMessagePreparator() {
+
+	    public void prepare(MimeMessage mimeMessage) throws Exception {
+
+		mimeMessage.setRecipient(Message.RecipientType.TO,
+			new InternetAddress("zed18081@gmail.com"));
+		mimeMessage.setFrom(new InternetAddress(
+			"e-shop-support@e-shop.com"));
+		mimeMessage.setSubject("Нове замовлення");
+		mimeMessage.setText(
+		"Увага у Вас нове замовлення. Номер замовлення "
+			+ order.getId() + " Сума замовлення " + order.getSum() + " грн.");
+	    }
+	};
+
+	try {
+	    this.mailSender.send(preparator);
+	} catch (MailException ex) {
+	    System.err.println(ex.getMessage());
+	}
+    }
+}

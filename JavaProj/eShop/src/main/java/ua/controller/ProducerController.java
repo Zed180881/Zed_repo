@@ -3,6 +3,7 @@ package ua.controller;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
@@ -61,8 +62,12 @@ public class ProducerController {
 
     @RequestMapping(value = "/admin/producer/delete/{id}")
     public String deleteProducer(@PathVariable int id) {
-	producerService.deleteById(id);
-	return "redirect:/admin/producer";
+	try {
+	    producerService.deleteById(id);
+	    return "redirect:/admin/producer";
+	} catch (DataIntegrityViolationException e) {
+	    return "redirect:/admin/producer?die=true";
+	}
     }
 
     @RequestMapping("/admin/producer/update/{id}")

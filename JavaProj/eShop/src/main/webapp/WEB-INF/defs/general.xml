@@ -14,6 +14,46 @@
 		<put-attribute name="body" value="/WEB-INF/views/index.jsp" />
 	</definition>
 	
+	<definition name="commodityDetail" extends="common">
+		<put-attribute name="title" value="Опис товару" />
+		<put-attribute name="body" value="/WEB-INF/views/commodityDetail.jsp" />
+	</definition>
+	
+	<definition name="categoryView" extends="common">
+		<put-attribute name="title" value="E-shop" />
+		<put-attribute name="body" value="/WEB-INF/views/categoryView.jsp" />
+	</definition>
+	
+	<definition name="userDetails" extends="common">
+		<put-attribute name="title" value="Дані користувача" />
+		<put-attribute name="body" value="/WEB-INF/views/userDetails.jsp" />
+	</definition>
+	
+	<definition name="updateUserDetails" extends="common">
+		<put-attribute name="title" value="Дані користувача" />
+		<put-attribute name="body" value="/WEB-INF/views/updateUserDetails.jsp" />
+	</definition>
+	
+	<definition name="cart" extends="common">
+		<put-attribute name="title" value="Корзина товарів" />
+		<put-attribute name="body" value="/WEB-INF/views/cart.jsp" />
+	</definition>
+	
+	<definition name="addToCart" extends="common">
+		<put-attribute name="title" value="E-Shop" />
+		<put-attribute name="body" value="/WEB-INF/views/addToCart.jsp" />
+	</definition>
+	
+	<definition name="thanksForOrder" extends="common">
+		<put-attribute name="title" value="E-Shop" />
+		<put-attribute name="body" value="/WEB-INF/views/thanksForOrder.jsp" />
+	</definition>
+	
+	<definition name="myOrders" extends="common">
+		<put-attribute name="title" value="E-Shop" />
+		<put-attribute name="body" value="/WEB-INF/views/myOrders.jsp" />
+	</definition>
+	
 	<definition name="login" extends="common">
 		<put-attribute name="title" value="Авторизація" />
 		<put-attribute name="body" value="/WEB-INF/views/login.jsp" />

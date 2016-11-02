@@ -2,20 +2,26 @@ package ua.service.implementation;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.LocalDate;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import ua.entity.Commodity;
+import ua.entity.CommodityOrder;
+import ua.entity.User;
 import ua.form.CommodityForm;
 import ua.form.filter.CommodityFilter;
 import ua.repository.CategoryRepository;
+import ua.repository.CommodityOrderRepository;
 import ua.repository.CommodityRepository;
 import ua.repository.CommodityStatusRepository;
+import ua.repository.OrderStatusRepository;
 import ua.repository.ProducerRepository;
 import ua.service.CommodityService;
 import ua.service.implementation.specification.CommodityFilterSpecification;
@@ -37,12 +43,19 @@ public class CommodityServiceImpl implements CommodityService {
 
     @Autowired
     private CommodityStatusRepository commodityStatusRepository;
+    
+    @Autowired
+    private CommodityOrderRepository commodityOrderRepository;
+    
+    @Autowired
+    private OrderStatusRepository orderStatusRepository;
 
     @Override
     public void save(CommodityForm commodityForm) {
 	commodity = new Commodity();
 	commodity.setId(commodityForm.getId());
 	commodity.setModel(commodityForm.getModel());
+	commodity.setDescription(commodityForm.getDescription());
 	commodity.setCategory(commodityForm.getCategory());
 	commodity.setCommodityStatus(commodityForm.getCommodityStatus());
 	commodity.setPrice(Double.valueOf(commodityForm.getPrice()));
@@ -75,6 +88,7 @@ public class CommodityServiceImpl implements CommodityService {
     }
 
     @Override
+    @Transactional(readOnly = true)
     public Commodity findByCommodityModel(String commodityModel) {
 	return commodityRepository.findByModel(commodityModel);
     }
@@ -86,11 +100,13 @@ public class CommodityServiceImpl implements CommodityService {
     }
 
     @Override
+    @Transactional(readOnly = true)
     public List<Commodity> findAll() {
 	return commodityRepository.findAll();
     }
 
     @Override
+    @Transactional(readOnly = true)
     public CommodityForm findOneForm(int id) {
 	commodity = commodityRepository.findOne(id);
 	CommodityForm commodityForm = new CommodityForm();
@@ -98,6 +114,7 @@ public class CommodityServiceImpl implements CommodityService {
 	commodityForm.setCategory(commodity.getCategory());
 	commodityForm.setCommodityStatus(commodity.getCommodityStatus());
 	commodityForm.setModel(commodity.getModel());
+	commodityForm.setDescription(commodity.getDescription());
 	commodityForm.setPrice(String.valueOf(commodity.getPrice()));
 	commodityForm.setProducer(commodity.getProducer());
 	commodityForm.setQuantity(String.valueOf(commodity.getQuantity()));
@@ -108,22 +125,39 @@ public class CommodityServiceImpl implements CommodityService {
     }
 
     @Override
+    @Transactional(readOnly = true)
     public Commodity findOne(int id) {
 	return commodityRepository.findOne(id);
     }
 
     @Override
-    public void deleteById(int id) {
+    public void deleteById(int id) throws DataIntegrityViolationException{
 	commodityRepository.delete(id);
     }
 
     @Override
+    @Transactional(readOnly = true)
     public Page<Commodity> findAll(Pageable pageable) {
 	return commodityRepository.findAll(pageable);
     }
 
     @Override
+    @Transactional(readOnly = true)
     public Page<Commodity> findAll(Pageable pageable, CommodityFilter filter) {	
 	return commodityRepository.findAll(new CommodityFilterSpecification(filter), pageable);
     }
+
+    @Override
+    public void addToCart(int id, User user) {
+	CommodityOrder cart = commodityOrderRepository.findNewByUserID(user.getId());
+	if(cart==null){
+	    cart = new CommodityOrder();
+	}
+	cart.setOrderDate(LocalDate.now());
+	cart.setUser(user);
+	cart.setOrderStatus(orderStatusRepository.findOne(1));
+	cart.getCommodities().add(commodityRepository.findOne(id));
+	cart.setSum(cart.calculateSum());	
+	commodityOrderRepository.save(cart);
+    }    
 }

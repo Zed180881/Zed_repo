@@ -3,6 +3,7 @@ package ua.controller;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
@@ -62,8 +63,12 @@ public class UserController {
 
     @RequestMapping(value = "/admin/user/delete/{id}")
     public String deleteUser(@PathVariable int id) {
-	userService.deleteById(id);
-	return "redirect:/admin/user";
+	try {
+	    userService.deleteById(id);
+	    return "redirect:/admin/user";
+	} catch (DataIntegrityViolationException e) {
+	    return "redirect:/admin/user?die=true";
+	}
     }
 
     @RequestMapping("/admin/user/update/{id}")

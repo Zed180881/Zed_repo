@@ -1,8 +1,11 @@
 package ua.controller;
 
+import java.security.Principal;
+
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
@@ -18,12 +21,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import ua.entity.Category;
 import ua.entity.Producer;
 import ua.entity.CommodityStatus;
+import ua.entity.User;
 import ua.form.CommodityForm;
 import ua.form.filter.CommodityFilter;
 import ua.service.CategoryService;
 import ua.service.CommodityService;
 import ua.service.CommodityStatusService;
 import ua.service.ProducerService;
+import ua.service.UserService;
 import ua.service.implementation.editor.CategoryEditor;
 import ua.service.implementation.editor.CommodityStatusEditor;
 import ua.service.implementation.editor.ProducerEditor;
@@ -43,6 +48,9 @@ public class CommodityController {
 
     @Autowired
     private CommodityStatusService commodityStatusService;
+    
+    @Autowired
+    private UserService userService;
 
     @InitBinder("commodity")
     protected void initBinder(WebDataBinder binder) {
@@ -94,8 +102,12 @@ public class CommodityController {
 
     @RequestMapping(value = "/admin/commodity/delete/{id}")
     public String deleteCommodity(@PathVariable int id) {
+	try{
 	commodityService.deleteById(id);
 	return "redirect:/admin/commodity";
+	} catch(DataIntegrityViolationException e){
+	    return "redirect:/admin/commodity?die=true";
+	}
     }
 
     @RequestMapping("/admin/commodity/update/{id}")
@@ -108,5 +120,19 @@ public class CommodityController {
 	model.addAttribute("commodities", commodityService.findAll(pageable));
 	model.addAttribute("commodity", commodityService.findOneForm(id));
 	return "adminCommodity";
+    }
+    
+    @RequestMapping(value = "/commodity/{id}")
+    public String showCommodityDetail (@PathVariable int id, Model model) {
+	model.addAttribute("commodity", commodityService.findOneForm(id));
+	return "commodityDetail";
+    }
+    
+    @RequestMapping(value = "/addToCart/{id}")
+    public String addToCart (@PathVariable int id, Model model, Principal principal) {
+	model.addAttribute("commodity", commodityService.findOneForm(id));
+	User user = userService.findOne(Integer.parseInt(principal.getName()));
+	commodityService.addToCart(id, user);
+	return "addToCart";
     }
 }

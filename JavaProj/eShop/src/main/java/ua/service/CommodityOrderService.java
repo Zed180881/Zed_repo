@@ -28,4 +28,8 @@ public interface CommodityOrderService {
     Page<CommodityOrder> findAll(Pageable pageable);
 
     Page<CommodityOrder> findAll(Pageable pageable, CommodityOrderFilter filter);
+
+    CommodityOrder findCart(int userId);
+
+    List<CommodityOrder> findAllByUser(int userId);
 }

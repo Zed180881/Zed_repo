@@ -23,5 +23,5 @@ public interface CommodityRepository extends JpaRepository<Commodity, Integer>,
     Page<Commodity> findAll(Pageable pageable);  
 
     @Query("SELECT co FROM Commodity co LEFT JOIN FETCH co.category LEFT JOIN FETCH co.producer LEFT JOIN FETCH co.commodityStatus WHERE co.id=:id")
-    Commodity findOne(@Param("id") int id);
+    Commodity findOne(@Param("id") int id); 
 }

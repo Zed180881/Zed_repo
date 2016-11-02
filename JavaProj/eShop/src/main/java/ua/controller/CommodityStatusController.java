@@ -3,6 +3,7 @@ package ua.controller;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -55,8 +56,12 @@ public class CommodityStatusController {
 
     @RequestMapping(value = "/admin/comstatus/delete/{id}")
     public String deleteCommodityStatus(@PathVariable int id) {
-	commodityStatusService.deleteById(id);
-	return "redirect:/admin/comstatus";
+	try {
+	    commodityStatusService.deleteById(id);
+	    return "redirect:/admin/comstatus";
+	} catch (DataIntegrityViolationException e) {
+	    return "redirect:/admin/comstatus?die=true";
+	}
     }
 
     @RequestMapping("/admin/comstatus/update/{id}")

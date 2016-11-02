@@ -3,6 +3,7 @@ package ua.service.implementation;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
@@ -28,6 +29,7 @@ public class CommodityStatusServiceImpl implements CommodityStatusService {
     }
 
     @Override
+    @Transactional(readOnly = true)
     public CommodityStatus findByCommodityStatusName(String commodityStatusName) {
 	return commodityStatusRepository
 		.findByCommodityStatusName(commodityStatusName);
@@ -41,26 +43,30 @@ public class CommodityStatusServiceImpl implements CommodityStatusService {
     }
 
     @Override
+    @Transactional(readOnly = true)
     public List<CommodityStatus> findAll() {
 	return commodityStatusRepository.findAll();
     }
 
     @Override
+    @Transactional(readOnly = true)
     public CommodityStatus findOne(int id) {
 	return commodityStatusRepository.findOne(id);
     }
 
     @Override
-    public void deleteById(int id) {
+    public void deleteById(int id) throws DataIntegrityViolationException {
 	commodityStatusRepository.delete(id);
     }
 
     @Override
+    @Transactional(readOnly = true)
     public Page<CommodityStatus> findAll(Pageable pageable) {
 	return commodityStatusRepository.findAll(pageable);
     }
 
     @Override
+    @Transactional(readOnly = true)
     public Page<CommodityStatus> findAll(Pageable pageable,
 	    CommodityStatusFilter filter) {	
 	return commodityStatusRepository.findAll(new CommodityStatusFilterSpecification(filter), pageable);

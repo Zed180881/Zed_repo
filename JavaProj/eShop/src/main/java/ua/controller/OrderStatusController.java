@@ -3,6 +3,7 @@ package ua.controller;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -53,8 +54,12 @@ public class OrderStatusController {
 
     @RequestMapping(value = "/admin/ordstatus/delete/{id}")
     public String deleteOrderStatus(@PathVariable int id) {
-	orderStatusService.deleteById(id);
-	return "redirect:/admin/ordstatus";
+	try {
+	    orderStatusService.deleteById(id);
+	    return "redirect:/admin/ordstatus";
+	} catch (DataIntegrityViolationException e) {
+	    return "redirect:/admin/ordstatus?die=true";
+	}
     }
 
     @RequestMapping("/admin/ordstatus/update/{id}")

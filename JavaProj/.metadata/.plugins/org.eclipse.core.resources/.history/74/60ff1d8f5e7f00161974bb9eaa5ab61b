@@ -1,0 +1,34 @@
+package ua.controller;
+
+import java.security.Principal;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import ua.service.CommodityOrderService;
+import ua.service.UserService;
+
+@Controller
+public class CartController {
+
+    @Autowired
+    private UserService service;
+
+    @Autowired
+    private CommodityOrderService commodityOrderService;        
+
+    @RequestMapping("/cart")
+    public String showCart(Principal principal, Model model) {		
+	model.addAttribute("cart", commodityOrderService.findCart(Integer.parseInt(principal.getName())));	
+	return "cart";
+    }
+    
+    @RequestMapping(value = "/cart/commodity/delete/{id}")
+    public String deleteCommodityFromCart(@PathVariable int id, Principal principal) {
+	
+	return "cart";
+    }
+}

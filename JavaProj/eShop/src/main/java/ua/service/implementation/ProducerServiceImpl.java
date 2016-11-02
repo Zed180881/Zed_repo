@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
@@ -49,6 +50,7 @@ public class ProducerServiceImpl implements ProducerService {
     }
 
     @Override
+    @Transactional(readOnly = true)
     public Producer findByProducerName(String producerName) {
 	return producerRepository.findByProducerName(producerName);
     }
@@ -60,26 +62,30 @@ public class ProducerServiceImpl implements ProducerService {
     }
 
     @Override
+    @Transactional(readOnly = true)
     public List<Producer> findAll() {
 	return producerRepository.findAll();
     }
 
     @Override
+    @Transactional(readOnly = true)
     public Producer findOne(int id) {
 	return producerRepository.findOne(id);
     }
 
     @Override
-    public void deleteById(int id) {
+    public void deleteById(int id) throws DataIntegrityViolationException {
 	producerRepository.delete(id);
     }
 
     @Override
+    @Transactional(readOnly = true)
     public Page<Producer> findAll(Pageable pageable) {
 	return producerRepository.findAll(pageable);
     }
 
     @Override
+    @Transactional(readOnly = true)
     public Page<Producer> findAll(Pageable pageable, ProducerFilter filter) {
 	return producerRepository.findAll(new ProducerFilterSpecification(
 		filter), pageable);

@@ -1,170 +1,211 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
-
-	<h3>Додати ордер:</h3>
-	<form:form action="/admin/order" method="post" modelAttribute="commodityOrder">
-		<form:errors path="*"/><br>
-		<form:input path="id" type="hidden"/>
-		<label for="user">Користувач:</label><br>
-		<form:select path="user" id="user">
-			<c:forEach items="${users}" var="user">
-				<c:choose>
-					<c:when test="${commodityOrder.user.id eq user.id}">
-						<option value="${user.id}" selected="selected">${user.fullName}</option>
-					</c:when>
-					<c:otherwise>
-						<option value="${user.id}">${user.fullName}</option>
-					</c:otherwise>
-				</c:choose>
-			</c:forEach>
-		</form:select><br>		
-		<label for="orderStatus">Статус ордера:</label><br>
-		<form:select path="orderStatus" id="orderStatus">
-			<c:forEach items="${orderStatuses}" var="orderStatus">
-				<c:choose>
-					<c:when test="${commodityOrder.orderStatus.id eq orderStatus.id}">
-						<option value="${orderStatus.id}" selected="selected">${orderStatus.orderStatusName}</option>
-					</c:when>
-					<c:otherwise>
-						<option value="${orderStatus.id}">${orderStatus.orderStatusName}</option>
-					</c:otherwise>
-				</c:choose>
-			</c:forEach>
-		</form:select><br>
-		<label for="orderDate">Дата замовлення:</label><br> 
-		<form:input type="date" path="orderDate" id="orderDate" placeholder="YYYY-MM-DD" required="true"/><br>
-		<label for="payDate">Дата оплати:</label><br> 
-		<form:input type="date" path="payDate" id="payDate" placeholder="YYYY-MM-DD"/><br>
-		<label for="deliveryDate">Дата доставки:</label><br> 
-		<form:input type="date" path="deliveryDate" id="deliveryDate" placeholder="YYYY-MM-DD"/><br>
-		<h3>Товари в ордері:</h3><br>
-			<select name="commodities">
-							<c:forEach items="${commodities}" var="commodity">
-								<option value="${commodity.id}">${commodity.model}</option>
+<script type="text/javascript">
+$(function(){
+	$("select[name=commodities]").chosen({width: "50%"});
+	$("select[name=user]").chosen({width: "50%"});
+	$("select[name=orderStatus]").chosen({width: "50%"});
+	$("select[name=commodityId]").chosen({width: "50%"});
+	$("select[name=userId]").chosen({width: "50%"});
+	$("select[name=orderStatusId]").chosen({width: "50%"});
+})
+</script>
+<div class="row">		
+	<div class="col-md-6">
+		<button class="btn btn-success" data-toggle="collapse" data-target="#addorder">Додати ордер</button>
+		<c:choose>
+				<c:when test="${commodityOrder.id eq 0}">
+					<div class="collapse" id="addorder">
+				</c:when>
+				<c:otherwise>
+					<div class="collapse in" id="addorder">
+				</c:otherwise>
+			</c:choose>			
+			<form:form role="form" action="/admin/order" method="post" modelAttribute="commodityOrder">
+				<form:errors path="*"/>
+				<form:input path="id" type="hidden"/>
+				<div class="form-group">
+					<label for="user">Користувач:</label>
+					<form:select class="form-control" path="user" id="user">
+						<c:forEach items="${users}" var="user">
+							<c:choose>
+								<c:when test="${commodityOrder.user.id eq user.id}">
+									<option value="${user.id}" selected="selected">${user.fullName}</option>
+								</c:when>
+								<c:otherwise>
+									<option value="${user.id}">${user.fullName}</option>
+								</c:otherwise>
+							</c:choose>
+						</c:forEach>
+					</form:select>
+				</div>
+				<div class="form-group">		
+					<label for="orderStatus">Статус ордера:</label>
+					<form:select class="form-control" path="orderStatus" id="orderStatus">
+						<c:forEach items="${orderStatuses}" var="orderStatus">
+							<c:choose>
+								<c:when test="${commodityOrder.orderStatus.id eq orderStatus.id}">
+									<option value="${orderStatus.id}" selected="selected">${orderStatus.orderStatusName}</option>
+								</c:when>
+								<c:otherwise>
+									<option value="${orderStatus.id}">${orderStatus.orderStatusName}</option>
+								</c:otherwise>
+							</c:choose>
+						</c:forEach>
+					</form:select>
+				</div>
+				<div class="form-group">
+					<label for="orderDate">Дата замовлення:</label> 
+					<form:input type="date" class="form-control" path="orderDate" id="orderDate" placeholder="YYYY-MM-DD" required="true"/>
+				</div>
+				<div class="form-group">
+					<label for="payDate">Дата оплати:</label> 
+					<form:input type="date" class="form-control" path="payDate" id="payDate" placeholder="YYYY-MM-DD"/>
+				</div>
+				<div class="form-group">
+					<label for="deliveryDate">Дата доставки:</label> 
+					<form:input type="date" class="form-control" path="deliveryDate" id="deliveryDate" placeholder="YYYY-MM-DD"/>
+				</div>
+				<div class="form-group">
+					<label for="commodities">Товари в ордері:</label>				
+					<form:select class="form-control" path="commodities" id="commodities" multiple="multiple">
+						<c:forEach items="${commodities}" var="commodity">
+							<c:forEach items="${commodityOrder.commodities}" var="commodityInOrder">				
+								<c:choose>
+									<c:when test="${commodityInOrder.id eq commodity.id}">
+										<option value="${commodity.id}" selected="selected">${commodity.model}</option>
+									</c:when>						
+								</c:choose>					
 							</c:forEach>
-			</select><br>
-			<select name="commodities">
-							<option value="0"></option>			
+						</c:forEach>
+						<c:forEach items="${commodities}" var="commodity">
+							<option value="${commodity.id}">${commodity.model}</option>
+						</c:forEach>
+					</form:select>
+				</div>						
+				<input type="submit" class="btn btn-primary" value="Зберегти ордер">
+				<a class="btn btn-danger" href="/admin/order?page=1&size=10">Очистити форму</a>
+			</form:form>
+		</div>
+	</div>
+	<div class="col-md-6">
+		<button class="btn btn-success" data-toggle="collapse" data-target="#filtrorder">Фільтр ордерів</button>
+		<a class="btn btn-primary" href="/admin/order?page=1&size=10">Скинути фільтр</a>
+		<div class="collapse" id="filtrorder">	
+			<c:if test="${filter ne null}">
+				<form:form role="form" action="/admin/order" method="get" modelAttribute="filter">
+					<form:errors path="*"/>
+					<div class="form-group">
+						<label for="userFilter">Користувач</label>
+						<form:select class="form-control" path="userId" id="userFilter">
+							<option value="0"> </option>
+							<c:forEach items="${users}" var="user">
+								<option value="${user.id}">${user.fullName}</option>	
+							</c:forEach>			
+						</form:select>
+					</div>
+					<div class="form-group">
+						<label for="orderStatusFilter">Статус</label>						
+						<form:select class="form-control" path="orderStatusId" id="orderStatusFilter">
+							<option value="0"> </option>
+							<c:forEach items="${orderStatuses}" var="orderStatus">
+								<option value="${orderStatus.id}">${orderStatus.orderStatusName}</option>	
+							</c:forEach>			
+						</form:select>			
+					</div>
+					<div class="form-group">
+						<label for="commodityFilter">Товар</label>
+						<form:select class="form-control" path="commodityId" id="commodityFilter">
+							<option value="0"> </option>
 							<c:forEach items="${commodities}" var="commodity">
-								<option value="${commodity.id}">${commodity.model}</option>
-							</c:forEach>
-			</select><br>
-			<select name="commodities">
-							<option value="0"></option>			
-							<c:forEach items="${commodities}" var="commodity">
-								<option value="${commodity.id}">${commodity.model}</option>
-							</c:forEach>
-			</select><br>
-			<select name="commodities">
-							<option value="0"></option>			
-							<c:forEach items="${commodities}" var="commodity">
-								<option value="${commodity.id}">${commodity.model}</option>
-							</c:forEach>
-			</select><br>
-			<select name="commodities">
-							<option value="0"></option>			
-							<c:forEach items="${commodities}" var="commodity">
-								<option value="${commodity.id}">${commodity.model}</option>
-							</c:forEach>
-			</select><br>				
-		<input type="submit" value="Зберегти ордер">
-	</form:form><br>
-	<c:if test="${filter ne null}">
-	<form:form action="/admin/order" method="get" modelAttribute="filter">
-		<h3>Фільтрувати по:</h3>
-		<table>
+								<option value="${commodity.id}">${commodity.model}</option>	
+							</c:forEach>			
+						</form:select>
+					</div>
+					<div class="form-group">
+						<label for="minSum">Сума</label>
+						<form:input type="number" class="form-control" path="minSum" id="minSum" step="0.01"/>
+						<p class="help-block">Мінімальна</p>
+						<form:input type="number" class="form-control" path="maxSum" step="0.01"/>
+						<p class="help-block">Максимальна</p>
+					</div>
+					<div class="form-group">
+						<label for="minOrderDate">Дата замовлення</label>	
+						<form:input type="date" class="form-control" path="minOrderDate" id="minOrderDate" placeholder="YYYY-MM-DD"/>
+						<p class="help-block">Мінімальна</p>
+						<form:input type="date" class="form-control" path="maxOrderDate" placeholder="YYYY-MM-DD"/>
+						<p class="help-block">Максимальна</p>
+					</div>
+					<div class="form-group">
+						<label for="minPayDate">Дата оплати</label>	
+						<form:input type="date" class="form-control" path="minPayDate" id="minPayDate" placeholder="YYYY-MM-DD"/>
+						<p class="help-block">Мінімальна</p>
+						<form:input type="date" class="form-control" path="maxPayDate" placeholder="YYYY-MM-DD"/>
+						<p class="help-block">Максимальна</p>
+					</div>
+					<div class="form-group">
+						<label for="minDeliveryDate">Дата доставки</label>	
+						<form:input type="date" class="form-control" path="minDeliveryDate" id="minDeliveryDate" placeholder="YYYY-MM-DD"/>
+						<p class="help-block">Мінімальна</p>
+						<form:input type="date" class="form-control" path="maxDeliveryDate" placeholder="YYYY-MM-DD"/>
+						<p class="help-block">Максимальна</p>
+					</div>				
+					<input type="submit" class="btn btn-primary" value="Фільтрувати">			
+				</form:form>
+			</c:if>
+		</div>
+	</div>
+</div>
+<h3>Наявні ордери:</h3>
+<div class="table-responsive">
+		<table class="table table-hover">
 			<tr>
-				<th>Користувач</th>				
-				<th>Статус</th>
-				<th>Товар</th>
+				<th>Користувач</th>
+				<th>Статус ордера</th>
 				<th>Сума</th>
 				<th>Дата замовлення</th>
 				<th>Дата оплати</th>
-				<th>Дата доставки</th>				
+				<th>Дата доставки</th>
+				<th>Товари</th>
+				<th></th>
+				<th></th>				
 			</tr>
-			<tr>				
+		<c:forEach items="${commodityOrders.content}" var="order">
+			<tr>
+				<td>${order.user.fullName}</td>
+				<td>${order.orderStatus.orderStatusName}</td>
+				<td>${order.sum}</td>
+				<td>${order.orderDate}</td>
+				<td>${order.payDate}</td>
+				<td>${order.deliveryDate}</td>
 				<td>
-					<form:select path="userId">
-						<option value="0"> </option>
-						<c:forEach items="${users}" var="user">
-							<option value="${user.id}">${user.fullName}</option>	
-						</c:forEach>			
-					</form:select>			
+					<ul>
+						<c:forEach items="${order.commodities}" var="commodity">
+							<li><a href="/commodity/${commodity.id}">${commodity.model}</a></li>
+						</c:forEach>
+					</ul>
 				</td>
-				<td>
-					<form:select path="orderStatusId">
-						<option value="0"> </option>
-						<c:forEach items="${orderStatuses}" var="orderStatus">
-							<option value="${orderStatus.id}">${orderStatus.orderStatusName}</option>	
-						</c:forEach>			
-					</form:select>			
-				</td>
-				<td>
-					<form:select path="commodityId">
-						<option value="0"> </option>
-						<c:forEach items="${commodities}" var="commodity">
-							<option value="${commodity.id}">${commodity.model}</option>	
-						</c:forEach>			
-					</form:select>			
-				</td>
-				<td>Мінімальна<form:input type="number" path="minSum" step="0.01"/></td>
-				<td>Мінімальна<form:input type="date" path="minOrderDate" placeholder="YYYY-MM-DD"/></td>
-				<td>Мінімальна<form:input type="date" path="minPayDate" placeholder="YYYY-MM-DD"/></td>
-				<td>Мінімальна<form:input type="date" path="minDeliveryDate" placeholder="YYYY-MM-DD"/></td>	
-			</tr>
-			<tr>				
-				<td></td>
-				<td></td>
-				<td></td>
-				<td>Максимальна<form:input type="number" path="maxSum" step="0.01"/></td>
-				<td>Максимальна<form:input type="date" path="maxOrderDate" placeholder="YYYY-MM-DD"/></td>
-				<td>Максимальна<form:input type="date" path="maxPayDate" placeholder="YYYY-MM-DD"/></td>
-				<td>Максимальна<form:input type="date" path="maxDeliveryDate" placeholder="YYYY-MM-DD"/></td>
-			</tr>
-			<tr><td><input type="submit" value="Фільтрувати"></td><td><a href="/admin/order?page=1&size=10">Скинути фільтр</a></td></tr>
+				<td><a class="btn btn-danger" href="/admin/order/delete/${order.id}">видалити</a></td>
+				<td><a class="btn btn-success" href="/admin/order/update/${order.id}">редагувати</a></td>			
+			</tr>			
+		</c:forEach>					
 		</table>
-	</form:form>
-	</c:if>
-	<h3>Наявні ордери:</h3>
-	<table>
-		<tr>
-			<th>Користувач</th>
-			<th>Статус ордера</th>
-			<th>Сума</th>
-			<th>Дата замовлення</th>
-			<th>Дата оплати</th>
-			<th>Дата доставки</th>
-			<th>Товари</th>				
-		</tr>
-	<c:forEach items="${commodityOrders.content}" var="order">
-		<tr>
-			<td>${order.user.fullName}</td>
-			<td>${order.orderStatus.orderStatusName}</td>
-			<td>${order.sum}</td>
-			<td>${order.orderDate}</td>
-			<td>${order.payDate}</td>
-			<td>${order.deliveryDate}</td>
-			<td>
-				<ul>
-					<c:forEach items="${order.commodities}" var="commodity">
-						<li>${commodity.model}</li>
-					</c:forEach>
-				</ul>
-			</td>
-			<td><a href="/admin/order/delete/${order.id}">&nbsp;&nbsp;видалити</a></td>
-			<td><a href="/admin/order/update/${order.id}">&nbsp;&nbsp;редагувати</a></td>			
-		</tr>			
-	</c:forEach>
-		<tr>
-			<td><c:if test="${commodityOrders.number ne 0}">
-				<a href="/admin/order?page=${commodityOrders.number}&size=${commodityOrders.size}">попередня</a>
-			</c:if></td>
-			<td><c:if test="${commodityOrders.number ne commodityOrders.totalPages-1}">
-				<a href="/admin/order?page=${commodityOrders.number+2}&size=${commodityOrders.size}">наступна</a>
-			</c:if></td>
-		</tr>		
-	</table><br>	
-	<a href="/admin/order?page=1&size=10">10</a>
-	<a href="/admin/order?page=1&size=50">50</a><br>
-	<a href="/admin"><b><i>До панелі керування</i></b></a>	
+	</div>
+	<ul class="pager">
+		<c:if test="${commodityOrders.number ne 0}">
+  			<li><a href="/admin/order?page=${commodityOrders.number}&size=${commodityOrders.size}">Попередня</a></li>
+  		</c:if>
+  		<c:if test="${commodityOrders.number ne commodityOrders.totalPages-1}">
+  			<li><a href="/admin/order?page=${commodityOrders.number+2}&size=${commodityOrders.size}">Наступна</a></li>
+  		</c:if>
+	</ul>	
+	<a class="btn btn-success" href="/admin/order?page=1&size=10">10</a>
+	<a class="btn btn-success" href="/admin/order?page=1&size=50">50</a>
+	<button class="btn btn-success" onclick="goBack()">Назад</button>
+	
+<script>
+	function goBack() {
+	    window.history.back();
+	}
+</script>

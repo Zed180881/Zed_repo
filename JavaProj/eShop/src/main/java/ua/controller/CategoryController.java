@@ -3,6 +3,7 @@ package ua.controller;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
@@ -61,8 +62,12 @@ public class CategoryController {
 
     @RequestMapping(value = "/admin/category/delete/{id}")
     public String deleteCategory(@PathVariable int id) {
+	try{
 	categoryService.deleteById(id);
 	return "redirect:/admin/category";
+	} catch(DataIntegrityViolationException e){
+	    return "redirect:/admin/category?die=true";
+	}	
     }
 
     @RequestMapping("/admin/category/update/{id}")

@@ -22,11 +22,101 @@
           <file>file://$MODULE_DIR$/src/main/resources/knights/knights.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/knights/knights-aop.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/springidoljavaconfig/springidol-context-2.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/async/async-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/jms/messaging-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/jmsrpc/messaging-client-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/jmsrpc/messaging-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/lingorpc/messaging-client-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/lingorpc/messaging-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/remotingclients/burlap-client-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/remotingclients/hessian-client-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/remotingclients/httpInvoker-client-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/remotingclients/jaxrpc-client-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/remotingclients/jaxws-client-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/remotingclients/remoting-client-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/remotinghessian/remote-service-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/remotinghttpinvoker/remote-service-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/remotingjaxrpc/remote-service-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/remotingjaxws/remote-service-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/remotingjaxwsstandalone/remote-service-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/remotingrmi/remote-service-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/remotingrmi/remote-service-context-2.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/spitteremail/email-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/spitterjmx/annotation-driven-mbean-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/spitterjmx/jmx-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/spitterjmx/mbean-exporter-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/spitterjmx/mbean-exporter-context-basic.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/spitterjmx/method-exclusion-assembler.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/spitterjmx/method-name-based-assembler.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/spitterpersistencecommon/dataSource-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/spitterpersistencehibernatecontextualsessisons/persistence-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/spitterpersistancehibernatetemplate/persistence-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/spitterpersistencejpa/persistence-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/spitterserviceannotation/service-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/spitterservicedeclarativetx/service-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/spitterserviceprogrammatictx/service-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spitter/spitterweb/spitter-setup.xml</file>
+          <file>file://$MODULE_DIR$/src/main/webapp/spitterweb/WEB-INF/spitter-security-inmemory.xml</file>
+          <file>file://$MODULE_DIR$/src/main/webapp/spitterweb/WEB-INF/spitter-security-jdbc.xml</file>
+          <file>file://$MODULE_DIR$/src/main/webapp/spitterweb/WEB-INF/spitter-security-ldap.xml</file>
+          <file>file://$MODULE_DIR$/src/main/webapp/spitterweb/WEB-INF/spitter-security.xml</file>
+          <file>file://$MODULE_DIR$/src/main/webapp/spitterweb/WEB-INF/spitter-servlet.xml</file>
+          <file>file://$MODULE_DIR$/src/main/webapp/springpizza/WEB-INF/dataaccess.xml</file>
+          <file>file://$MODULE_DIR$/src/main/webapp/springpizza/WEB-INF/domain.xml</file>
+          <file>file://$MODULE_DIR$/src/main/webapp/springpizza/WEB-INF/flow.xml</file>
+          <file>file://$MODULE_DIR$/src/main/webapp/springpizza/WEB-INF/services.xml</file>
+          <file>file://$MODULE_DIR$/src/main/webapp/springpizza/WEB-INF/SpringPizza-servlet.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/messaging/receiver-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/messaging/rpc-client-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/messaging/rpc-service-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/messaging/sender-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/restclient/client.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/restclient/twitter-client.xml</file>
         </fileset>
         <fileset id="fileset2" name="Spring Application Context (2)" removed="false">
           <file>file://$MODULE_DIR$/src/main/java/sia/springidoljavaconfig/SpringIdolConfig.java</file>
           <file>file://$MODULE_DIR$/src/main/java/sia/springidol/springidol/SpringIdolConfig.java</file>
         </fileset>
+      </configuration>
+    </facet>
+    <facet type="jpa" name="JPA">
+      <configuration>
+        <setting name="validation-enabled" value="true" />
+        <setting name="provider-name" value="" />
+        <datasource-mapping>
+          <factory-entry name="emf" value="dataSource" />
+          <factory-entry name="sessionFactory" value="dataSource" />
+          <factory-entry name="spitterPU" />
+        </datasource-mapping>
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/resources/spitter/spitterdomainplain/META-INF/persistence.xml" />
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/src/main/webapp/spitterweb/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/src/main/webapp/spitter" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/main/java" />
+          <root url="file://$MODULE_DIR$/src/main/resources" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web2">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/src/main/webapp/springpizza/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/src/main/webapp/springpizza" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/main/java" />
+          <root url="file://$MODULE_DIR$/src/main/resources" />
+        </sourceRoots>
       </configuration>
     </facet>
   </component>
@@ -49,10 +139,78 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:4.3.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:4.3.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-core:4.3.1.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.3.1.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:4.3.1.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-test:4.3.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjrt:1.8.9" level="project" />
     <orderEntry type="library" name="Maven: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" name="Maven: javax.jms:jms-api:1.1-rev-1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jms:4.3.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-messaging:4.3.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-tx:4.3.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context-support:4.3.1.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-remoting:2.0.8" level="project" />
+    <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.1" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.12" level="project" />
+    <orderEntry type="library" name="Maven: logkit:logkit:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: avalon-framework:avalon-framework:4.1.3" level="project" />
+    <orderEntry type="library" name="Maven: javax.servlet:servlet-api:2.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-web:4.3.1.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.4" level="project" />
+    <orderEntry type="library" name="Maven: javax.validation:validation-api:1.1.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.13" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.velocity:velocity:1.7" level="project" />
+    <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.4" level="project" />
+    <orderEntry type="library" name="Maven: javax.mail:mail:1.4.7" level="project" />
+    <orderEntry type="library" name="Maven: javax.activation:activation:1.1" level="project" />
+    <orderEntry type="library" name="Maven: dumbster:dumbster:1.6" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate:hibernate-core:5.2.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging:3.3.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.javassist:javassist:3.20.0-GA" level="project" />
+    <orderEntry type="library" name="Maven: antlr:antlr:2.7.7" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss:jandex:2.0.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml:classmate:1.3.0" level="project" />
+    <orderEntry type="library" name="Maven: dom4j:dom4j:1.6.1" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: javax.enterprise:cdi-api:1.1-PFD" level="project" />
+    <orderEntry type="library" name="Maven: javax.el:el-api:2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.1_spec:1.0.0.Beta1" level="project" />
+    <orderEntry type="library" name="Maven: javax.annotation:jsr250-api:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.5.8" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-orm:4.3.1.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:4.3.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-web:4.0.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:4.0.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: net.java.dev.jets3t:jets3t:0.9.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.10" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.13" level="project" />
+    <orderEntry type="library" name="Maven: org.bouncycastle:bcprov-jdk15on:1.52" level="project" />
+    <orderEntry type="library" name="Maven: com.jamesmurty.utils:java-xmlbuilder:1.1" level="project" />
+    <orderEntry type="library" name="Maven: net.iharder:base64:2.3.8" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:4.3.1.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: com.rometools:rome:1.7.0" level="project" />
+    <orderEntry type="library" name="Maven: com.rometools:rome-utils:1.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jdom:jdom2:2.0.6" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.webflow:spring-webflow:2.4.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: opensymphony:ognl:2.6.11" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.webflow:spring-binding:2.4.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.webflow:spring-js:2.4.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.webflow:spring-js-resources:2.4.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.activemq:activemq-core:5.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.geronimo.specs:geronimo-jms_1.1_spec:1.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.activemq:kahadb:5.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.activemq.protobuf:activemq-protobuf:1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.fusesource.mqtt-client:mqtt-client:1.3" level="project" />
+    <orderEntry type="library" name="Maven: org.fusesource.hawtdispatch:hawtdispatch-transport:1.11" level="project" />
+    <orderEntry type="library" name="Maven: org.fusesource.hawtdispatch:hawtdispatch:1.11" level="project" />
+    <orderEntry type="library" name="Maven: org.fusesource.hawtbuf:hawtbuf:1.9" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-net:commons-net:3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.jasypt:jasypt:1.9.0" level="project" />
   </component>
 </module>

@@ -9,6 +9,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Index;
+import javax.persistence.Lob;
 import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
@@ -22,6 +23,8 @@ public class Commodity {
     private Category category;
 
     private String model;
+    
+    private String description;
 
     private Producer producer;
 
@@ -40,19 +43,30 @@ public class Commodity {
     private List<CommodityOrder> commodityOrders = new ArrayList<>();
 
     public Commodity() {
-    }
-
-    public Commodity(Category category, String model, Producer producer,
-	    int quantity, double price, CommodityStatus commodityStatus,
-	    int warranty) {
+    }   
+    
+    public Commodity(int id, Category category, String model,
+	    String description, Producer producer, int quantity, double price,
+	    CommodityStatus commodityStatus, int warranty) {
+	this.id = id;
 	this.category = category;
 	this.model = model;
+	this.description = description;
 	this.producer = producer;
 	this.quantity = quantity;
 	this.price = price;
 	this.commodityStatus = commodityStatus;
 	this.warranty = warranty;
-    }       
+    }
+
+    @Lob
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
     public String getPath() {
         return path;

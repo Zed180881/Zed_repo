@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
@@ -22,7 +23,7 @@ public class CategoryServiceImpl implements CategoryService {
     private Category category;
 
     @Autowired
-    private CategoryRepository categoryRepository;
+    private CategoryRepository categoryRepository; 
 
     @Override
     public void save(Category category) {
@@ -49,6 +50,7 @@ public class CategoryServiceImpl implements CategoryService {
     }
 
     @Override
+    @Transactional(readOnly = true)
     public Category findByCategoryName(String categoryName) {
 	return categoryRepository.findByCategoryName(categoryName);
     }
@@ -60,27 +62,30 @@ public class CategoryServiceImpl implements CategoryService {
     }
 
     @Override
+    @Transactional(readOnly = true)
     public List<Category> findAll() {
 	return categoryRepository.findAll();
     }
 
     @Override
+    @Transactional(readOnly = true)
     public Category findOne(int id) {
 	return categoryRepository.findOne(id);
     }
 
     @Override
-    public void deleteById(int id) {
+    public void deleteById(int id) throws DataIntegrityViolationException {	
 	categoryRepository.delete(id);
-
-    }
+	}
 
     @Override
+    @Transactional(readOnly = true)
     public Page<Category> findAll(Pageable pageable) {
 	return categoryRepository.findAll(pageable);
     }
 
     @Override
+    @Transactional(readOnly = true)
     public Page<Category> findAll(Pageable pageable, CategoryFilter filter) {
 	return categoryRepository.findAll(new CategoryFilterSpecification(
 		filter), pageable);

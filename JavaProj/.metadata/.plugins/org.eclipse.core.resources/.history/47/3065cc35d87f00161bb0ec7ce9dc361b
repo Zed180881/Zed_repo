@@ -1,0 +1,32 @@
+package ua.repository;
+
+import java.util.List;
+
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+
+import ua.entity.CommodityOrder;
+
+public interface CommodityOrderRepository extends
+	JpaRepository<CommodityOrder, Integer>,
+	JpaSpecificationExecutor<CommodityOrder> {
+
+    @Query(value = "SELECT co FROM CommodityOrder co LEFT JOIN FETCH co.user LEFT JOIN FETCH co.orderStatus LEFT JOIN FETCH co.commodities ORDER BY co.id", countQuery = "SELECT count(co.id) FROM CommodityOrder co")
+    List<CommodityOrder> findAll();
+    
+    @Query(value = "SELECT co FROM CommodityOrder co LEFT JOIN FETCH co.user LEFT JOIN FETCH co.orderStatus LEFT JOIN FETCH co.commodities com LEFT JOIN FETCH com.category LEFT JOIN FETCH com.producer LEFT JOIN FETCH com.commodityStatus ORDER BY co.orderDate DESC", countQuery = "SELECT count(co.id) FROM CommodityOrder co")
+    Page<CommodityOrder> findAll(Pageable pageable);
+    
+    @Query("SELECT co FROM CommodityOrder co LEFT JOIN FETCH co.user LEFT JOIN FETCH co.orderStatus LEFT JOIN FETCH co.commodities com LEFT JOIN FETCH com.category LEFT JOIN FETCH com.producer LEFT JOIN FETCH com.commodityStatus WHERE co.id=:id")
+    CommodityOrder findOne(@Param("id") int id);
+    
+    @Query("SELECT co FROM CommodityOrder co LEFT JOIN FETCH co.user LEFT JOIN FETCH co.orderStatus LEFT JOIN FETCH co.commodities com LEFT JOIN FETCH com.category LEFT JOIN FETCH com.producer LEFT JOIN FETCH com.commodityStatus WHERE co.user.id=:id AND co.orderStatus.id=1")
+    CommodityOrder findNewByUserID(@Param("id") int id);
+
+    @Query("SELECT co FROM CommodityOrder co LEFT JOIN FETCH co.user LEFT JOIN FETCH co.orderStatus LEFT JOIN FETCH co.commodities com LEFT JOIN FETCH com.category LEFT JOIN FETCH com.producer LEFT JOIN FETCH com.commodityStatus WHERE co.user.id=:id ORDER BY co.orderDate DESC")
+    List<CommodityOrder> findByUserID(@Param("id") int id);
+}

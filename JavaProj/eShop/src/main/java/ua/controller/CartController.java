@@ -1,0 +1,87 @@
+package ua.controller;
+
+import java.security.Principal;
+import java.util.Iterator;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import ua.entity.Commodity;
+import ua.entity.CommodityOrder;
+import ua.repository.CommodityOrderRepository;
+import ua.service.CommodityOrderService;
+import ua.service.OrderStatusService;
+import ua.service.UserService;
+import ua.service.implementation.OrderMailServiceImpl;
+
+@Controller
+public class CartController {
+
+    @Autowired
+    private UserService service;
+
+    @Autowired
+    private CommodityOrderService commodityOrderService;
+    
+    @Autowired
+    private OrderStatusService orderStatusService;
+    
+    @Autowired
+    private CommodityOrderRepository commodityOrderRepository;
+    
+    @Autowired
+    private OrderMailServiceImpl mailService;
+
+    @RequestMapping("/cart")
+    public String showCart(Principal principal, Model model) {
+	if(principal==null){
+	    return "redirect:/";
+	}
+	model.addAttribute("cart", commodityOrderService.findCart(Integer.parseInt(principal.getName())));	
+	return "cart";
+    }
+    
+    @RequestMapping(value = "/cart/commodity/delete/{id}")
+    public String deleteCommodityFromCart(@PathVariable int id, Principal principal) {
+	if(principal==null){
+	    return "redirect:/";
+	}
+	CommodityOrder cart = commodityOrderService.findCart(Integer.parseInt(principal.getName()));	
+	Iterator<Commodity> iterator = cart.getCommodities().iterator();
+	while(iterator.hasNext()){
+	    if(iterator.next().getId()==id){
+		iterator.remove();
+		break;
+	    }
+	}
+	cart.setSum(cart.calculateSum());
+	commodityOrderRepository.save(cart);
+	return "redirect:/cart";
+    }
+    
+    @RequestMapping(value = "/cart/delete")
+    public String deleteCart(Principal principal) {
+	if(principal==null){
+	    return "redirect:/";
+	}
+	CommodityOrder cart = commodityOrderService.findCart(Integer.parseInt(principal.getName()));
+	commodityOrderRepository.delete(cart);
+	return "redirect:/";
+    }
+    
+    @RequestMapping(value = "/cart/submit")
+    public String submitCart(Principal principal) {
+	if(principal==null){
+	    return "redirect:/";
+	}
+	CommodityOrder cart = commodityOrderService.findCart(Integer.parseInt(principal.getName()));
+	cart.setOrderStatus(orderStatusService.findOne(2));
+	commodityOrderRepository.save(cart);
+	mailService.sendOrderDetailsToUser(cart);
+	mailService.sendOrderDetailsToAdmin(cart);
+	return "thanksForOrder";
+    }
+}
